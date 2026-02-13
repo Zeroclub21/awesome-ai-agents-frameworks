@@ -1,268 +1,235 @@
-# 顶级 AI 智能体框架合集
+# 卓越 AI 智能体框架
 
-精选的 AI 智能体框架列表，每日更新。
+每日更新的卓越 AI 智能体框架精选列表。
 
 [English](README.md) | [Русский](README_RU.md) | **中文**
 
-[openclaw](#openclaw) | [nanobot](#nanobot) | [moltis](#moltis) | [autogpt](#autogpt) | [metagpt](#metagpt) | [open-interpreter](#open-interpreter) | [autogen](#autogen) | [crewai](#crewai) | [agno](#agno) | [agentgpt](#agentgpt) | [smolagents](#smolagents) | [gpt-researcher](#gpt-researcher) | [langgraph](#langgraph) | [haystack](#haystack) | [babyagi](#babyagi) | [swarm](#swarm) | [eliza](#eliza) | [superagi](#superagi) | [camel](#camel) | [pydantic-ai](#pydantic-ai) | [e2b](#e2b) | [praisonai](#praisonai) | [ms-agent](#ms-agent) | [agency-swarm](#agency-swarm) | [anthropic-sdk-python](#anthropic-sdk-python)
+[openclaw](#openclaw) | [AutoGPT](#autogpt) | [MetaGPT](#metagpt) | [open-interpreter](#open-interpreter) | [autogen](#autogen) | [crewAI](#crewai) | [agno](#agno) | [AgentGPT](#agentgpt) | [smolagents](#smolagents) | [gpt-researcher](#gpt-researcher) | [langgraph](#langgraph) | [haystack](#haystack) | [babyagi](#babyagi) | [swarm](#swarm) | [nanobot](#nanobot) | [eliza](#eliza) | [SuperAGI](#superagi) | [camel](#camel) | [pydantic-ai](#pydantic-ai) | [E2B](#e2b) | [PraisonAI](#praisonai) | [ms-agent](#ms-agent) | [agency-swarm](#agency-swarm) | [anthropic-sdk-python](#anthropic-sdk-python) | [moltis](#moltis)
 
-*最后更新时间: 2026-02-13 22:41:45*
-
-| 排名 | 框架 | 星标 | 贡献者 | 变化 |
-| :--- | :--- | :--- | :--- | :--- |
-| 1 | [openclaw](https://github.com/openclaw/openclaw) | 191,747 | 579 | — |
-| 2 | [nanobot](https://github.com/HKUDS/nanobot) | 18,340 | 41 | — |
-| 3 | [moltis](https://github.com/moltis-org/moltis) | 417 | 5 | — |
-| 4 | [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | 181,776 | 802 | — |
-| 5 | [MetaGPT](https://github.com/FoundationAgents/MetaGPT) | 64,158 | 148 | — |
-| 6 | [open-interpreter](https://github.com/openinterpreter/open-interpreter) | 62,130 | 132 | — |
-| 7 | [autogen](https://github.com/microsoft/autogen) | 54,530 | 532 | — |
-| 8 | [crewAI](https://github.com/crewAIInc/crewAI) | 44,077 | 279 | — |
-| 9 | [agno](https://github.com/agno-agi/agno) | 37,833 | 390 | — |
-| 10 | [AgentGPT](https://github.com/reworkd/AgentGPT) | 35,699 | 72 | — |
-| 11 | [smolagents](https://github.com/huggingface/smolagents) | 25,406 | 197 | — |
-| 12 | [gpt-researcher](https://github.com/assafelovic/gpt-researcher) | 25,301 | 216 | — |
-| 13 | [langgraph](https://github.com/langchain-ai/langgraph) | 24,696 | 272 | — |
-| 14 | [haystack](https://github.com/deepset-ai/haystack) | 24,178 | 323 | — |
-| 15 | [babyagi](https://github.com/yoheinakajima/babyagi) | 22,133 | 2 | — |
-| 16 | [swarm](https://github.com/openai/swarm) | 20,947 | 14 | — |
-| 17 | [eliza](https://github.com/elizaOS/eliza) | 17,505 | 651 | — |
-| 18 | [SuperAGI](https://github.com/TransformerOptimus/SuperAGI) | 17,171 | 74 | — |
-| 19 | [camel](https://github.com/camel-ai/camel) | 16,013 | 192 | — |
-| 20 | [pydantic-ai](https://github.com/pydantic/pydantic-ai) | 14,864 | 368 | — |
-| 21 | [E2B](https://github.com/e2b-dev/E2B) | 10,880 | 44 | — |
-| 22 | [PraisonAI](https://github.com/MervinPraison/PraisonAI) | 5,592 | 30 | — |
-| 23 | [ms-agent](https://github.com/modelscope/ms-agent) | 3,975 | 47 | — |
-| 24 | [agency-swarm](https://github.com/VRSEN/agency-swarm) | 3,952 | 23 | — |
-| 25 | [anthropic-sdk-python](https://github.com/anthropics/anthropic-sdk-python) | 2,760 | 51 | — |
-
----
+*最后更新: 2026-02-13 23:59:15*
 
 ### [openclaw](https://github.com/openclaw/openclaw) - Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 
 
-191,747 星标 · 32,752 分叉 · 579 贡献者 · 5,798 问题 · TypeScript · MIT
+191,847 颗星 · 32,793 次复刻 · 583 位贡献者 · 5,807 个议题 · TypeScript · MIT
 
     - 分布式智能体架构
-    - 高性能执行
+    - 高性能任务执行
     - 可扩展的多智能体系统
     - 企业级基础设施
 
-### [nanobot](https://github.com/HKUDS/nanobot) - "🐈 nanobot: The Ultra-Lightweight OpenClaw"
-
-18,340 星标 · 2,676 分叉 · 41 贡献者 · 399 问题 · Python · MIT
-
-    - 可扩展的 AI 智能体内核
-    - 多平台聊天支持
-    - 基于技能的模块化架构
-    - 本地和远程工具执行
-
-### [moltis](https://github.com/moltis-org/moltis) - A personal AI assistant built in Rust. Single binary, multi-provider LLMs, long-term memory, sandboxed execution, voice, MCP tools, and multi-channel access (web, Telegram, API).
-
-417 星标 · 31 分叉 · 5 贡献者 · 30 问题 · Rust · MIT
-
-    - 基于 Rust 的自主智能体
-    - 沙箱化工具执行
-    - 跨平台访问
-    - 长期持久存储
-
 ### [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) - AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.
 
-181,776 星标 · 46,223 分叉 · 802 贡献者 · 324 问题 · Python · NOASSERTION
+181,776 颗星 · 46,223 次复刻 · 802 位贡献者 · 324 个议题 · Python · NOASSERTION
 
-    - 核心智能体能力
-    - LLM 集成
-    - 任务编排
-    - 可扩展设计
+    - 用于通用任务的自主 AI 智能体
+    - 自动提示与执行
+    - 网页浏览与文件管理
+    - 通过插件扩展
 
 ### [MetaGPT](https://github.com/FoundationAgents/MetaGPT) - 🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming
 
-64,158 星标 · 8,060 分叉 · 148 贡献者 · 78 问题 · Python · MIT
+64,158 颗星 · 8,060 次复刻 · 148 位贡献者 · 78 个议题 · Python · MIT
 
-    - 核心智能体能力
-    - LLM 集成
-    - 任务编排
-    - 可扩展设计
+    - 多智能体软件公司
+    - 标准作业程序 (SOPs)
+    - 基于角色的委派
+    - 生产级代码生成
 
 ### [open-interpreter](https://github.com/openinterpreter/open-interpreter) - A natural language interface for computers
 
-62,130 星标 · 5,342 分叉 · 132 贡献者 · 294 问题 · Python · AGPL-3.0
+62,132 颗星 · 5,343 次复刻 · 132 位贡献者 · 294 个议题 · Python · AGPL-3.0
 
-    - 核心智能体能力
-    - LLM 集成
-    - 任务编排
-    - 可扩展设计
+    - 本地代码执行
+    - 系统级控制
+    - 自然语言接口
+    - 强大的多模态支持
 
 ### [autogen](https://github.com/microsoft/autogen) - A programming framework for agentic AI
 
-54,530 星标 · 8,216 分叉 · 532 贡献者 · 586 问题 · Python · CC-BY-4.0
+54,532 颗星 · 8,216 次复刻 · 532 位贡献者 · 586 个议题 · Python · CC-BY-4.0
 
-    - 核心智能体能力
-    - LLM 集成
-    - 任务编排
-    - 可扩展设计
+    - 多智能体对话框架
+    - 支持自定义与对话的智能体
+    - 支持人机协同 (Human-in-the-loop)
+    - 代码执行能力
 
 ### [crewAI](https://github.com/crewAIInc/crewAI) - Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.
 
-44,077 星标 · 5,903 分叉 · 279 贡献者 · 276 问题 · Python · MIT
+44,078 颗星 · 5,904 次复刻 · 279 位贡献者 · 276 个议题 · Python · MIT
 
-    - 核心智能体能力
-    - LLM 集成
-    - 任务编排
-    - 可扩展设计
+    - 基于角色的智能体设计
+    - 多智能体协作
+    - 灵活的记忆系统
+    - 内置错误處理
 
 ### [agno](https://github.com/agno-agi/agno) - Build multi-agent systems that learn and improve with every interaction.
 
-37,833 星标 · 5,004 分叉 · 390 贡献者 · 563 问题 · Python · Apache-2.0
+37,835 颗星 · 5,004 次复刻 · 390 位贡献者 · 563 个议题 · Python · Apache-2.0
 
-    - 核心智能体能力
-    - LLM 集成
-    - 任务编排
-    - 可扩展设计
+    - 多智能体系统核心
+    - 专注于持续学习
+    - 动态智能体编排
+    - 可扩展的知识管理
 
 ### [AgentGPT](https://github.com/reworkd/AgentGPT) - 🤖 Assemble, configure, and deploy autonomous AI Agents in your browser.
 
-35,699 星标 · 9,454 分叉 · 72 贡献者 · 220 问题 · TypeScript · GPL-3.0
+35,699 颗星 · 9,454 次复刻 · 72 位贡献者 · 220 个议题 · TypeScript · GPL-3.0
 
-    - 核心智能体能力
-    - LLM 集成
-    - 任务编排
-    - 可扩展设计
+    - 基于浏览器的自主 AI 智能体
+    - 用户友好界面
+    - 通过向量数据库实现长期记忆
+    - 目标导向执行
 
 ### [smolagents](https://github.com/huggingface/smolagents) - 🤗 smolagents: a barebones library for agents that think in code.
 
-25,406 星标 · 2,289 分叉 · 197 贡献者 · 369 问题 · Python · Apache-2.0
+25,406 颗星 · 2,289 次复刻 · 197 位贡献者 · 369 个议题 · Python · Apache-2.0
 
-    - 核心智能体能力
-    - LLM 集成
-    - 任务编排
-    - 可扩展设计
+    - 轻量级智能体核心
+    - Hugging Face 生态系统
+    - 以工具为中心的设计
+    - 代码优先方法
 
 ### [gpt-researcher](https://github.com/assafelovic/gpt-researcher) - An autonomous agent that conducts deep research on any data using any LLM providers.
 
-25,301 星标 · 3,357 分叉 · 216 贡献者 · 180 问题 · Python · Apache-2.0
+25,301 颗星 · 3,357 次复刻 · 216 位贡献者 · 180 个议题 · Python · Apache-2.0
 
-    - 核心智能体能力
-    - LLM 集成
-    - 任务编排
-    - 可扩展设计
+    - 用于在线调研的自主智能体
+    - 汇总 20 多个来源的数据
+    - 生成详尽的 PDF 报告
+    - 针对客观分析进行优化
 
 ### [langgraph](https://github.com/langchain-ai/langgraph) - Build resilient language agents as graphs.
 
-24,696 星标 · 4,298 分叉 · 272 贡献者 · 289 问题 · Python · MIT
+24,697 颗星 · 4,298 次复刻 · 272 位贡献者 · 289 个议题 · Python · MIT
 
-    - 核心智能体能力
-    - LLM 集成
-    - 任务编排
-    - 可扩展设计
+    - 有状态多智能体编排
+    - 支持循环图
+    - 细粒度的流程控制
+    - 无缝 LangChain 集成
 
 ### [haystack](https://github.com/deepset-ai/haystack) - Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Design modular pipelines and agent workflows with explicit control over retrieval, routing, memory, and generation. Built for scalable agents, RAG, multimodal applications, semantic search, and conversational systems.
 
-24,178 星标 · 2,596 分叉 · 323 贡献者 · 111 问题 · MDX · Apache-2.0
+24,180 颗星 · 2,596 次复刻 · 323 位贡献者 · 111 个议题 · MDX · Apache-2.0
 
-    - 核心智能体能力
-    - LLM 集成
-    - 任务编排
-    - 可扩展设计
+    - 模块化 NLP 流水线设计
+    - 集成向量数据库
+    - 搜索与检索优化
+    - 可扩展的 RAG 应用
 
-### [babyagi](https://github.com/yoheinakajima/babyagi)
+### [babyagi](https://github.com/yoheinakajima/babyagi) - 
 
-22,133 星标 · 2,849 分叉 · 2 贡献者 · 17 问题 · Python · No License
+22,133 颗星 · 2,849 次复刻 · 2 位贡献者 · 17 个议题 · Python · No License
 
-    - 核心智能体能力
-    - LLM 集成
-    - 任务编排
-    - 可扩展设计
+    - 简单的任务驱动自主智能体
+    - 基于 Python 的任务管理
+    - 集成 Pinecone 实现记忆
+    - 侧重于自动化效率
 
 ### [swarm](https://github.com/openai/swarm) - Educational framework exploring ergonomic, lightweight multi-agent orchestration. Managed by OpenAI Solution team.
 
-20,947 星标 · 2,227 分叉 · 14 贡献者 · 16 问题 · Python · MIT
+20,949 颗星 · 2,227 次复刻 · 14 位贡献者 · 16 个议题 · Python · MIT
 
-    - 核心智能体能力
-    - LLM 集成
-    - 任务编排
-    - 可扩展设计
+    - OpenAI 发布的教育框架
+    - 轻量级智能体协调
+    - 侧重于“例程”与“移交”
+    - 极简设计，易于修改
+
+### [nanobot](https://github.com/HKUDS/nanobot) - "🐈 nanobot: The Ultra-Lightweight OpenClaw"
+
+18,357 颗星 · 2,680 次复刻 · 41 位贡献者 · 401 个议题 · Python · MIT
+
+    - 可扩展的 AI 智能体内核
+    - 支持多种聊天平台
+    - 基于技能的架构
+    - 支持本地与远程工具执行
 
 ### [eliza](https://github.com/elizaOS/eliza) - Autonomous agents for everyone
 
-17,505 星标 · 5,414 分叉 · 651 贡献者 · 139 问题 · TypeScript · MIT
+17,505 颗星 · 5,414 次复刻 · 651 位贡献者 · 139 个议题 · TypeScript · MIT
 
-    - 核心智能体能力
-    - LLM 集成
-    - 任务编排
-    - 可扩展设计
+    - 自主社交智能体
+    - 多平台支持 (Discord/Twitter)
+    - 角色驱动逻辑
+    - 加密与 Web3 集成
 
 ### [SuperAGI](https://github.com/TransformerOptimus/SuperAGI) - <⚡️> SuperAGI - A dev-first open source autonomous AI agent framework. Enabling developers to build, manage & run useful autonomous agents quickly and reliably.
 
-17,171 星标 · 2,158 分叉 · 74 贡献者 · 211 问题 · Python · MIT
+17,170 颗星 · 2,158 次复刻 · 74 位贡献者 · 211 个议题 · Python · MIT
 
-    - 核心智能体能力
-    - LLM 集成
-    - 任务编排
-    - 可扩展设计
+    - 开发者优先的开源智能体框架
+    - 自主智能体基础设施
+    - 工具与智能体市场
+    - 资源管理与审计
 
 ### [camel](https://github.com/camel-ai/camel) - 🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://www.camel-ai.org
 
-16,013 星标 · 1,770 分叉 · 192 贡献者 · 444 问题 · Python · Apache-2.0
+16,013 颗星 · 1,771 次复刻 · 192 位贡献者 · 444 个议题 · Python · Apache-2.0
 
-    - 核心智能体能力
-    - LLM 集成
-    - 任务编排
-    - 可扩展设计
+    - 角色扮演智能体框架
+    - 基于通信的推理
+    - 解决复杂任务
+    - 对话对称性
 
 ### [pydantic-ai](https://github.com/pydantic/pydantic-ai) - GenAI Agent Framework, the Pydantic way
 
-14,864 星标 · 1,641 分叉 · 368 贡献者 · 536 问题 · Python · MIT
+14,866 颗星 · 1,641 次复刻 · 368 位贡献者 · 536 个议题 · Python · MIT
 
-    - 核心智能体能力
-    - LLM 集成
-    - 任务编排
-    - 可扩展设计
+    - 类型安全的智能体开发
+    - 模型无关设计
+    - 集成 Pydantic 进行验证
+    - 为生产可靠性而构建
 
 ### [E2B](https://github.com/e2b-dev/E2B) - Open-source, secure environment with real-world tools for enterprise-grade agents.
 
-10,880 星标 · 769 分叉 · 44 贡献者 · 57 问题 · MDX · Apache-2.0
+10,881 颗星 · 769 次复刻 · 44 位贡献者 · 57 个议题 · MDX · Apache-2.0
 
-    - 核心智能体能力
-    - LLM 集成
-    - 任务编排
-    - 可扩展设计
+    - 沙盒化云环境
+    - 代码解释服务
+    - 安全智能体执行
+    - AI 应用基础设施
 
 ### [PraisonAI](https://github.com/MervinPraison/PraisonAI) - PraisonAI is a production-ready Multi AI Agents framework, designed to create AI Agents to automate and solve problems ranging from simple tasks to complex challenges. It provides a low-code solution to streamline the building and management of multi-agent LLM systems, emphasising simplicity, customisation, and effective human-agent collaboration.
 
-5,592 星标 · 763 分叉 · 30 贡献者 · 58 问题 · Python · MIT
+5,592 颗星 · 763 次复刻 · 30 位贡献者 · 58 个议题 · Python · MIT
 
-    - 核心智能体能力
-    - LLM 集成
-    - 任务编排
-    - 可扩展设计
+    - 生产就绪的框架
+    - 低代码解决方案
+    - 人机协同
+    - 问题解决效率
 
 ### [ms-agent](https://github.com/modelscope/ms-agent) - MS-Agent: a lightweight framework to empower agentic execution of complex tasks
 
-3,975 星标 · 460 分叉 · 47 贡献者 · 7 问题 · Python · Apache-2.0
+3,975 颗星 · 460 次复刻 · 47 位贡献者 · 7 个议题 · Python · Apache-2.0
 
-    - 核心智能体能力
-    - LLM 集成
-    - 任务编排
-    - 可扩展设计
+    - MS-Agent: a lightweight framework to empower agentic execution of complex tasks
 
 ### [agency-swarm](https://github.com/VRSEN/agency-swarm) - Reliable Multi-Agent Orchestration Framework
 
-3,952 星标 · 1,000 分叉 · 23 贡献者 · 14 问题 · Python · MIT
+3,952 颗星 · 999 次复刻 · 23 位贡献者 · 14 个议题 · Python · MIT
 
-    - 核心智能体能力
-    - LLM 集成
-    - 任务编排
-    - 可扩展设计
+    - OpenAI 发布的教育框架
+    - 轻量级智能体协调
+    - 侧重于“例程”与“移交”
+    - 极简设计，易于修改
 
-### [anthropic-sdk-python](https://github.com/anthropics/anthropic-sdk-python)
+### [anthropic-sdk-python](https://github.com/anthropics/anthropic-sdk-python) - 
 
-2,760 星标 · 455 分叉 · 51 贡献者 · 101 问题 · Python · MIT
+2,760 颗星 · 455 次复刻 · 51 位贡献者 · 101 个议题 · Python · MIT
 
-    - 核心智能体能力
-    - LLM 集成
-    - 任务编排
-    - 可扩展设计
+    - Anthropic 官方 SDK
+    - 针对 Claude 系列优化
+    - 可靠的 API 访问
+    - 简单的异步支持
+
+### [moltis](https://github.com/moltis-org/moltis) - A personal AI assistant built in Rust. Single binary, multi-provider LLMs, long-term memory, sandboxed execution, voice, MCP tools, and multi-channel access (web, Telegram, API).
+
+449 颗星 · 31 次复刻 · 5 位贡献者 · 30 个议题 · Rust · MIT
+
+    - 基于 Rust 的自主智能体
+    - 沙盒工具执行
+    - 跨平台访问能力
+    - 长期持久记忆
 
 ---
 ### @tsingular
-电报频道: [@tsingular](https://t.me/tsingular)
+Telegram channel: [@tsingular](https://t.me/tsingular)
