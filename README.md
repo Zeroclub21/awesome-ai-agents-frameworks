@@ -4,7 +4,7 @@ A curated list of awesome AI agent frameworks, updated daily.
 
 **English** | [Русский](README_RU.md) | [中文](README_ZH.md)
 
-*Last updated: 2026-02-14 05:20:29*
+*Last updated: 2026-02-14 05:21:55*
 
 ## Comparison Table
 
@@ -16,7 +16,7 @@ A curated list of awesome AI agent frameworks, updated daily.
 | 4 | [MetaGPT](#metagpt) | 64,165 | 148 | ↑1 |
 | 5 | [open-interpreter](#open-interpreter) | 62,135 | 132 | ↑1 |
 | 6 | [autogen](#autogen) | 54,535 | 532 | ↑1 |
-| 7 | [crewAI](#crewai) | 44,089 | 279 | ↑1 |
+| 7 | [crewAI](#crewai) | 44,090 | 279 | ↑1 |
 | 8 | [agno](#agno) | 37,839 | 390 | ↑1 |
 | 9 | [AgentGPT](#agentgpt) | 35,700 | 72 | ↑1 |
 | 10 | [smolagents](#smolagents) | 25,411 | 197 | ↑1 |
@@ -39,7 +39,7 @@ A curated list of awesome AI agent frameworks, updated daily.
 
 ### <a name="openclaw"></a>[openclaw](https://github.com/openclaw/openclaw) - Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 
 
-192,499 stars · 32,978 forks · 595 contributors · 5,465 issues · TypeScript · MIT
+192,499 stars · 32,979 forks · 595 contributors · 5,465 issues · TypeScript · MIT
 
     - Cross-OS compatibility
     - Platform-agnostic deployment
@@ -93,7 +93,7 @@ A curated list of awesome AI agent frameworks, updated daily.
 
 ### <a name="crewai"></a>[crewAI](https://github.com/crewAIInc/crewAI) - Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.
 
-44,089 stars · 5,904 forks · 279 contributors · 276 issues · Python · MIT
+44,090 stars · 5,904 forks · 279 contributors · 276 issues · Python · MIT
 
     - Orchestration of role-playing AI agents
     - Support for autonomous agent execution
