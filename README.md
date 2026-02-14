@@ -4,15 +4,15 @@ A curated list of awesome AI agent frameworks, updated daily.
 
 **English** | [Русский](README_RU.md) | [中文](README_ZH.md)
 
-*Last updated: 2026-02-14 12:30:58*
+*Last updated: 2026-02-14 12:32:28*
 
 ## Comparison Table
 
 | Rank | Framework | Stars | Contributors | Change |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 | [openclaw](#openclaw) | 193,282 | 600 | — |
+| 1 | [openclaw](#openclaw) | 193,289 | 599 | — |
 | 2 | [AutoGPT](#autogpt) | 181,793 | 802 | ↑2 |
-| 3 | [opencode](#opencode) | 104,336 | 738 | ↑1 |
+| 3 | [opencode](#opencode) | 104,338 | 738 | ↑1 |
 | 4 | [MetaGPT](#metagpt) | 64,170 | 148 | ↑1 |
 | 5 | [open-interpreter](#open-interpreter) | 62,142 | 132 | ↑1 |
 | 6 | [autogen](#autogen) | 54,539 | 532 | ↑1 |
@@ -38,7 +38,7 @@ A curated list of awesome AI agent frameworks, updated daily.
 | 26 | [anthropic-sdk-python](#anthropic-sdk-python) | 2,760 | 51 | ↓1 |
 | 27 | [moltis](#moltis) | 601 | 5 | ↓24 |
 | 28 | [ValeDesk](#valedesk) | 272 | 12 | ↓2 |
-| 29 | [FastCode](#fastcode) | 220 | 3 | — |
+| 29 | [FastCode](#fastcode) | 221 | 3 | — |
 | 30 | [topsha](#topsha) | 93 | 6 | ↓3 |
 | 31 | [SkillOS](#skillos) | 1 | 2 | ↓3 |
 
@@ -46,7 +46,7 @@ A curated list of awesome AI agent frameworks, updated daily.
 
 ### <a name="openclaw"></a>[openclaw](https://github.com/openclaw/openclaw) — Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞
 
-193,282 stars · 33,193 forks · 600 contributors · 5,578 issues · TypeScript · MIT
+193,289 stars · 33,193 forks · 599 contributors · 5,577 issues · TypeScript · MIT
 
     - Cross-operating system compatibility (Any OS)
     - Universal platform support (Any Platform)
@@ -55,7 +55,7 @@ A curated list of awesome AI agent frameworks, updated daily.
 
 ### <a name="autogpt"></a>[AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) — AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.
 
-181,793 stars · 46,223 forks · 802 contributors · 325 issues · Python · NOASSERTION
+181,793 stars · 46,223 forks · 802 contributors · 326 issues · Python · NOASSERTION
 
     - Autonomous AI agent capabilities powered by GPT models
     - Recursive self-prompting for task decomposition and execution
@@ -64,7 +64,7 @@ A curated list of awesome AI agent frameworks, updated daily.
 
 ### <a name="opencode"></a>[opencode](https://github.com/anomalyco/opencode) — The open source coding agent.
 
-104,336 stars · 10,125 forks · 738 contributors · 5,144 issues · TypeScript · MIT
+104,338 stars · 10,125 forks · 738 contributors · 5,144 issues · TypeScript · MIT
 
     - Open-source codebase under permissive license
     - Autonomous agent architecture for code generation and execution
@@ -298,7 +298,7 @@ A curated list of awesome AI agent frameworks, updated daily.
 
 ### <a name="fastcode"></a>[FastCode](https://github.com/HKUDS/FastCode) — FastCode: Accelerating and Streamlining Your Code Understanding
 
-220 stars · 29 forks · 3 contributors · 0 issues · Python · No License
+221 stars · 29 forks · 3 contributors · 0 issues · Python · No License
 
     - Lightning-fast code parsing with optimized tokenization
     - Context-aware semantic analysis for deep code comprehension
