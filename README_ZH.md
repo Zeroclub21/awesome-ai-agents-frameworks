@@ -4,156 +4,146 @@
 
 [English](README.md) | [Русский](README_RU.md) | **中文**
 
-*最后更新时间: 2026-02-14 04:41:36*
+*最后更新时间: 2026-02-14 04:42:01*
 
 ## 对比表
 
 | 排名 | 框架 | 星标 | 贡献者 | 变化 |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 | [openclaw](#openclaw) | 192,435 | 595 | — |
+| 1 | [openclaw](#openclaw) | 192,437 | 595 | — |
 | 2 | [nanobot](#nanobot) | 18,468 | 45 | — |
 | 3 | [moltis](#moltis) | 527 | 5 | — |
-| 4 | [AutoGPT](#autogpt) | 181,785 | 802 | — |
-| 5 | [MetaGPT](#metagpt) | 64,165 | 148 | — |
-| 6 | [open-interpreter](#open-interpreter) | 62,135 | 132 | — |
-| 7 | [autogen](#autogen) | 54,535 | 532 | — |
-| 8 | [crewAI](#crewai) | 44,089 | 279 | — |
-| 9 | [agno](#agno) | 37,839 | 390 | — |
-| 10 | [AgentGPT](#agentgpt) | 35,700 | 72 | — |
-| 11 | [smolagents](#smolagents) | 25,409 | 197 | — |
-| 12 | [gpt-researcher](#gpt-researcher) | 25,303 | 216 | — |
-| 13 | [langgraph](#langgraph) | 24,698 | 272 | — |
-| 14 | [haystack](#haystack) | 24,184 | 323 | — |
-| 15 | [babyagi](#babyagi) | 22,133 | 2 | — |
-| 16 | [swarm](#swarm) | 20,950 | 14 | — |
-| 17 | [eliza](#eliza) | 17,506 | 651 | — |
-| 18 | [SuperAGI](#superagi) | 17,171 | 74 | — |
-| 19 | [camel](#camel) | 16,015 | 192 | — |
-| 20 | [pydantic-ai](#pydantic-ai) | 14,867 | 368 | — |
-| 21 | [E2B](#e2b) | 10,886 | 44 | — |
-| 22 | [PraisonAI](#praisonai) | 5,592 | 30 | — |
-| 23 | [ms-agent](#ms-agent) | 3,977 | 47 | — |
-| 24 | [agency-swarm](#agency-swarm) | 3,952 | 23 | — |
-| 25 | [anthropic-sdk-python](#anthropic-sdk-python) | 2,760 | 51 | — |
+| 4 | [MetaGPT](#metagpt) | 64,165 | 148 | ↑1 |
+| 5 | [open-interpreter](#open-interpreter) | 62,135 | 132 | ↑1 |
+| 6 | [autogen](#autogen) | 54,535 | 532 | ↑1 |
+| 7 | [crewAI](#crewai) | 44,089 | 279 | ↑1 |
+| 8 | [agno](#agno) | 37,839 | 390 | ↑1 |
+| 9 | [AgentGPT](#agentgpt) | 35,700 | 72 | ↑1 |
+| 10 | [smolagents](#smolagents) | 25,409 | 197 | ↑1 |
+| 11 | [gpt-researcher](#gpt-researcher) | 25,303 | 216 | ↑1 |
+| 12 | [langgraph](#langgraph) | 24,698 | 272 | ↑1 |
+| 13 | [haystack](#haystack) | 24,184 | 323 | ↑1 |
+| 14 | [babyagi](#babyagi) | 22,133 | 2 | ↑1 |
+| 15 | [swarm](#swarm) | 20,950 | 14 | ↑1 |
+| 16 | [eliza](#eliza) | 17,506 | 651 | ↑1 |
+| 17 | [SuperAGI](#superagi) | 17,171 | 74 | ↑1 |
+| 18 | [camel](#camel) | 16,015 | 192 | ↑1 |
+| 19 | [pydantic-ai](#pydantic-ai) | 14,867 | 368 | ↑1 |
+| 20 | [E2B](#e2b) | 10,886 | 44 | ↑1 |
+| 21 | [PraisonAI](#praisonai) | 5,592 | 30 | ↑1 |
+| 22 | [ms-agent](#ms-agent) | 3,977 | 47 | ↑1 |
+| 23 | [agency-swarm](#agency-swarm) | 3,952 | 23 | ↑1 |
+| 24 | [anthropic-sdk-python](#anthropic-sdk-python) | 2,760 | 51 | ↑1 |
 
 ---
 
 ### <a name="openclaw"></a>[openclaw](https://github.com/openclaw/openclaw)
 
-192,435 星标 · 32,954 分叉 · 595 贡献者 · 5,445 问题 · TypeScript · MIT
+192,437 星标 · 32,954 分叉 · 595 贡献者 · 5,445 问题 · TypeScript · MIT
 
-    - 跨操作系统兼容性
-    - 跨平台支持
-    - 个性化AI助手核心
-    - 龙虾式轻量架构
+    - 跨操作系统兼容，支持任意OS
+    - 跨平台部署，适配任何平台
+    - 个性化AI助手，专属用户服务
+    - 爪子式架构，轻巧高效🦞
 
 ### <a name="nanobot"></a>[nanobot](https://github.com/HKUDS/nanobot)
 
 18,468 星标 · 2,700 分叉 · 45 贡献者 · 401 问题 · Python · MIT
 
-    - Feature 1
-    - Feature 2
-    - Feature 3
-    - Feature 4
+    - 超轻量级 AI 代理内核
+    - 支持多个提供商
+    - 支持自定义技能
+    - 支持 Cron 作业和多渠道通信（Telegram、Slack 等）
 
 ### <a name="moltis"></a>[moltis](https://github.com/moltis-org/moltis)
 
 527 星标 · 39 分叉 · 5 贡献者 · 33 问题 · Rust · MIT
 
-    - Rust 单二进制构建
-    - 多提供商 LLM 支持
-    - 长期记忆机制
+    - Rust语言开发，单二进制部署
+    - 支持多提供商大语言模型(LLM)
+    - 长时记忆功能
     - 沙箱化执行环境
-
-### <a name="autogpt"></a>[AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)
-
-181,785 星标 · 46,224 分叉 · 802 贡献者 · 325 问题 · Python · NOASSERTION
-
-    - 自主代理架构：支持目标导向的自主任务分解与执行
-    - 工具集成系统：内置浏览器搜索、文件读写等多工具接口
-    - 记忆管理机制：结合短期与长期记忆，实现上下文持久化
-    - 开源可扩展框架：便于开发者自定义插件与构建应用
 
 ### <a name="metagpt"></a>[MetaGPT](https://github.com/FoundationAgents/MetaGPT)
 
 64,165 星标 · 8,060 分叉 · 148 贡献者 · 78 问题 · Python · MIT
 
     - 多代理协作框架
-    - 角色分工机制（产品经理、架构师、工程师等）
-    - 标准操作流程（SOP）
-    - 自然语言驱动的软件生成
+    - 模拟AI软件公司
+    - 角色分工机制
+    - 自然语言编程支持
 
 ### <a name="open-interpreter"></a>[open-interpreter](https://github.com/openinterpreter/open-interpreter)
 
 62,135 星标 · 5,342 分叉 · 132 贡献者 · 294 问题 · Python · AGPL-3.0
 
-    - 自然语言指令解析与代码生成
-    - 本地计算机代码执行
-    - 多编程语言支持
-    - 交互式安全执行模式
+    - 自然语言指令解析
+    - 本地代码执行
+    - 多LLM模型集成
+    - 安全沙箱机制
 
 ### <a name="autogen"></a>[autogen](https://github.com/microsoft/autogen)
 
 54,535 星标 · 8,215 分叉 · 532 贡献者 · 586 问题 · Python · CC-BY-4.0
 
-    - 多代理协作框架
-    - 支持异构智能体
-    - 灵活对话模式
-    - 集成工具与人类输入
+    - 多代理协作对话
+    - 可自定义代理与工具集成
+    - 支持代码执行与人类介入
+    - 灵活的对话模式与工作流编排
 
 ### <a name="crewai"></a>[crewAI](https://github.com/crewAIInc/crewAI)
 
 44,089 星标 · 5,904 分叉 · 279 贡献者 · 276 问题 · Python · MIT
 
-    - 角色扮演自主AI代理编排
-    - 支持代理自主性
-    - 促进协作智能
-    - 无缝多代理协作处理复杂任务
+    - 支持角色扮演的自主AI代理编排
+    - 促进代理间的协作智能
+    - 实现无缝多代理协作
+    - 高效处理复杂任务
 
 ### <a name="agno"></a>[agno](https://github.com/agno-agi/agno)
 
 37,839 星标 · 5,006 分叉 · 390 贡献者 · 565 问题 · Python · Apache-2.0
 
-    - 多代理系统架构，支持高效协作构建
-    - 交互式学习引擎，实现实时知识更新
-    - 自适应优化机制，每交互即性能提升
-    - 持续改进框架，内置反馈循环与强化学习
+    - 多代理系统架构
+    - 交互式学习机制
+    - 持续自我优化算法
+    - 实时经验回放功能
 
 ### <a name="agentgpt"></a>[AgentGPT](https://github.com/reworkd/AgentGPT)
 
 35,700 星标 · 9,454 分叉 · 72 贡献者 · 220 问题 · TypeScript · GPL-3.0
 
-    - 浏览器内组装自主AI代理
-    - 灵活配置AI代理参数
-    - 一键部署AI代理
-    - 支持浏览器端自主运行
+    - 浏览器内组装AI代理
+    - 灵活配置代理参数
+    - 一键部署自主代理
+    - 全客户端无服务器运行
 
 ### <a name="smolagents"></a>[smolagents](https://github.com/huggingface/smolagents)
 
 25,409 星标 · 2,289 分叉 · 197 贡献者 · 369 问题 · Python · Apache-2.0
 
-    - 极简轻量级设计：无多余依赖，核心库体积小巧。
-    - 代码思考机制：代理通过生成和执行代码进行推理与决策。
-    - 简单API接口：易于集成，支持快速构建AI代理。
-    - 灵活代码执行：无缝支持代码解释器，实现动态工具调用。
+    - 极简轻量级设计，无多余依赖
+    - 支持代码思考的智能体架构
+    - 代码生成与执行机制
+    - 简洁的代理开发API
 
 ### <a name="gpt-researcher"></a>[gpt-researcher](https://github.com/assafelovic/gpt-researcher)
 
 25,303 星标 · 3,359 分叉 · 216 贡献者 · 180 问题 · Python · Apache-2.0
 
-    - 自治代理架构
-    - 深度研究引擎
-    - 任意数据处理能力
-    - 多LLM提供商兼容
+    - 自主代理架构，支持独立执行研究任务
+    - 深度研究能力，可对任意数据进行全面分析
+    - 多数据源兼容，处理各种类型输入数据
+    - 通用LLM集成，支持任意大型语言模型提供商
 
 ### <a name="langgraph"></a>[langgraph](https://github.com/langchain-ai/langgraph)
 
 24,698 星标 · 4,300 分叉 · 272 贡献者 · 289 问题 · Python · MIT
 
-    - 图状工作流构建：将语言代理建模为节点和边的图结构，支持复杂控制流。
-    - 状态持久化：内置检查点机制，实现代理状态的保存与恢复。
-    - 循环与分支支持：允许代理执行循环思考、行动和条件分支，提升智能性。
-    - 弹性错误处理：提供重试、人类干预和容错机制，确保代理鲁棒性。
+    - 图结构化代理构建：将语言代理表示为图，支持节点和边定义复杂工作流。
+    - 状态持久化和检查点：维护执行过程中的状态，支持中断和恢复。
+    - 循环与分支支持：允许图中循环，实现鲁棒的多步决策和迭代。
+    - 内置弹性机制：集成错误处理、重试和人类干预，提升代理可靠性。
 
 ### <a name="haystack"></a>[haystack](https://github.com/deepset-ai/haystack)
 
@@ -177,53 +167,53 @@
 
 20,950 星标 · 2,228 分叉 · 14 贡献者 · 16 问题 · Python · MIT
 
-    - 人体工程学设计
-    - 轻量级架构
-    - 多代理编排机制
-    - 教育探索框架
+    - 轻量级多代理编排架构
+    - 人体工程学设计理念
+    - 教育导向开发框架
+    - OpenAI解决方案团队维护
 
 ### <a name="eliza"></a>[eliza](https://github.com/elizaOS/eliza)
 
 17,506 星标 · 5,413 分叉 · 651 贡献者 · 140 问题 · TypeScript · MIT
 
-    - 自主代理一键构建
-    - 多模态工具集成
-    - 实时决策与记忆机制
-    - 开源易用跨平台支持
+    - 自主代理核心引擎，支持独立决策与任务执行
+    - 零代码构建工具，适合非开发者快速创建代理
+    - 多代理协作框架，实现智能分工与通信
+    - 开源可扩展架构，确保人人可用与高度自定义
 
 ### <a name="superagi"></a>[SuperAGI](https://github.com/TransformerOptimus/SuperAGI)
 
 17,171 星标 · 2,158 分叉 · 74 贡献者 · 211 问题 · Python · MIT
 
-    - 开源自主AI代理框架
-    - 开发者优先设计
-    - 快速构建自主代理
-    - 可靠管理与运行代理
+    - 开发者优先的开源架构
+    - 自主AI代理快速构建工具
+    - 代理管理与监控系统
+    - 可靠高效的代理运行引擎
 
 ### <a name="camel"></a>[camel](https://github.com/camel-ai/camel)
 
 16,015 星标 · 1,771 分叉 · 192 贡献者 · 444 问题 · Python · Apache-2.0
 
-    - 多代理协作框架，支持多个AI代理间的自主沟通与任务分工
-    - 角色扮演机制，允许代理模拟不同角色进行高效交互
-    - 探索代理缩放定律，通过实验揭示代理数量与性能的关系
-    - 开源易用，提供Python API和丰富示例，便于扩展与部署
+    - 多智能体协作框架
+    - 代理间自主通信机制
+    - 角色扮演代理设计
+    - 代理缩放定律探索
 
 ### <a name="pydantic-ai"></a>[pydantic-ai](https://github.com/pydantic/pydantic-ai)
 
 14,867 星标 · 1,640 分叉 · 368 贡献者 · 535 问题 · Python · MIT
 
-    - 基于Pydantic的类型安全数据验证，确保AI代理输入输出严格合规
-    - 声明式代理工具和状态模型定义，简化GenAI工作流开发
-    - 无缝集成主流LLM，支持结构化响应解析与自动验证
-    - 模块化代理架构，提供强大错误处理与可观测性
+    - 基于 Pydantic 的类型安全数据模型
+    - 结构化输出生成与自动验证
+    - 智能代理编排与工具调用
+    - 无缝集成主流 GenAI 模型
 
 ### <a name="e2b"></a>[E2B](https://github.com/e2b-dev/E2B)
 
 10,886 星标 · 769 分叉 · 44 贡献者 · 58 问题 · MDX · Apache-2.0
 
     - 开源架构
-    - 安全沙箱环境
+    - 安全执行环境
     - 集成真实世界工具
     - 支持企业级AI代理
 
@@ -232,27 +222,27 @@
 5,592 星标 · 763 分叉 · 30 贡献者 · 58 问题 · Python · MIT
 
     - 生产就绪的多AI代理框架
-    - 低代码解决方案
-    - 简化多代理LLM系统构建与管理
-    - 强调简单性、自定义性和人机协作
+    - 低代码构建与管理工具
+    - 支持简单到复杂任务自动化
+    - 高效人类-代理协作机制
 
 ### <a name="ms-agent"></a>[ms-agent](https://github.com/modelscope/ms-agent)
 
 3,977 星标 · 460 分叉 · 47 贡献者 · 7 问题 · Python · Apache-2.0
 
     - 轻量级架构设计，低资源占用
-    - 支持代理式自主执行
-    - 复杂任务智能分解与调度
-    - 模块化组件，易于扩展集成
+    - 支持代理式（agentic）任务执行
+    - 高效处理复杂多步任务
+    - 模块化组件，便于集成与扩展
 
 ### <a name="agency-swarm"></a>[agency-swarm](https://github.com/VRSEN/agency-swarm)
 
 3,952 星标 · 999 分叉 · 23 贡献者 · 14 问题 · Python · MIT
 
-    - 可靠的多代理编排核心
-    - 内置故障容错机制
-    - 动态代理扩展与缩放
-    - 高效异步任务调度
+    - 可靠的多代理协调引擎
+    - 容错执行机制
+    - 动态代理扩展支持
+    - 高效的任务调度与通信协议
 
 ### <a name="anthropic-sdk-python"></a>[anthropic-sdk-python](https://github.com/anthropics/anthropic-sdk-python)
 
