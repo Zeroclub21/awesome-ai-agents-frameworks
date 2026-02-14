@@ -4,39 +4,39 @@ Curated list of top AI agent frameworks for business and R&D.
 
 **EN** | [RU](README_RU.md) | [ZH](README_ZH.md)
 
-*Last updated: 2026-02-14 18:46:49*
+*Last updated: 2026-02-14 18:54:53*
 
 | Rank | Framework | Stars | Language | License | Change |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | [openclaw](#openclaw) | 193,971 | TypeScript | MIT | — |
+| 1 | [openclaw](#openclaw) | 193,980 | TypeScript | MIT | — |
 | 2 | [AutoGPT](#autogpt) | 181,800 | Python | NOASSERTION | ↑2 |
-| 3 | [opencode](#opencode) | 104,501 | TypeScript | MIT | ↑1 |
+| 3 | [opencode](#opencode) | 104,507 | TypeScript | MIT | ↑1 |
 | 4 | [MetaGPT](#metagpt) | 64,178 | Python | MIT | ↑1 |
 | 5 | [open-interpreter](#open-interpreter) | 62,143 | Python | AGPL-3.0 | ↑1 |
 | 6 | [autogen](#autogen) | 54,543 | Python | CC-BY-4.0 | ↑1 |
-| 7 | [crewAI](#crewai) | 44,117 | Python | MIT | ↑1 |
+| 7 | [crewAI](#crewai) | 44,118 | Python | MIT | ↑1 |
 | 8 | [agno](#agno) | 37,841 | Python | Apache-2.0 | ↑1 |
 | 9 | [AgentGPT](#agentgpt) | 35,704 | TypeScript | GPL-3.0 | ↑1 |
 | 10 | [smolagents](#smolagents) | 25,424 | Python | Apache-2.0 | ↑1 |
 | 11 | [gpt-researcher](#gpt-researcher) | 25,313 | Python | Apache-2.0 | ↑1 |
-| 12 | [langgraph](#langgraph) | 24,708 | Python | MIT | ↑1 |
+| 12 | [langgraph](#langgraph) | 24,709 | Python | MIT | ↑1 |
 | 13 | [haystack](#haystack) | 24,188 | MDX | Apache-2.0 | ↑1 |
 | 14 | [babyagi](#babyagi) | 22,134 | Python | No License | ↑1 |
 | 15 | [swarm](#swarm) | 20,952 | Python | MIT | ↑1 |
-| 16 | [nanobot](#nanobot) | 18,789 | Python | MIT | ↓14 |
+| 16 | [nanobot](#nanobot) | 18,790 | Python | MIT | ↓14 |
 | 17 | [eliza](#eliza) | 17,506 | TypeScript | MIT | — |
 | 18 | [SuperAGI](#superagi) | 17,170 | Python | MIT | — |
 | 19 | [camel](#camel) | 16,017 | Python | Apache-2.0 | — |
 | 20 | [pydantic-ai](#pydantic-ai) | 14,880 | Python | MIT | — |
 | 21 | [E2B](#e2b) | 10,894 | MDX | Apache-2.0 | — |
-| 22 | [picoclaw](#picoclaw) | 6,991 | Go | NOASSERTION | — |
+| 22 | [picoclaw](#picoclaw) | 6,995 | Go | NOASSERTION | — |
 | 23 | [PraisonAI](#praisonai) | 5,593 | Python | MIT | ↓1 |
 | 24 | [ms-agent](#ms-agent) | 3,978 | Python | Apache-2.0 | ↓1 |
 | 25 | [agency-swarm](#agency-swarm) | 3,953 | Python | MIT | ↓1 |
 | 26 | [beeai-framework](#beeai-framework) | 3,098 | Python | Apache-2.0 | — |
 | 27 | [anthropic-sdk-python](#anthropic-sdk-python) | 2,760 | Python | MIT | ↓2 |
 | 28 | [moltis](#moltis) | 646 | Rust | MIT | ↓25 |
-| 29 | [FastCode](#fastcode) | 327 | Python | No License | — |
+| 29 | [FastCode](#fastcode) | 330 | Python | No License | — |
 | 30 | [ValeDesk](#valedesk) | 272 | TypeScript | NOASSERTION | ↓4 |
 | 31 | [topsha](#topsha) | 94 | Python | MIT | ↓4 |
 | 32 | [SkillOS](#skillos) | 1 | Python | MIT | ↓4 |
@@ -46,7 +46,7 @@ Curated list of top AI agent frameworks for business and R&D.
 ### <a name="openclaw"></a>[openclaw](https://github.com/openclaw/openclaw)
 **Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞**
 
-⭐ 193,971 · 🍴 33,377 · 👥 608 · 🛠️ TypeScript
+⭐ 193,980 · 🍴 33,380 · 👥 607 · 🛠️ TypeScript
 
 - Cross-operating system compatibility (Any OS)
 - Universal platform support (Any Platform)
@@ -66,7 +66,7 @@ Curated list of top AI agent frameworks for business and R&D.
 ### <a name="opencode"></a>[opencode](https://github.com/anomalyco/opencode)
 **The open source coding agent.**
 
-⭐ 104,501 · 🍴 10,153 · 👥 738 · 🛠️ TypeScript
+⭐ 104,507 · 🍴 10,153 · 👥 738 · 🛠️ TypeScript
 
 - Open-source codebase under permissive license
 - Autonomous agent architecture for code generation and execution
@@ -106,7 +106,7 @@ Curated list of top AI agent frameworks for business and R&D.
 ### <a name="crewai"></a>[crewAI](https://github.com/crewAIInc/crewAI)
 **Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.**
 
-⭐ 44,117 · 🍴 5,908 · 👥 279 · 🛠️ Python
+⭐ 44,118 · 🍴 5,908 · 👥 279 · 🛠️ Python
 
 - Orchestration of role-playing AI agents
 - Support for autonomous agent execution
@@ -156,7 +156,7 @@ Curated list of top AI agent frameworks for business and R&D.
 ### <a name="langgraph"></a>[langgraph](https://github.com/langchain-ai/langgraph)
 **Build resilient language agents as graphs.**
 
-⭐ 24,708 · 🍴 4,302 · 👥 272 · 🛠️ Python
+⭐ 24,709 · 🍴 4,302 · 👥 272 · 🛠️ Python
 
 - Graph-based architecture for building agents
 - Resilient execution with error handling and retries
@@ -194,12 +194,12 @@ Curated list of top AI agent frameworks for business and R&D.
 ### <a name="nanobot"></a>[nanobot](https://github.com/HKUDS/nanobot)
 **Ultra-lightweight AI agent kernel. Supports multiple providers, custom skills, cron jobs, and multi-channel communication (Telegram, Slack, etc.).**
 
-⭐ 18,789 · 🍴 2,765 · 👥 46 · 🛠️ Python
+⭐ 18,790 · 🍴 2,765 · 👥 46 · 🛠️ Python
 
-- Ultra-lightweight AI agent kernel architecture
-- Multi-provider LLM support and integration
-- Extensible framework for custom skills and tools
-- Multi-channel communication and scheduled task automation
+- Ultra-lightweight, high-performance kernel for resource-efficient AI agent orchestration.
+- Provider-agnostic architecture supporting seamless integration with multiple LLM backends.
+- Extensible modular framework for custom skill development and autonomous task scheduling.
+- Omnichannel deployment capabilities across major enterprise communication platforms.
 
 ### <a name="eliza"></a>[eliza](https://github.com/elizaOS/eliza)
 **Autonomous agents for everyone**
@@ -254,7 +254,7 @@ Curated list of top AI agent frameworks for business and R&D.
 ### <a name="picoclaw"></a>[picoclaw](https://github.com/sipeed/picoclaw)
 **picoclaw**
 
-⭐ 6,991 · 🍴 674 · 👥 39 · 🛠️ Go
+⭐ 6,995 · 🍴 675 · 👥 39 · 🛠️ Go
 
 - RP2040-based control architecture for low-latency servo management
 - Compact, 3D-printable mechanical design optimized for small-scale robotics
@@ -322,7 +322,7 @@ Curated list of top AI agent frameworks for business and R&D.
 ### <a name="fastcode"></a>[FastCode](https://github.com/HKUDS/FastCode)
 **FastCode: Accelerating and Streamlining Your Code Understanding**
 
-⭐ 327 · 🍴 38 · 👥 3 · 🛠️ Python
+⭐ 330 · 🍴 38 · 👥 3 · 🛠️ Python
 
 - Lightning-fast code parsing with optimized tokenization
 - Context-aware semantic analysis for deep code comprehension
