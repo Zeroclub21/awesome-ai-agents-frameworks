@@ -4,13 +4,13 @@ A curated list of awesome AI agent frameworks, updated daily.
 
 **English** | [Русский](README_RU.md) | [中文](README_ZH.md)
 
-*Last updated: 2026-02-14 12:23:29*
+*Last updated: 2026-02-14 12:24:23*
 
 ## Comparison Table
 
 | Rank | Framework | Stars | Contributors | Change |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 | [openclaw](#openclaw) | 193,267 | 599 | — |
+| 1 | [openclaw](#openclaw) | 193,269 | 600 | — |
 | 2 | [AutoGPT](#autogpt) | 181,793 | 802 | ↑2 |
 | 3 | [opencode](#opencode) | 104,336 | 738 | ↑1 |
 | 4 | [MetaGPT](#metagpt) | 64,170 | 148 | ↑1 |
@@ -34,18 +34,19 @@ A curated list of awesome AI agent frameworks, updated daily.
 | 22 | [PraisonAI](#praisonai) | 5,593 | 30 | — |
 | 23 | [ms-agent](#ms-agent) | 3,978 | 47 | — |
 | 24 | [agency-swarm](#agency-swarm) | 3,952 | 23 | — |
-| 25 | [anthropic-sdk-python](#anthropic-sdk-python) | 2,760 | 51 | — |
-| 26 | [moltis](#moltis) | 601 | 5 | ↓23 |
-| 27 | [ValeDesk](#valedesk) | 272 | 12 | ↓1 |
-| 28 | [FastCode](#fastcode) | 218 | 3 | — |
-| 29 | [topsha](#topsha) | 93 | 6 | ↓2 |
-| 30 | [SkillOS](#skillos) | 1 | 2 | ↓2 |
+| 25 | [beeai-framework](#beeai-framework) | 3,094 | 67 | — |
+| 26 | [anthropic-sdk-python](#anthropic-sdk-python) | 2,760 | 51 | ↓1 |
+| 27 | [moltis](#moltis) | 601 | 5 | ↓24 |
+| 28 | [ValeDesk](#valedesk) | 272 | 12 | ↓2 |
+| 29 | [FastCode](#fastcode) | 218 | 3 | — |
+| 30 | [topsha](#topsha) | 93 | 6 | ↓3 |
+| 31 | [SkillOS](#skillos) | 1 | 2 | ↓3 |
 
 ---
 
 ### <a name="openclaw"></a>[openclaw](https://github.com/openclaw/openclaw) — Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞
 
-193,267 stars · 33,192 forks · 599 contributors · 5,576 issues · TypeScript · MIT
+193,269 stars · 33,192 forks · 600 contributors · 5,576 issues · TypeScript · MIT
 
     - Cross-operating system compatibility (Any OS)
     - Universal platform support (Any Platform)
@@ -258,6 +259,15 @@ A curated list of awesome AI agent frameworks, updated daily.
     - Dynamic task orchestration and delegation
     - Automatic recovery and failover mechanisms
     - Scalable state management for reliability
+
+### <a name="beeai-framework"></a>[beeai-framework](https://github.com/i-am-bee/beeai-framework) — Build production-ready AI agents in both Python and Typescript.
+
+3,094 stars · 402 forks · 67 contributors · 4 issues · Python · Apache-2.0
+
+    - Dual-language support for Python and TypeScript
+    - Production-ready agent scaffolding and tooling
+    - Scalable deployment capabilities for AI agents
+    - Streamlined development workflow for agentic AI
 
 ### <a name="anthropic-sdk-python"></a>[anthropic-sdk-python](https://github.com/anthropics/anthropic-sdk-python)
 
