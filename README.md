@@ -4,15 +4,15 @@ A curated list of awesome AI agent frameworks, updated daily.
 
 **English** | [Русский](README_RU.md) | [中文](README_ZH.md)
 
-*Last updated: 2026-02-14 04:41:22*
+*Last updated: 2026-02-14 04:42:25*
 
 ## Comparison Table
 
 | Rank | Framework | Stars | Contributors | Change |
 | :--- | :--- | :--- | :--- | :--- |
 | 1 | [openclaw](#openclaw) | 192,438 | 595 | — |
-| 2 | [nanobot](#nanobot) | 18,468 | 45 | — |
-| 3 | [moltis](#moltis) | 527 | 5 | — |
+| 2 | [nanobot](#nanobot) | 18,469 | 45 | — |
+| 3 | [moltis](#moltis) | 528 | 5 | — |
 | 4 | [MetaGPT](#metagpt) | 64,165 | 148 | ↑1 |
 | 5 | [open-interpreter](#open-interpreter) | 62,135 | 132 | ↑1 |
 | 6 | [autogen](#autogen) | 54,535 | 532 | ↑1 |
@@ -48,16 +48,16 @@ A curated list of awesome AI agent frameworks, updated daily.
 
 ### <a name="nanobot"></a>[nanobot](https://github.com/HKUDS/nanobot) - Ultra-lightweight AI agent kernel. Supports multiple providers, custom skills, cron jobs, and multi-channel communication (Telegram, Slack, etc.). Designed for efficiency and extensibility.
 
-18,468 stars · 2,699 forks · 45 contributors · 401 issues · Python · MIT
+18,469 stars · 2,699 forks · 45 contributors · 401 issues · Python · MIT
 
-    - Ultra-lightweight AI agent kernel
+    - Ultra-lightweight AI agent kernel for high efficiency
     - Support for multiple AI providers
-    - Custom skills extensibility
-    - Cron jobs and multi-channel communication (Telegram, Slack, etc.)
+    - Custom skills and cron job scheduling
+    - Multi-channel communication (e.g., Telegram, Slack)
 
 ### <a name="moltis"></a>[moltis](https://github.com/moltis-org/moltis) - A personal AI assistant built in Rust. Single binary, multi-provider LLMs, long-term memory, sandboxed execution, voice, MCP tools, and multi-channel access (web, Telegram, API).
 
-527 stars · 39 forks · 5 contributors · 33 issues · Rust · MIT
+528 stars · 39 forks · 5 contributors · 33 issues · Rust · MIT
 
     - Rust-based single binary for easy deployment
     - Multi-provider LLM support
