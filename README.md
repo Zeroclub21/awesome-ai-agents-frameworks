@@ -4,13 +4,13 @@ Curated list of top AI agent frameworks for business and R&D.
 
 **EN** | [RU](README_RU.md) | [ZH](README_ZH.md)
 
-*Last updated: 2026-02-14 18:30:44*
+*Last updated: 2026-02-14 18:31:36*
 
 | Rank | Framework | Stars | Language | License | Change |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | [openclaw](#openclaw) | 193,951 | TypeScript | MIT | — |
+| 1 | [openclaw](#openclaw) | 193,952 | TypeScript | MIT | — |
 | 2 | [AutoGPT](#autogpt) | 181,799 | Python | NOASSERTION | ↑2 |
-| 3 | [opencode](#opencode) | 104,497 | TypeScript | MIT | ↑1 |
+| 3 | [opencode](#opencode) | 104,498 | TypeScript | MIT | ↑1 |
 | 4 | [MetaGPT](#metagpt) | 64,178 | Python | MIT | ↑1 |
 | 5 | [open-interpreter](#open-interpreter) | 62,143 | Python | AGPL-3.0 | ↑1 |
 | 6 | [autogen](#autogen) | 54,542 | Python | CC-BY-4.0 | ↑1 |
@@ -23,7 +23,7 @@ Curated list of top AI agent frameworks for business and R&D.
 | 13 | [haystack](#haystack) | 24,188 | MDX | Apache-2.0 | ↑1 |
 | 14 | [babyagi](#babyagi) | 22,134 | Python | No License | ↑1 |
 | 15 | [swarm](#swarm) | 20,952 | Python | MIT | ↑1 |
-| 16 | [nanobot](#nanobot) | 18,787 | Python | MIT | ↓14 |
+| 16 | [nanobot](#nanobot) | 18,788 | Python | MIT | ↓14 |
 | 17 | [eliza](#eliza) | 17,506 | TypeScript | MIT | — |
 | 18 | [SuperAGI](#superagi) | 17,170 | Python | MIT | — |
 | 19 | [camel](#camel) | 16,017 | Python | Apache-2.0 | — |
@@ -35,7 +35,7 @@ Curated list of top AI agent frameworks for business and R&D.
 | 25 | [beeai-framework](#beeai-framework) | 3,098 | Python | Apache-2.0 | — |
 | 26 | [anthropic-sdk-python](#anthropic-sdk-python) | 2,760 | Python | MIT | ↓1 |
 | 27 | [moltis](#moltis) | 642 | Rust | MIT | ↓24 |
-| 28 | [FastCode](#fastcode) | 322 | Python | No License | — |
+| 28 | [FastCode](#fastcode) | 323 | Python | No License | — |
 | 29 | [ValeDesk](#valedesk) | 272 | TypeScript | NOASSERTION | ↓3 |
 | 30 | [topsha](#topsha) | 94 | Python | MIT | ↓3 |
 | 31 | [SkillOS](#skillos) | 1 | Python | MIT | ↓3 |
@@ -45,7 +45,7 @@ Curated list of top AI agent frameworks for business and R&D.
 ### <a name="openclaw"></a>[openclaw](https://github.com/openclaw/openclaw)
 **Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞**
 
-⭐ 193,951 · 🍴 33,367 · 👥 607 · 🛠️ TypeScript
+⭐ 193,952 · 🍴 33,368 · 👥 607 · 🛠️ TypeScript
 
 - Cross-operating system compatibility (Any OS)
 - Universal platform support (Any Platform)
@@ -65,7 +65,7 @@ Curated list of top AI agent frameworks for business and R&D.
 ### <a name="opencode"></a>[opencode](https://github.com/anomalyco/opencode)
 **The open source coding agent.**
 
-⭐ 104,497 · 🍴 10,153 · 👥 738 · 🛠️ TypeScript
+⭐ 104,498 · 🍴 10,153 · 👥 738 · 🛠️ TypeScript
 
 - Open-source codebase under permissive license
 - Autonomous agent architecture for code generation and execution
@@ -193,12 +193,12 @@ Curated list of top AI agent frameworks for business and R&D.
 ### <a name="nanobot"></a>[nanobot](https://github.com/HKUDS/nanobot)
 **Ultra-lightweight AI agent kernel. Supports multiple providers, custom skills, cron jobs, and multi-channel communication (Telegram, Slack, etc.).**
 
-⭐ 18,787 · 🍴 2,765 · 👥 46 · 🛠️ Python
+⭐ 18,788 · 🍴 2,765 · 👥 46 · 🛠️ Python
 
 - Ultra-lightweight and minimalist AI agent kernel architecture
 - Agnostic support for multiple LLM providers
 - Extensible framework for custom skills and automated cron jobs
-- Multi-channel integration for platforms including Telegram and Slack
+- Multi-channel deployment capabilities across platforms like Telegram and Slack
 
 ### <a name="eliza"></a>[eliza](https://github.com/elizaOS/eliza)
 **Autonomous agents for everyone**
@@ -311,7 +311,7 @@ Curated list of top AI agent frameworks for business and R&D.
 ### <a name="fastcode"></a>[FastCode](https://github.com/HKUDS/FastCode)
 **FastCode: Accelerating and Streamlining Your Code Understanding**
 
-⭐ 322 · 🍴 38 · 👥 3 · 🛠️ Python
+⭐ 323 · 🍴 38 · 👥 3 · 🛠️ Python
 
 - Lightning-fast code parsing with optimized tokenization
 - Context-aware semantic analysis for deep code comprehension
