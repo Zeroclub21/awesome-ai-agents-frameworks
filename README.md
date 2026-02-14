@@ -4,14 +4,14 @@ A curated list of awesome AI agent frameworks, updated daily.
 
 **English** | [Русский](README_RU.md) | [中文](README_ZH.md)
 
-*Last updated: 2026-02-14 10:09:25*
+*Last updated: 2026-02-14 10:10:24*
 
 ## Comparison Table
 
 | Rank | Framework | Stars | Contributors | Change |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 | [openclaw](#openclaw) | 193,063 | 598 | — |
-| 2 | [nanobot](#nanobot) | 18,609 | 45 | — |
+| 1 | [openclaw](#openclaw) | 193,066 | 598 | — |
+| 2 | [nanobot](#nanobot) | 18,609 | 46 | — |
 | 3 | [moltis](#moltis) | 584 | 5 | — |
 | 4 | [opencode](#opencode) | 104,290 | 738 | — |
 | 5 | [MetaGPT](#metagpt) | 64,169 | 148 | — |
@@ -25,7 +25,7 @@ A curated list of awesome AI agent frameworks, updated daily.
 | 13 | [langgraph](#langgraph) | 24,700 | 272 | — |
 | 14 | [haystack](#haystack) | 24,185 | 323 | — |
 | 15 | [babyagi](#babyagi) | 22,133 | 2 | — |
-| 16 | [swarm](#swarm) | 20,951 | 14 | — |
+| 16 | [swarm](#swarm) | 20,950 | 14 | — |
 | 17 | [eliza](#eliza) | 17,506 | 651 | — |
 | 18 | [SuperAGI](#superagi) | 17,170 | 74 | — |
 | 19 | [camel](#camel) | 16,015 | 192 | — |
@@ -41,7 +41,7 @@ A curated list of awesome AI agent frameworks, updated daily.
 
 ### <a name="openclaw"></a>[openclaw](https://github.com/openclaw/openclaw) - Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 
 
-193,063 stars · 33,141 forks · 598 contributors · 5,558 issues · TypeScript · MIT
+193,066 stars · 33,142 forks · 598 contributors · 5,558 issues · TypeScript · MIT
 
     - Cross-OS compatibility
     - Platform-agnostic deployment
@@ -50,7 +50,7 @@ A curated list of awesome AI agent frameworks, updated daily.
 
 ### <a name="nanobot"></a>[nanobot](https://github.com/HKUDS/nanobot) - Ultra-lightweight AI agent kernel. Supports multiple providers, custom skills, cron jobs, and multi-channel communication (Telegram, Slack, etc.). Designed for efficiency and extensibility.
 
-18,609 stars · 2,729 forks · 45 contributors · 400 issues · Python · MIT
+18,609 stars · 2,729 forks · 46 contributors · 400 issues · Python · MIT
 
     - Ultra-lightweight AI agent kernel
     - Support for multiple AI providers
@@ -176,7 +176,7 @@ A curated list of awesome AI agent frameworks, updated daily.
 
 ### <a name="swarm"></a>[swarm](https://github.com/openai/swarm) - Educational framework exploring ergonomic, lightweight multi-agent orchestration. Managed by OpenAI Solution team.
 
-20,951 stars · 2,228 forks · 14 contributors · 16 issues · Python · MIT
+20,950 stars · 2,228 forks · 14 contributors · 16 issues · Python · MIT
 
     - Lightweight multi-agent orchestration with minimal dependencies
     - Ergonomic APIs for intuitive agent definition and handoffs
