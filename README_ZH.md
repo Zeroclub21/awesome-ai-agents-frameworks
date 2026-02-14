@@ -4,16 +4,16 @@
 
 [EN](README.md) | [RU](README_RU.md) | **ZH**
 
-*更新于: 2026-02-14 18:33:55*
+*更新于: 2026-02-14 18:35:13*
 
 | 排名 | 框架 | 星标 | 语言 | 许可证 | 变化 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | [openclaw](#openclaw) | 193,954 | TypeScript | MIT | — |
+| 1 | [openclaw](#openclaw) | 193,956 | TypeScript | MIT | — |
 | 2 | [AutoGPT](#autogpt) | 181,799 | Python | NOASSERTION | ↑2 |
 | 3 | [opencode](#opencode) | 104,499 | TypeScript | MIT | ↑1 |
 | 4 | [MetaGPT](#metagpt) | 64,178 | Python | MIT | ↑1 |
 | 5 | [open-interpreter](#open-interpreter) | 62,143 | Python | AGPL-3.0 | ↑1 |
-| 6 | [autogen](#autogen) | 54,542 | Python | CC-BY-4.0 | ↑1 |
+| 6 | [autogen](#autogen) | 54,543 | Python | CC-BY-4.0 | ↑1 |
 | 7 | [crewAI](#crewai) | 44,117 | Python | MIT | ↑1 |
 | 8 | [agno](#agno) | 37,841 | Python | Apache-2.0 | ↑1 |
 | 9 | [AgentGPT](#agentgpt) | 35,704 | TypeScript | GPL-3.0 | ↑1 |
@@ -29,23 +29,24 @@
 | 19 | [camel](#camel) | 16,017 | Python | Apache-2.0 | — |
 | 20 | [pydantic-ai](#pydantic-ai) | 14,880 | Python | MIT | — |
 | 21 | [E2B](#e2b) | 10,894 | MDX | Apache-2.0 | — |
-| 22 | [PraisonAI](#praisonai) | 5,593 | Python | MIT | — |
-| 23 | [ms-agent](#ms-agent) | 3,978 | Python | Apache-2.0 | — |
-| 24 | [agency-swarm](#agency-swarm) | 3,953 | Python | MIT | — |
-| 25 | [beeai-framework](#beeai-framework) | 3,098 | Python | Apache-2.0 | — |
-| 26 | [anthropic-sdk-python](#anthropic-sdk-python) | 2,760 | Python | MIT | ↓1 |
-| 27 | [moltis](#moltis) | 642 | Rust | MIT | ↓24 |
-| 28 | [FastCode](#fastcode) | 323 | Python | No License | — |
-| 29 | [ValeDesk](#valedesk) | 272 | TypeScript | NOASSERTION | ↓3 |
-| 30 | [topsha](#topsha) | 94 | Python | MIT | ↓3 |
-| 31 | [SkillOS](#skillos) | 1 | Python | MIT | ↓3 |
+| 22 | [picoclaw](#picoclaw) | 6,969 | Go | NOASSERTION | — |
+| 23 | [PraisonAI](#praisonai) | 5,593 | Python | MIT | ↓1 |
+| 24 | [ms-agent](#ms-agent) | 3,978 | Python | Apache-2.0 | ↓1 |
+| 25 | [agency-swarm](#agency-swarm) | 3,953 | Python | MIT | ↓1 |
+| 26 | [beeai-framework](#beeai-framework) | 3,098 | Python | Apache-2.0 | — |
+| 27 | [anthropic-sdk-python](#anthropic-sdk-python) | 2,760 | Python | MIT | ↓2 |
+| 28 | [moltis](#moltis) | 642 | Rust | MIT | ↓25 |
+| 29 | [FastCode](#fastcode) | 324 | Python | No License | — |
+| 30 | [ValeDesk](#valedesk) | 272 | TypeScript | NOASSERTION | ↓4 |
+| 31 | [topsha](#topsha) | 94 | Python | MIT | ↓4 |
+| 32 | [SkillOS](#skillos) | 1 | Python | MIT | ↓4 |
 
 ---
 
 ### <a name="openclaw"></a>[openclaw](https://github.com/openclaw/openclaw)
 **Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 **
 
-⭐ 193,954 · 🍴 33,369 · 👥 607 · 🛠️ TypeScript
+⭐ 193,956 · 🍴 33,370 · 👥 607 · 🛠️ TypeScript
 
 
 ### <a name="autogpt"></a>[AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)
@@ -75,7 +76,7 @@
 ### <a name="autogen"></a>[autogen](https://github.com/microsoft/autogen)
 **A programming framework for agentic AI**
 
-⭐ 54,542 · 🍴 8,218 · 👥 532 · 🛠️ Python
+⭐ 54,543 · 🍴 8,218 · 👥 532 · 🛠️ Python
 
 
 ### <a name="crewai"></a>[crewAI](https://github.com/crewAIInc/crewAI)
@@ -123,10 +124,10 @@
 ### <a name="babyagi"></a>[babyagi](https://github.com/yoheinakajima/babyagi)
 ⭐ 22,134 · 🍴 2,849 · 👥 2 · 🛠️ Python
 
-- 基于大语言模型的任务自动创建、优先级排序与执行闭环机制
-- 集成向量数据库（如Pinecone）实现长期记忆存储与上下文检索
-- 目标导向的自主智能体架构，支持无需人工干预的持续运行
-- 递归式任务生成机制，能够根据前序任务执行结果动态调整后续计划
+- 基于大语言模型（LLM）与向量数据库集成的自主任务驱动架构
+- 任务创建、优先级排序与执行的自动化闭环管理流程
+- 支持长期记忆存储与上下文检索的知识持久化机制
+- 面向复杂目标的递归式任务分解与动态目标对齐能力
 
 ### <a name="swarm"></a>[swarm](https://github.com/openai/swarm)
 **Educational framework exploring ergonomic, lightweight multi-agent orchestration. Managed by OpenAI Solution team.**
@@ -170,6 +171,12 @@
 ⭐ 10,894 · 🍴 769 · 👥 44 · 🛠️ MDX
 
 
+### <a name="picoclaw"></a>[picoclaw](https://github.com/sipeed/picoclaw)
+**picoclaw**
+
+⭐ 6,969 · 🍴 671 · 👥 39 · 🛠️ Go
+
+
 ### <a name="praisonai"></a>[PraisonAI](https://github.com/MervinPraison/PraisonAI)
 **PraisonAI is a production-ready Multi AI Agents framework, designed to create AI Agents to automate and solve problems ranging from simple tasks to complex challenges. It provides a low-code solution to streamline the building and management of multi-agent LLM systems, emphasising simplicity, customisation, and effective human-agent collaboration.**
 
@@ -181,58 +188,38 @@
 
 ⭐ 3,978 · 🍴 460 · 👥 47 · 🛠️ Python
 
-- 轻量级架构，低资源占用
-- 支持代理式自主执行
-- 赋能复杂任务处理
-- 模块化设计，易扩展集成
 
 ### <a name="agency-swarm"></a>[agency-swarm](https://github.com/VRSEN/agency-swarm)
 **Reliable Multi-Agent Orchestration Framework**
 
 ⭐ 3,953 · 🍴 998 · 👥 23 · 🛠️ Python
 
-- 可靠的多代理协作机制
-- 动态任务编排与调度
-- 内置容错与恢复功能
-- 高效的代理间通信协议
 
 ### <a name="beeai-framework"></a>[beeai-framework](https://github.com/i-am-bee/beeai-framework)
 **Build production-ready AI agents in both Python and Typescript.**
 
 ⭐ 3,098 · 🍴 402 · 👥 67 · 🛠️ Python
 
-- 支持Python和TypeScript双语言开发
-- 生产就绪AI代理构建工具
-- 模块化架构与状态管理
-- 高效部署与可扩展运行时
 
 ### <a name="anthropic-sdk-python"></a>[anthropic-sdk-python](https://github.com/anthropics/anthropic-sdk-python)
 ⭐ 2,760 · 🍴 456 · 👥 51 · 🛠️ Python
 
-- 全面支持 Claude 3 系列模型及 Messages API 核心功能
-- 提供高性能的异步 (Async) 与同步客户端支持
-- 基于 Pydantic 的强类型校验与完善的 IDE 自动补全
-- 内置流式响应 (Streaming) 处理与自动重试机制
+- 全面支持同步与异步 (asyncio) 调用模式，适配多样化的生产并发需求。
+- 基于 Pydantic 的强类型校验与自动补全，显著提升开发效率与代码健壮性。
+- 原生支持流式响应 (Streaming)，有效降低大模型交互的首字延迟与感知时长。
+- 内置智能重试机制与完善的错误处理逻辑，确保在复杂网络环境下的高可用性。
 
 ### <a name="moltis"></a>[moltis](https://github.com/moltis-org/moltis)
 **A personal AI assistant built in Rust. Single binary, multi-provider LLMs, long-term memory, sandboxed execution, voice, MCP tools, and multi-channel access (web, Telegram, API).**
 
-⭐ 642 · 🍴 47 · 👥 5 · 🛠️ Rust
+⭐ 642 · 🍴 48 · 👥 5 · 🛠️ Rust
 
-- Rust 单二进制构建
-- 多提供商 LLM 支持
-- 长期记忆机制
-- 沙箱化执行
 
 ### <a name="fastcode"></a>[FastCode](https://github.com/HKUDS/FastCode)
 **FastCode: Accelerating and Streamlining Your Code Understanding**
 
-⭐ 323 · 🍴 38 · 👥 3 · 🛠️ Python
+⭐ 324 · 🍴 38 · 👥 3 · 🛠️ Python
 
-- 超高速代码解析引擎
-- 智能语义分析模块
-- 自动化代码可视化工具
-- 实时推理优化框架
 
 ### <a name="valedesk"></a>[ValeDesk](https://github.com/vakovalskii/ValeDesk)
 **Versatile Almost Local, Eventually Reasonable Assistant 🔫**
