@@ -4,13 +4,13 @@ Curated list of top AI agent frameworks for business and R&D.
 
 **EN** | [RU](README_RU.md) | [ZH](README_ZH.md)
 
-*Last updated: 2026-02-14 18:31:36*
+*Last updated: 2026-02-14 18:33:53*
 
 | Rank | Framework | Stars | Language | License | Change |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | [openclaw](#openclaw) | 193,952 | TypeScript | MIT | — |
+| 1 | [openclaw](#openclaw) | 193,954 | TypeScript | MIT | — |
 | 2 | [AutoGPT](#autogpt) | 181,799 | Python | NOASSERTION | ↑2 |
-| 3 | [opencode](#opencode) | 104,498 | TypeScript | MIT | ↑1 |
+| 3 | [opencode](#opencode) | 104,499 | TypeScript | MIT | ↑1 |
 | 4 | [MetaGPT](#metagpt) | 64,178 | Python | MIT | ↑1 |
 | 5 | [open-interpreter](#open-interpreter) | 62,143 | Python | AGPL-3.0 | ↑1 |
 | 6 | [autogen](#autogen) | 54,542 | Python | CC-BY-4.0 | ↑1 |
@@ -45,7 +45,7 @@ Curated list of top AI agent frameworks for business and R&D.
 ### <a name="openclaw"></a>[openclaw](https://github.com/openclaw/openclaw)
 **Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞**
 
-⭐ 193,952 · 🍴 33,368 · 👥 607 · 🛠️ TypeScript
+⭐ 193,954 · 🍴 33,369 · 👥 607 · 🛠️ TypeScript
 
 - Cross-operating system compatibility (Any OS)
 - Universal platform support (Any Platform)
@@ -65,7 +65,7 @@ Curated list of top AI agent frameworks for business and R&D.
 ### <a name="opencode"></a>[opencode](https://github.com/anomalyco/opencode)
 **The open source coding agent.**
 
-⭐ 104,498 · 🍴 10,153 · 👥 738 · 🛠️ TypeScript
+⭐ 104,499 · 🍴 10,153 · 👥 738 · 🛠️ TypeScript
 
 - Open-source codebase under permissive license
 - Autonomous agent architecture for code generation and execution
@@ -195,10 +195,10 @@ Curated list of top AI agent frameworks for business and R&D.
 
 ⭐ 18,788 · 🍴 2,765 · 👥 46 · 🛠️ Python
 
-- Ultra-lightweight and minimalist AI agent kernel architecture
-- Agnostic support for multiple LLM providers
-- Extensible framework for custom skills and automated cron jobs
-- Multi-channel deployment capabilities across platforms like Telegram and Slack
+- Ultra-lightweight AI agent kernel for high-performance deployment
+- Multi-provider LLM support for model agnosticism and flexibility
+- Extensible architecture supporting custom skills and modular functionality
+- Multi-channel communication capabilities with integrated cron-based automation
 
 ### <a name="eliza"></a>[eliza](https://github.com/elizaOS/eliza)
 **Autonomous agents for everyone**
