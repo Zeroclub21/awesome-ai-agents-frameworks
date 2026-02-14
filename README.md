@@ -4,11 +4,13 @@ A curated list of awesome AI agent frameworks, updated daily.
 
 **English** | [Русский](README_RU.md) | [中文](README_ZH.md)
 
-*Last updated: 2026-02-14 04:36:09*
+*Last updated: 2026-02-14 04:37:32*
+
+## Comparison Table
 
 | Rank | Framework | Stars | Contributors | Change |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 | [openclaw](#openclaw) | 192,425 | 595 | — |
+| 1 | [openclaw](#openclaw) | 192,428 | 595 | — |
 | 2 | [nanobot](#nanobot) | 18,467 | 45 | — |
 | 3 | [moltis](#moltis) | 527 | 5 | — |
 | 4 | [AutoGPT](#autogpt) | 181,785 | 802 | — |
@@ -38,7 +40,7 @@ A curated list of awesome AI agent frameworks, updated daily.
 
 ### <a name="openclaw"></a>[openclaw](https://github.com/openclaw/openclaw) - Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 
 
-192,425 stars · 32,950 forks · 595 contributors · 5,443 issues · TypeScript · MIT
+192,428 stars · 32,952 forks · 595 contributors · 5,444 issues · TypeScript · MIT
 
     - Cross-OS compatibility
     - Platform-agnostic deployment
@@ -166,10 +168,10 @@ A curated list of awesome AI agent frameworks, updated daily.
 
 22,133 stars · 2,849 forks · 2 contributors · 17 issues · Python · No License
 
-    - Autonomous task creation and prioritization using LLMs
-    - Vector embeddings for task similarity and deduplication
-    - Iterative execution loop with persistent memory
-    - Integration with vector databases for long-term storage
+    - Autonomous task creation using LLMs like GPT-4
+    - Task prioritization based on embeddings and LLM scoring
+    - Vector database integration (e.g., Pinecone) for task storage and retrieval
+    - Iterative execution loop for planning, execution, and refinement
 
 ### <a name="swarm"></a>[swarm](https://github.com/openai/swarm) - Educational framework exploring ergonomic, lightweight multi-agent orchestration. Managed by OpenAI Solution team.
 
@@ -256,10 +258,10 @@ A curated list of awesome AI agent frameworks, updated daily.
 
 2,760 stars · 456 forks · 51 contributors · 101 issues · Python · MIT
 
-    - Asynchronous client support with async/await for non-blocking operations
-    - Streaming responses for real-time token-by-token output
-    - Native support for tool use and function calling with Pydantic models
-    - Automatic retries, rate limiting, and robust error handling
+    - Official Python SDK for Anthropic's API
+    - Synchronous and asynchronous client support via aiohttp
+    - Streaming response handling for real-time interactions
+    - Type-safe interfaces with Pydantic models and full type hints
 
 ---
 ### @tsingular
