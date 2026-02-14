@@ -4,11 +4,11 @@ Curated list of top AI agent frameworks for business and R&D.
 
 **EN** | [RU](README_RU.md) | [ZH](README_ZH.md)
 
-*Last updated: 2026-02-14 20:59:04*
+*Last updated: 2026-02-14 21:00:08*
 
 | Rank | Framework | Stars | Language | License | Change |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | [openclaw](#openclaw) | 194,141 | TypeScript | MIT | — |
+| 1 | [openclaw](#openclaw) | 194,143 | TypeScript | MIT | — |
 | 2 | [AutoGPT](#autogpt) | 181,802 | Python | NOASSERTION | ↑2 |
 | 3 | [opencode](#opencode) | 104,546 | TypeScript | MIT | ↑1 |
 | 4 | [MetaGPT](#metagpt) | 64,179 | Python | MIT | ↑1 |
@@ -29,7 +29,7 @@ Curated list of top AI agent frameworks for business and R&D.
 | 19 | [camel](#camel) | 16,017 | Python | Apache-2.0 | — |
 | 20 | [pydantic-ai](#pydantic-ai) | 14,880 | Python | MIT | — |
 | 21 | [E2B](#e2b) | 10,894 | MDX | Apache-2.0 | — |
-| 22 | [picoclaw](#picoclaw) | 7,218 | Go | NOASSERTION | — |
+| 22 | [picoclaw](#picoclaw) | 7,223 | Go | NOASSERTION | — |
 | 23 | [PraisonAI](#praisonai) | 5,593 | Python | MIT | ↓1 |
 | 24 | [ms-agent](#ms-agent) | 3,978 | Python | Apache-2.0 | ↓1 |
 | 25 | [agency-swarm](#agency-swarm) | 3,955 | Python | MIT | ↓1 |
@@ -47,7 +47,7 @@ Curated list of top AI agent frameworks for business and R&D.
 ### <a name="openclaw"></a>[openclaw](https://github.com/openclaw/openclaw)
 **Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞**
 
-⭐ 194,141 · 🍴 33,431 · 👥 610 · 🛠️ TypeScript
+⭐ 194,143 · 🍴 33,431 · 👥 610 · 🛠️ TypeScript
 
 - Cross-operating system compatibility (Any OS)
 - Universal platform support (Any Platform)
@@ -67,7 +67,7 @@ Curated list of top AI agent frameworks for business and R&D.
 ### <a name="opencode"></a>[opencode](https://github.com/anomalyco/opencode)
 **The open source coding agent.**
 
-⭐ 104,546 · 🍴 10,157 · 👥 739 · 🛠️ TypeScript
+⭐ 104,546 · 🍴 10,158 · 👥 739 · 🛠️ TypeScript
 
 - Open-source codebase under permissive license
 - Autonomous agent architecture for code generation and execution
@@ -255,7 +255,7 @@ Curated list of top AI agent frameworks for business and R&D.
 ### <a name="picoclaw"></a>[picoclaw](https://github.com/sipeed/picoclaw)
 **picoclaw**
 
-⭐ 7,218 · 🍴 697 · 👥 39 · 🛠️ Go
+⭐ 7,223 · 🍴 697 · 👥 39 · 🛠️ Go
 
 - RP2040-based control architecture for low-latency servo management
 - Compact, 3D-printable mechanical design optimized for small-scale robotics
