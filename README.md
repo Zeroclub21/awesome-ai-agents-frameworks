@@ -4,23 +4,23 @@ A curated list of awesome AI agent frameworks, updated daily.
 
 **English** | [Русский](README_RU.md) | [中文](README_ZH.md)
 
-*Last updated: 2026-02-14 05:21:55*
+*Last updated: 2026-02-14 05:27:15*
 
 ## Comparison Table
 
 | Rank | Framework | Stars | Contributors | Change |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 | [openclaw](#openclaw) | 192,499 | 595 | — |
-| 2 | [nanobot](#nanobot) | 18,483 | 45 | — |
-| 3 | [moltis](#moltis) | 535 | 5 | — |
+| 1 | [openclaw](#openclaw) | 192,509 | 595 | — |
+| 2 | [nanobot](#nanobot) | 18,485 | 45 | — |
+| 3 | [moltis](#moltis) | 537 | 5 | — |
 | 4 | [MetaGPT](#metagpt) | 64,165 | 148 | ↑1 |
 | 5 | [open-interpreter](#open-interpreter) | 62,135 | 132 | ↑1 |
 | 6 | [autogen](#autogen) | 54,535 | 532 | ↑1 |
 | 7 | [crewAI](#crewai) | 44,090 | 279 | ↑1 |
 | 8 | [agno](#agno) | 37,839 | 390 | ↑1 |
 | 9 | [AgentGPT](#agentgpt) | 35,700 | 72 | ↑1 |
-| 10 | [smolagents](#smolagents) | 25,411 | 197 | ↑1 |
-| 11 | [gpt-researcher](#gpt-researcher) | 25,304 | 216 | ↑1 |
+| 10 | [smolagents](#smolagents) | 25,412 | 197 | ↑1 |
+| 11 | [gpt-researcher](#gpt-researcher) | 25,305 | 216 | ↑1 |
 | 12 | [langgraph](#langgraph) | 24,698 | 272 | ↑1 |
 | 13 | [haystack](#haystack) | 24,185 | 323 | ↑1 |
 | 14 | [babyagi](#babyagi) | 22,133 | 2 | ↑1 |
@@ -39,7 +39,7 @@ A curated list of awesome AI agent frameworks, updated daily.
 
 ### <a name="openclaw"></a>[openclaw](https://github.com/openclaw/openclaw) - Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 
 
-192,499 stars · 32,979 forks · 595 contributors · 5,465 issues · TypeScript · MIT
+192,509 stars · 32,983 forks · 595 contributors · 5,468 issues · TypeScript · MIT
 
     - Cross-OS compatibility
     - Platform-agnostic deployment
@@ -48,7 +48,7 @@ A curated list of awesome AI agent frameworks, updated daily.
 
 ### <a name="nanobot"></a>[nanobot](https://github.com/HKUDS/nanobot) - Ultra-lightweight AI agent kernel. Supports multiple providers, custom skills, cron jobs, and multi-channel communication (Telegram, Slack, etc.). Designed for efficiency and extensibility.
 
-18,483 stars · 2,702 forks · 45 contributors · 401 issues · Python · MIT
+18,485 stars · 2,702 forks · 45 contributors · 401 issues · Python · MIT
 
     - Ultra-lightweight AI agent kernel
     - Support for multiple AI providers
@@ -57,7 +57,7 @@ A curated list of awesome AI agent frameworks, updated daily.
 
 ### <a name="moltis"></a>[moltis](https://github.com/moltis-org/moltis) - A personal AI assistant built in Rust. Single binary, multi-provider LLMs, long-term memory, sandboxed execution, voice, MCP tools, and multi-channel access (web, Telegram, API).
 
-535 stars · 40 forks · 5 contributors · 33 issues · Rust · MIT
+537 stars · 40 forks · 5 contributors · 33 issues · Rust · MIT
 
     - Rust-based single binary for easy deployment
     - Multi-provider LLM support
@@ -120,7 +120,7 @@ A curated list of awesome AI agent frameworks, updated daily.
 
 ### <a name="smolagents"></a>[smolagents](https://github.com/huggingface/smolagents) - 🤗 smolagents: a barebones library for agents that think in code.
 
-25,411 stars · 2,289 forks · 197 contributors · 369 issues · Python · Apache-2.0
+25,412 stars · 2,289 forks · 197 contributors · 369 issues · Python · Apache-2.0
 
     - Barebones, lightweight design with minimal dependencies
     - Agents reason and act by generating and executing Python code
@@ -129,7 +129,7 @@ A curated list of awesome AI agent frameworks, updated daily.
 
 ### <a name="gpt-researcher"></a>[gpt-researcher](https://github.com/assafelovic/gpt-researcher) - An autonomous agent that conducts deep research on any data using any LLM providers.
 
-25,304 stars · 3,359 forks · 216 contributors · 180 issues · Python · Apache-2.0
+25,305 stars · 3,359 forks · 216 contributors · 180 issues · Python · Apache-2.0
 
     - Autonomous agent architecture enabling independent research execution
     - Deep research capabilities through iterative data gathering and synthesis
