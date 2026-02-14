@@ -4,15 +4,15 @@ A curated list of awesome AI agent frameworks, updated daily.
 
 **English** | [Русский](README_RU.md) | [中文](README_ZH.md)
 
-*Last updated: 2026-02-14 12:32:28*
+*Last updated: 2026-02-14 12:33:26*
 
 ## Comparison Table
 
 | Rank | Framework | Stars | Contributors | Change |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 | [openclaw](#openclaw) | 193,289 | 599 | — |
+| 1 | [openclaw](#openclaw) | 193,293 | 599 | — |
 | 2 | [AutoGPT](#autogpt) | 181,793 | 802 | ↑2 |
-| 3 | [opencode](#opencode) | 104,338 | 738 | ↑1 |
+| 3 | [opencode](#opencode) | 104,339 | 738 | ↑1 |
 | 4 | [MetaGPT](#metagpt) | 64,170 | 148 | ↑1 |
 | 5 | [open-interpreter](#open-interpreter) | 62,142 | 132 | ↑1 |
 | 6 | [autogen](#autogen) | 54,539 | 532 | ↑1 |
@@ -46,7 +46,7 @@ A curated list of awesome AI agent frameworks, updated daily.
 
 ### <a name="openclaw"></a>[openclaw](https://github.com/openclaw/openclaw) — Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞
 
-193,289 stars · 33,193 forks · 599 contributors · 5,577 issues · TypeScript · MIT
+193,293 stars · 33,194 forks · 599 contributors · 5,577 issues · TypeScript · MIT
 
     - Cross-operating system compatibility (Any OS)
     - Universal platform support (Any Platform)
@@ -64,7 +64,7 @@ A curated list of awesome AI agent frameworks, updated daily.
 
 ### <a name="opencode"></a>[opencode](https://github.com/anomalyco/opencode) — The open source coding agent.
 
-104,338 stars · 10,125 forks · 738 contributors · 5,144 issues · TypeScript · MIT
+104,339 stars · 10,125 forks · 738 contributors · 5,144 issues · TypeScript · MIT
 
     - Open-source codebase under permissive license
     - Autonomous agent architecture for code generation and execution
