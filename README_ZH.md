@@ -4,14 +4,14 @@
 
 [English](README.md) | [Русский](README_RU.md) | **中文**
 
-*最后更新时间: 2026-02-14 10:11:18*
+*最后更新时间: 2026-02-14 10:12:22*
 
 ## 对比表
 
 | 排名 | 框架 | 星标 | 贡献者 | 变化 |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 | [openclaw](#openclaw) | 193,063 | 598 | — |
-| 2 | [nanobot](#nanobot) | 18,609 | 45 | — |
+| 1 | [openclaw](#openclaw) | 193,066 | 598 | — |
+| 2 | [nanobot](#nanobot) | 18,609 | 46 | — |
 | 3 | [moltis](#moltis) | 584 | 5 | — |
 | 4 | [opencode](#opencode) | 104,290 | 738 | — |
 | 5 | [MetaGPT](#metagpt) | 64,169 | 148 | — |
@@ -25,7 +25,7 @@
 | 13 | [langgraph](#langgraph) | 24,700 | 272 | — |
 | 14 | [haystack](#haystack) | 24,185 | 323 | — |
 | 15 | [babyagi](#babyagi) | 22,133 | 2 | — |
-| 16 | [swarm](#swarm) | 20,951 | 14 | — |
+| 16 | [swarm](#swarm) | 20,950 | 14 | — |
 | 17 | [eliza](#eliza) | 17,506 | 651 | — |
 | 18 | [SuperAGI](#superagi) | 17,170 | 74 | — |
 | 19 | [camel](#camel) | 16,015 | 192 | — |
@@ -41,21 +41,21 @@
 
 ### <a name="openclaw"></a>[openclaw](https://github.com/openclaw/openclaw) - Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 
 
-193,063 星标 · 33,141 分叉 · 598 贡献者 · 5,558 问题 · TypeScript · MIT
+193,066 星标 · 33,142 分叉 · 598 贡献者 · 5,558 问题 · TypeScript · MIT
 
-    - 跨操作系统兼容性，支持任意OS部署
-    - 多平台适配，覆盖所有硬件和环境
-    - 个性化AI助手框架，本地化运行
-    - 龙虾式架构设计，轻量高效抓取任务
+    - 跨操作系统支持：兼容Windows、macOS、Linux等任意OS
+    - 跨平台部署：支持桌面、移动、服务器等任意平台
+    - 个性化AI助手：提供定制化个人智能交互体验
+    - 轻量级架构设计：仿生龙虾爪式高效模块化框架
 
 ### <a name="nanobot"></a>[nanobot](https://github.com/HKUDS/nanobot) - Ultra-lightweight AI agent kernel. Supports multiple providers, custom skills, cron jobs, and multi-channel communication (Telegram, Slack, etc.). Designed for efficiency and extensibility.
 
-18,609 星标 · 2,729 分叉 · 45 贡献者 · 400 问题 · Python · MIT
+18,609 星标 · 2,729 分叉 · 46 贡献者 · 400 问题 · Python · MIT
 
-    - 超轻量级AI代理内核
+    - 超轻量级 AI 代理内核
     - 支持多个提供商
-    - 自定义技能
-    - Cron作业与多渠道通信
+    - 自定义技能与 Cron 任务
+    - 多渠道通信（Telegram、Slack 等）
 
 ### <a name="moltis"></a>[moltis](https://github.com/moltis-org/moltis) - A personal AI assistant built in Rust. Single binary, multi-provider LLMs, long-term memory, sandboxed execution, voice, MCP tools, and multi-channel access (web, Telegram, API).
 
@@ -70,91 +70,91 @@
 
 104,290 星标 · 10,118 分叉 · 738 贡献者 · 5,134 问题 · TypeScript · MIT
 
-    - 开源架构设计
-    - 自主代码生成能力
-    - 多语言编程支持
-    - 模块化扩展框架
+    - 开源代码库，完全透明可贡献
+    - 自主代码生成与调试能力
+    - 多编程语言支持与工具链集成
+    - 高效的Agent架构，支持复杂任务自动化
 
 ### <a name="metagpt"></a>[MetaGPT](https://github.com/FoundationAgents/MetaGPT) - 🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming
 
 64,169 星标 · 8,060 分叉 · 148 贡献者 · 79 问题 · Python · MIT
 
-    - 多代理协作机制：模拟产品经理、架构师、工程师等角色分工合作
-    - 标准化操作流程（SOP）：定义软件开发全流程规范
-    - 自然语言编程：从用户需求生成PRD、设计、代码和测试
-    - 层次化输出生成：自动产出完整软件工程 artifact
+    - 多代理协作框架
+    - 模拟AI软件公司组织结构
+    - 支持自然语言编程
+    - 标准化软件开发流程
 
 ### <a name="open-interpreter"></a>[open-interpreter](https://github.com/openinterpreter/open-interpreter) - A natural language interface for computers
 
 62,139 星标 · 5,344 分叉 · 132 贡献者 · 295 问题 · Python · AGPL-3.0
 
-    - 基于大型语言模型的自然语言指令解析
-    - 本地代码执行引擎，支持Python等多语言
-    - 集成计算机视觉，处理屏幕截图
-    - 安全沙箱机制与用户权限控制
+    - 自然语言解析引擎
+    - 自动代码生成与执行
+    - 本地计算机接口集成
+    - 多模态工具调用支持
 
 ### <a name="autogen"></a>[autogen](https://github.com/microsoft/autogen) - A programming framework for agentic AI
 
 54,539 星标 · 8,216 分叉 · 532 贡献者 · 586 问题 · Python · CC-BY-4.0
 
-    - 多代理协作对话系统
-    - 自定义代理与工具集成
-    - 人类参与支持机制
-    - 内置代码执行与自动化工作流
+    - 多代理协作框架，支持代理间对话与任务分工
+    - 自定义代理设计，可集成工具与函数调用
+    - 无缝集成多种LLM模型，实现自动化工作流
+    - 异步执行与群聊机制，提升系统可扩展性
 
 ### <a name="crewai"></a>[crewAI](https://github.com/crewAIInc/crewAI) - Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.
 
 44,099 星标 · 5,905 分叉 · 279 贡献者 · 277 问题 · Python · MIT
 
-    - 角色扮演自主AI代理的编排
-    - 促进代理间的协作智能
-    - 支持代理无缝协作
-    - 高效处理复杂任务
+    - 角色扮演AI代理编排机制
+    - 自主AI代理支持
+    - 协作智能培养框架
+    - 无缝代理协作处理复杂任务
 
 ### <a name="agno"></a>[agno](https://github.com/agno-agi/agno) - Build multi-agent systems that learn and improve with every interaction.
 
 37,836 星标 · 5,006 分叉 · 390 贡献者 · 565 问题 · Python · Apache-2.0
 
-    - 多代理系统架构
-    - 交互式持续学习机制
-    - 实时反馈优化循环
-    - 自适应行为改进引擎
+    - 多代理系统架构，支持构建协作代理网络
+    - 交互式持续学习机制，每次交互自动优化性能
+    - 经验反馈循环，实现代理智能逐步提升
+    - 自适应知识共享模块，促进代理间学习与改进
 
 ### <a name="agentgpt"></a>[AgentGPT](https://github.com/reworkd/AgentGPT) - 🤖 Assemble, configure, and deploy autonomous AI Agents in your browser.
 
 35,700 星标 · 9,453 分叉 · 72 贡献者 · 220 问题 · TypeScript · GPL-3.0
 
-    - 浏览器原生部署：无需服务器，直接在浏览器中运行自主AI代理。
-    - 模块化组装：支持从组件快速组装自定义AI代理。
-    - 可视化配置：提供直观界面配置代理目标、行为和参数。
-    - 自主执行引擎：代理可独立规划、执行多步骤任务以实现目标。
+    - 浏览器内组装AI代理
+    - 灵活配置代理行为
+    - 一键部署自主代理
+    - 无需后端服务器支持
 
 ### <a name="smolagents"></a>[smolagents](https://github.com/huggingface/smolagents) - 🤗 smolagents: a barebones library for agents that think in code.
 
 25,415 星标 · 2,289 分叉 · 197 贡献者 · 369 问题 · Python · Apache-2.0
 
-    - 极简裸机库设计，轻量级依赖
-    - 支持代码驱动的智能代理
-    - 代理通过代码进行推理与执行
-    - 易集成Hugging Face生态
+    - 极简裸机设计：最小依赖，轻量级库
+    - 代码思维机制：代理通过生成和执行代码进行推理
+    - 简单API接口：易于定义代理和工具
+    - 支持工具集成：无缝调用外部工具和函数
 
 ### <a name="gpt-researcher"></a>[gpt-researcher](https://github.com/assafelovic/gpt-researcher) - An autonomous agent that conducts deep research on any data using any LLM providers.
 
 25,307 星标 · 3,359 分叉 · 216 贡献者 · 180 问题 · Python · Apache-2.0
 
-    - 自主代理架构，支持独立开展研究任务
-    - 深度研究引擎，可处理复杂数据分析
-    - 通用数据兼容性，支持任意数据源输入
-    - 多LLM提供商集成，可无缝切换任意大语言模型
+    - 自主代理架构，支持独立执行研究任务
+    - 深度研究能力，可对复杂主题进行多轮分析
+    - 任意数据兼容，支持多种数据源和格式
+    - 多LLM提供商集成，可无缝切换任意大型语言模型
 
 ### <a name="langgraph"></a>[langgraph](https://github.com/langchain-ai/langgraph) - Build resilient language agents as graphs.
 
 24,700 星标 · 4,301 分叉 · 272 贡献者 · 290 问题 · Python · MIT
 
-    - 图结构建模：将语言代理构建为有向图，支持节点和边定义工作流
-    - 状态持久化：内置检查点机制，实现代理状态的可靠保存和恢复
-    - 容错机制：支持错误处理、重试和分支逻辑，提升代理鲁棒性
-    - 循环支持：允许图中循环和条件边缘，实现迭代式代理行为
+    - 图状工作流建模：将语言代理构建为有向图，节点代表动作或工具，边定义执行流程。
+    - 弹性循环支持：允许图中存在循环，实现自适应决策、重试机制和错误恢复，提升代理鲁棒性。
+    - 状态管理和持久化：内置检查点机制，维护跨调用状态，支持中断恢复和人类干预。
+    - 条件分支与多代理协作：支持动态条件边和并行执行，便于构建复杂多代理系统。
 
 ### <a name="haystack"></a>[haystack](https://github.com/deepset-ai/haystack) - Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Design modular pipelines and agent workflows with explicit control over retrieval, routing, memory, and generation. Built for scalable agents, RAG, multimodal applications, semantic search, and conversational systems.
 
@@ -162,116 +162,116 @@
 
     - 模块化管道和代理工作流设计
     - 对检索、路由、内存和生成的明确控制
-    - 支持可扩展代理、RAG、多模态应用、语义搜索和对话系统
-    - 上下文工程的生产就绪LLM应用构建
+    - 支持可扩展代理、RAG和多模态应用
+    - 适用于语义搜索和对话系统
 
 ### <a name="babyagi"></a>[babyagi](https://github.com/yoheinakajima/babyagi)
 
 22,133 星标 · 2,849 分叉 · 2 贡献者 · 17 问题 · Python · No License
 
-    - 任务创建机制：利用LLM基于现有任务和结果生成新任务
-    - 任务优先级排序：通过LLM对任务列表进行智能优先级评估
-    - 向量数据库集成：使用Pinecone等存储任务和执行结果以支持检索
-    - 自主执行循环：持续迭代任务执行、存储和生成，实现目标导向自治
+    - 基于LLM的任务创建与管理
+    - 嵌入向量相似度任务优先级排序
+    - 向量数据库存储任务与执行结果
+    - 自主循环执行机制（创建-排序-执行）
 
 ### <a name="swarm"></a>[swarm](https://github.com/openai/swarm) - Educational framework exploring ergonomic, lightweight multi-agent orchestration. Managed by OpenAI Solution team.
 
-20,951 星标 · 2,228 分叉 · 14 贡献者 · 16 问题 · Python · MIT
+20,950 星标 · 2,228 分叉 · 14 贡献者 · 16 问题 · Python · MIT
 
-    - 轻量级多代理编排
-    - 人体工程学设计
-    - 教育性框架
-    - OpenAI解决方案团队维护
+    - 轻量级架构设计
+    - 人体工程学友好界面
+    - 多代理智能编排
+    - 教育导向开发框架
 
 ### <a name="eliza"></a>[eliza](https://github.com/elizaOS/eliza) - Autonomous agents for everyone
 
 17,506 星标 · 5,413 分叉 · 651 贡献者 · 140 问题 · TypeScript · MIT
 
-    - 无代码自主代理构建器
-    - 内置规划与执行引擎
-    - 多代理协作与通信协议
-    - 开源易集成工具链
+    - 自主代理架构
+    - 无代码代理构建
+    - 多模态工具集成
+    - 实时自适应学习
 
 ### <a name="superagi"></a>[SuperAGI](https://github.com/TransformerOptimus/SuperAGI) - <⚡️> SuperAGI - A dev-first open source autonomous AI agent framework. Enabling developers to build, manage & run useful autonomous agents quickly and reliably.
 
 17,170 星标 · 2,158 分叉 · 74 贡献者 · 211 问题 · Python · MIT
 
-    - 开发者优先设计
-    - 开源自主AI代理框架
-    - 快速构建自主代理
-    - 可靠管理与运行代理
+    - 开源架构，开发者优先设计
+    - 支持快速构建自治AI代理
+    - 高效管理自治代理工具
+    - 可靠运行有用自治代理
 
 ### <a name="camel"></a>[camel](https://github.com/camel-ai/camel) - 🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://www.camel-ai.org
 
 16,015 星标 · 1,771 分叉 · 192 贡献者 · 444 问题 · Python · Apache-2.0
 
-    - 领先的多智能体框架
-    - 支持代理间自然语言通信
+    - 多代理协作框架
+    - 角色扮演机制
+    - 代理间自然语言通信
     - 探索代理缩放定律
-    - 兼容多种大型语言模型
 
 ### <a name="pydantic-ai"></a>[pydantic-ai](https://github.com/pydantic/pydantic-ai) - GenAI Agent Framework, the Pydantic way
 
 14,876 星标 · 1,640 分叉 · 368 贡献者 · 536 问题 · Python · MIT
 
-    - 基于 Pydantic 的类型安全代理状态管理
-    - Pydantic 模式驱动的结构化 LLM 输出
-    - 工具函数自动验证与无缝集成
-    - 模块化工作流编排与验证管道
+    - 基于 Pydantic 的类型安全模型定义，确保 AI 代理输入输出验证
+    - 支持生成式 AI 代理的工具调用与链式工作流
+    - 自动解析和验证 LLM 输出，减少幻觉风险
+    - 模块化设计，便于扩展多代理协作与集成流行 LLM
 
 ### <a name="e2b"></a>[E2B](https://github.com/e2b-dev/E2B) - Open-source, secure environment with real-world tools for enterprise-grade agents.
 
 10,889 星标 · 769 分叉 · 44 贡献者 · 58 问题 · MDX · Apache-2.0
 
-    - 开源框架
+    - 开源架构
     - 安全沙箱环境
-    - 集成真实世界工具
-    - 支持企业级AI代理
+    - 预置真实世界工具
+    - 企业级AI代理支持
 
 ### <a name="praisonai"></a>[PraisonAI](https://github.com/MervinPraison/PraisonAI) - PraisonAI is a production-ready Multi AI Agents framework, designed to create AI Agents to automate and solve problems ranging from simple tasks to complex challenges. It provides a low-code solution to streamline the building and management of multi-agent LLM systems, emphasising simplicity, customisation, and effective human-agent collaboration.
 
 5,593 星标 · 763 分叉 · 30 贡献者 · 58 问题 · Python · MIT
 
     - 生产就绪的多AI代理框架
-    - 低代码构建和管理多代理LLM系统
-    - 支持从简单到复杂任务的自动化解决
-    - 强调简单性、自定义性和高效人类-代理协作
+    - 低代码解决方案，简化多代理LLM系统构建与管理
+    - 支持从简单任务到复杂挑战的自动化问题解决
+    - 强调简单性、自定义性和高效人机协作
 
 ### <a name="ms-agent"></a>[ms-agent](https://github.com/modelscope/ms-agent) - MS-Agent: a lightweight framework to empower agentic execution of complex tasks
 
 3,978 星标 · 460 分叉 · 47 贡献者 · 7 问题 · Python · Apache-2.0
 
-    - 轻量级框架设计，低资源占用
-    - 支持代理式（Agentic）任务执行
-    - 赋能复杂任务的自主分解与执行
-    - 模块化架构，便于集成与扩展
+    - 轻量级架构，低资源占用与快速部署
+    - 代理式执行引擎，支持自主规划与工具调用
+    - 复杂任务分解机制，实现分步执行与错误恢复
+    - 模块化设计，便于扩展与自定义代理行为
 
 ### <a name="agency-swarm"></a>[agency-swarm](https://github.com/VRSEN/agency-swarm) - Reliable Multi-Agent Orchestration Framework
 
 3,952 星标 · 998 分叉 · 23 贡献者 · 14 问题 · Python · MIT
 
-    - 多代理协作编排引擎
-    - 高可靠性和容错机制
-    - 动态任务调度与负载均衡
-    - 异步通信与状态同步
+    - 多代理协作支持
+    - 可靠任务编排机制
+    - 故障自动恢复
+    - 动态代理调度
 
 ### <a name="anthropic-sdk-python"></a>[anthropic-sdk-python](https://github.com/anthropics/anthropic-sdk-python)
 
 2,760 星标 · 456 分叉 · 51 贡献者 · 103 问题 · Python · MIT
 
-    - 异步客户端支持：提供AsyncClient实现非阻塞API调用。
-    - 流式响应：支持实时流式传输模型输出。
-    - 工具调用集成：无缝支持函数工具和自定义工具使用。
-    - 类型安全设计：内置Pydantic模型和完整的类型提示。
+    - 支持同步和异步客户端调用
+    - 流式响应和工具使用功能
+    - 基于Pydantic的类型安全模型
+    - 易于集成的Anthropic API客户端
 
 ### <a name="skillos"></a>[SkillOS](https://github.com/AlexeyPevz/SkillOS) - Self-hosted AI agent orchestration framework with skills, policies, approvals, budgets & observability
 
 1 星标 · 0 分叉 · 2 贡献者 · 0 问题 · Python · MIT
 
     - 自托管部署
-    - AI代理编排
-    - 技能与策略支持
-    - 审批、预算与可观测性
+    - AI代理编排引擎
+    - 模块化技能系统
+    - 策略、审批、预算控制与可观测性
 
 ---
 ### @tsingular
