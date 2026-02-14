@@ -4,13 +4,13 @@
 
 [EN](README.md) | [RU](README_RU.md) | **ZH**
 
-*更新于: 2026-02-14 18:30:46*
+*更新于: 2026-02-14 18:31:38*
 
 | 排名 | 框架 | 星标 | 语言 | 许可证 | 变化 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | [openclaw](#openclaw) | 193,951 | TypeScript | MIT | — |
+| 1 | [openclaw](#openclaw) | 193,952 | TypeScript | MIT | — |
 | 2 | [AutoGPT](#autogpt) | 181,799 | Python | NOASSERTION | ↑2 |
-| 3 | [opencode](#opencode) | 104,497 | TypeScript | MIT | ↑1 |
+| 3 | [opencode](#opencode) | 104,498 | TypeScript | MIT | ↑1 |
 | 4 | [MetaGPT](#metagpt) | 64,178 | Python | MIT | ↑1 |
 | 5 | [open-interpreter](#open-interpreter) | 62,143 | Python | AGPL-3.0 | ↑1 |
 | 6 | [autogen](#autogen) | 54,542 | Python | CC-BY-4.0 | ↑1 |
@@ -23,7 +23,7 @@
 | 13 | [haystack](#haystack) | 24,188 | MDX | Apache-2.0 | ↑1 |
 | 14 | [babyagi](#babyagi) | 22,134 | Python | No License | ↑1 |
 | 15 | [swarm](#swarm) | 20,952 | Python | MIT | ↑1 |
-| 16 | [nanobot](#nanobot) | 18,787 | Python | MIT | ↓14 |
+| 16 | [nanobot](#nanobot) | 18,788 | Python | MIT | ↓14 |
 | 17 | [eliza](#eliza) | 17,506 | TypeScript | MIT | — |
 | 18 | [SuperAGI](#superagi) | 17,170 | Python | MIT | — |
 | 19 | [camel](#camel) | 16,017 | Python | Apache-2.0 | — |
@@ -35,7 +35,7 @@
 | 25 | [beeai-framework](#beeai-framework) | 3,098 | Python | Apache-2.0 | — |
 | 26 | [anthropic-sdk-python](#anthropic-sdk-python) | 2,760 | Python | MIT | ↓1 |
 | 27 | [moltis](#moltis) | 642 | Rust | MIT | ↓24 |
-| 28 | [FastCode](#fastcode) | 322 | Python | No License | — |
+| 28 | [FastCode](#fastcode) | 323 | Python | No License | — |
 | 29 | [ValeDesk](#valedesk) | 272 | TypeScript | NOASSERTION | ↓3 |
 | 30 | [topsha](#topsha) | 94 | Python | MIT | ↓3 |
 | 31 | [SkillOS](#skillos) | 1 | Python | MIT | ↓3 |
@@ -45,7 +45,7 @@
 ### <a name="openclaw"></a>[openclaw](https://github.com/openclaw/openclaw)
 **Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 **
 
-⭐ 193,951 · 🍴 33,367 · 👥 607 · 🛠️ TypeScript
+⭐ 193,952 · 🍴 33,368 · 👥 607 · 🛠️ TypeScript
 
 
 ### <a name="autogpt"></a>[AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)
@@ -57,7 +57,7 @@
 ### <a name="opencode"></a>[opencode](https://github.com/anomalyco/opencode)
 **The open source coding agent.**
 
-⭐ 104,497 · 🍴 10,153 · 👥 738 · 🛠️ TypeScript
+⭐ 104,498 · 🍴 10,153 · 👥 738 · 🛠️ TypeScript
 
 
 ### <a name="metagpt"></a>[MetaGPT](https://github.com/FoundationAgents/MetaGPT)
@@ -123,10 +123,10 @@
 ### <a name="babyagi"></a>[babyagi](https://github.com/yoheinakajima/babyagi)
 ⭐ 22,134 · 🍴 2,849 · 👥 2 · 🛠️ Python
 
-- 基于目标的自主任务管理与执行循环
-- 利用向量数据库实现长期上下文记忆与检索
-- 动态任务优先级排序与实时任务列表更新机制
-- 结合大语言模型（LLM）的递归式任务生成与逻辑推理能力
+- 基于任务创建、优先级排序和执行的自主循环机制
+- 集成大语言模型（LLM）与向量数据库实现长期记忆存储
+- 以目标为导向的自我驱动型智能体（Autonomous Agent）架构
+- 支持高度定制化与模块化扩展的开源技术框架
 
 ### <a name="swarm"></a>[swarm](https://github.com/openai/swarm)
 **Educational framework exploring ergonomic, lightweight multi-agent orchestration. Managed by OpenAI Solution team.**
@@ -137,7 +137,7 @@
 ### <a name="nanobot"></a>[nanobot](https://github.com/HKUDS/nanobot)
 **"🐈 nanobot: The Ultra-Lightweight OpenClaw"**
 
-⭐ 18,787 · 🍴 2,765 · 👥 46 · 🛠️ Python
+⭐ 18,788 · 🍴 2,765 · 👥 46 · 🛠️ Python
 
 
 ### <a name="eliza"></a>[eliza](https://github.com/elizaOS/eliza)
@@ -145,30 +145,18 @@
 
 ⭐ 17,506 · 🍴 5,413 · 👥 651 · 🛠️ TypeScript
 
-- 模块化自主代理架构，支持快速构建个性化AI代理
-- 无代码开发界面，实现人人可用的代理创建
-- 内置多代理协作机制，实现复杂任务自动化
-- 高效的自适应学习引擎，支持实时环境适应
 
 ### <a name="superagi"></a>[SuperAGI](https://github.com/TransformerOptimus/SuperAGI)
 **<⚡️> SuperAGI - A dev-first open source autonomous AI agent framework. Enabling developers to build, manage & run useful autonomous agents quickly and reliably.**
 
 ⭐ 17,170 · 🍴 2,156 · 👥 74 · 🛠️ Python
 
-- 开发者优先设计
-- 开源自主AI代理框架
-- 快速构建有用自主代理
-- 可靠管理与运行自主代理
 
 ### <a name="camel"></a>[camel](https://github.com/camel-ai/camel)
 **🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://www.camel-ai.org**
 
 ⭐ 16,017 · 🍴 1,772 · 👥 192 · 🛠️ Python
 
-- 多代理协作通信机制
-- 角色扮演与任务自动化
-- 大规模代理系统扩展性
-- 代理缩放定律探索
 
 ### <a name="pydantic-ai"></a>[pydantic-ai](https://github.com/pydantic/pydantic-ai)
 **GenAI Agent Framework, the Pydantic way**
@@ -233,10 +221,10 @@
 ### <a name="anthropic-sdk-python"></a>[anthropic-sdk-python](https://github.com/anthropics/anthropic-sdk-python)
 ⭐ 2,760 · 🍴 456 · 👥 51 · 🛠️ Python
 
-- 支持同步与异步调用，基于 httpx 构建，确保高性能并发处理。
-- 深度集成 Pydantic 提供严格的类型检查与自动补全，提升开发效率与代码健壮性。
-- 原生支持流式响应（Streaming），适用于构建低延迟的实时对话应用。
-- 内置完善的错误处理与自动重试机制，确保在生产环境中的高可用性。
+- 原生支持异步 I/O (asyncio)，显著提升高并发应用场景下的处理性能。
+- 基于 Pydantic 的强类型定义，提供完善的 IDE 代码补全与静态类型检查。
+- 支持流式响应 (Streaming) 接口，能够实现低延迟的实时文本生成交互体验。
+- 内置自动重试机制与健壮的错误处理逻辑，确保企业级集成环境的稳定性。
 
 ### <a name="moltis"></a>[moltis](https://github.com/moltis-org/moltis)
 **A personal AI assistant built in Rust. Single binary, multi-provider LLMs, long-term memory, sandboxed execution, voice, MCP tools, and multi-channel access (web, Telegram, API).**
@@ -251,7 +239,7 @@
 ### <a name="fastcode"></a>[FastCode](https://github.com/HKUDS/FastCode)
 **FastCode: Accelerating and Streamlining Your Code Understanding**
 
-⭐ 322 · 🍴 38 · 👥 3 · 🛠️ Python
+⭐ 323 · 🍴 38 · 👥 3 · 🛠️ Python
 
 - 超高速代码解析引擎
 - 智能语义分析模块
