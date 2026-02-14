@@ -4,16 +4,16 @@ A curated list of awesome AI agent frameworks, updated daily.
 
 **English** | [Русский](README_RU.md) | [中文](README_ZH.md)
 
-*Last updated: 2026-02-14 12:33:26*
+*Last updated: 2026-02-14 12:34:58*
 
 ## Comparison Table
 
 | Rank | Framework | Stars | Contributors | Change |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 | [openclaw](#openclaw) | 193,293 | 599 | — |
+| 1 | [openclaw](#openclaw) | 193,295 | 600 | — |
 | 2 | [AutoGPT](#autogpt) | 181,793 | 802 | ↑2 |
 | 3 | [opencode](#opencode) | 104,339 | 738 | ↑1 |
-| 4 | [MetaGPT](#metagpt) | 64,170 | 148 | ↑1 |
+| 4 | [MetaGPT](#metagpt) | 64,171 | 148 | ↑1 |
 | 5 | [open-interpreter](#open-interpreter) | 62,142 | 132 | ↑1 |
 | 6 | [autogen](#autogen) | 54,539 | 532 | ↑1 |
 | 7 | [crewAI](#crewai) | 44,102 | 279 | ↑1 |
@@ -25,7 +25,7 @@ A curated list of awesome AI agent frameworks, updated daily.
 | 13 | [haystack](#haystack) | 24,185 | 323 | ↑1 |
 | 14 | [babyagi](#babyagi) | 22,133 | 2 | ↑1 |
 | 15 | [swarm](#swarm) | 20,950 | 14 | ↑1 |
-| 16 | [nanobot](#nanobot) | 18,647 | 46 | ↓14 |
+| 16 | [nanobot](#nanobot) | 18,648 | 46 | ↓14 |
 | 17 | [eliza](#eliza) | 17,506 | 651 | — |
 | 18 | [SuperAGI](#superagi) | 17,170 | 74 | — |
 | 19 | [camel](#camel) | 16,016 | 192 | — |
@@ -46,7 +46,7 @@ A curated list of awesome AI agent frameworks, updated daily.
 
 ### <a name="openclaw"></a>[openclaw](https://github.com/openclaw/openclaw) — Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞
 
-193,293 stars · 33,194 forks · 599 contributors · 5,577 issues · TypeScript · MIT
+193,295 stars · 33,193 forks · 600 contributors · 5,577 issues · TypeScript · MIT
 
     - Cross-operating system compatibility (Any OS)
     - Universal platform support (Any Platform)
@@ -64,7 +64,7 @@ A curated list of awesome AI agent frameworks, updated daily.
 
 ### <a name="opencode"></a>[opencode](https://github.com/anomalyco/opencode) — The open source coding agent.
 
-104,339 stars · 10,125 forks · 738 contributors · 5,144 issues · TypeScript · MIT
+104,339 stars · 10,126 forks · 738 contributors · 5,144 issues · TypeScript · MIT
 
     - Open-source codebase under permissive license
     - Autonomous agent architecture for code generation and execution
@@ -73,7 +73,7 @@ A curated list of awesome AI agent frameworks, updated daily.
 
 ### <a name="metagpt"></a>[MetaGPT](https://github.com/FoundationAgents/MetaGPT) — 🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming
 
-64,170 stars · 8,060 forks · 148 contributors · 79 issues · Python · MIT
+64,171 stars · 8,060 forks · 148 contributors · 79 issues · Python · MIT
 
     - Multi-Agent Collaboration: Specialized AI agents (e.g., Product Manager, Architect, Engineer, QA) work together like a software company.
     - Natural Language to Code: Converts high-level user requirements into executable codebases and documentation.
@@ -181,7 +181,7 @@ A curated list of awesome AI agent frameworks, updated daily.
 
 ### <a name="nanobot"></a>[nanobot](https://github.com/HKUDS/nanobot) — Ultra-lightweight AI agent kernel. Supports multiple providers, custom skills, cron jobs, and multi-channel communication (Telegram, Slack, etc.). Designed for efficiency and extensibility.
 
-18,647 stars · 2,735 forks · 46 contributors · 400 issues · Python · MIT
+18,648 stars · 2,735 forks · 46 contributors · 400 issues · Python · MIT
 
     - Ultra-lightweight AI agent kernel
     - Support for multiple AI providers
