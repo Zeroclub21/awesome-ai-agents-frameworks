@@ -4,16 +4,16 @@ A curated list of awesome AI agent frameworks, updated daily.
 
 **English** | [Русский](README_RU.md) | [中文](README_ZH.md)
 
-*Last updated: 2026-02-14 10:12:11*
+*Last updated: 2026-02-14 10:13:40*
 
 ## Comparison Table
 
 | Rank | Framework | Stars | Contributors | Change |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 | [openclaw](#openclaw) | 193,066 | 598 | — |
-| 2 | [nanobot](#nanobot) | 18,609 | 45 | — |
+| 1 | [openclaw](#openclaw) | 193,071 | 598 | — |
+| 2 | [nanobot](#nanobot) | 18,611 | 46 | — |
 | 3 | [moltis](#moltis) | 585 | 5 | — |
-| 4 | [opencode](#opencode) | 104,291 | 738 | — |
+| 4 | [opencode](#opencode) | 104,292 | 738 | — |
 | 5 | [MetaGPT](#metagpt) | 64,169 | 148 | — |
 | 6 | [open-interpreter](#open-interpreter) | 62,139 | 132 | — |
 | 7 | [autogen](#autogen) | 54,539 | 532 | — |
@@ -42,7 +42,7 @@ A curated list of awesome AI agent frameworks, updated daily.
 
 ### <a name="openclaw"></a>[openclaw](https://github.com/openclaw/openclaw) - Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 
 
-193,066 stars · 33,143 forks · 598 contributors · 5,560 issues · TypeScript · MIT
+193,071 stars · 33,143 forks · 598 contributors · 5,560 issues · TypeScript · MIT
 
     - Cross-OS compatibility
     - Platform-agnostic deployment
@@ -51,7 +51,7 @@ A curated list of awesome AI agent frameworks, updated daily.
 
 ### <a name="nanobot"></a>[nanobot](https://github.com/HKUDS/nanobot) - Ultra-lightweight AI agent kernel. Supports multiple providers, custom skills, cron jobs, and multi-channel communication (Telegram, Slack, etc.). Designed for efficiency and extensibility.
 
-18,609 stars · 2,729 forks · 45 contributors · 400 issues · Python · MIT
+18,611 stars · 2,729 forks · 46 contributors · 400 issues · Python · MIT
 
     - Ultra-lightweight AI agent kernel
     - Support for multiple AI providers
@@ -69,7 +69,7 @@ A curated list of awesome AI agent frameworks, updated daily.
 
 ### <a name="opencode"></a>[opencode](https://github.com/anomalyco/opencode) - The open source coding agent.
 
-104,291 stars · 10,118 forks · 738 contributors · 5,134 issues · TypeScript · MIT
+104,292 stars · 10,117 forks · 738 contributors · 5,134 issues · TypeScript · MIT
 
     - Open-source codebase under permissive license
     - Autonomous agent architecture for code generation and execution
@@ -105,7 +105,7 @@ A curated list of awesome AI agent frameworks, updated daily.
 
 ### <a name="crewai"></a>[crewAI](https://github.com/crewAIInc/crewAI) - Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.
 
-44,099 stars · 5,905 forks · 279 contributors · 277 issues · Python · MIT
+44,099 stars · 5,905 forks · 279 contributors · 278 issues · Python · MIT
 
     - Orchestration of role-playing AI agents
     - Support for autonomous agent execution
