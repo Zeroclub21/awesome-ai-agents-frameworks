@@ -4,11 +4,11 @@
 
 [EN](README.md) | [RU](README_RU.md) | **ZH**
 
-*更新于: 2026-02-14 18:35:13*
+*更新于: 2026-02-14 18:36:28*
 
 | 排名 | 框架 | 星标 | 语言 | 许可证 | 变化 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | [openclaw](#openclaw) | 193,956 | TypeScript | MIT | — |
+| 1 | [openclaw](#openclaw) | 193,958 | TypeScript | MIT | — |
 | 2 | [AutoGPT](#autogpt) | 181,799 | Python | NOASSERTION | ↑2 |
 | 3 | [opencode](#opencode) | 104,499 | TypeScript | MIT | ↑1 |
 | 4 | [MetaGPT](#metagpt) | 64,178 | Python | MIT | ↑1 |
@@ -29,14 +29,14 @@
 | 19 | [camel](#camel) | 16,017 | Python | Apache-2.0 | — |
 | 20 | [pydantic-ai](#pydantic-ai) | 14,880 | Python | MIT | — |
 | 21 | [E2B](#e2b) | 10,894 | MDX | Apache-2.0 | — |
-| 22 | [picoclaw](#picoclaw) | 6,969 | Go | NOASSERTION | — |
+| 22 | [picoclaw](#picoclaw) | 6,973 | Go | NOASSERTION | — |
 | 23 | [PraisonAI](#praisonai) | 5,593 | Python | MIT | ↓1 |
 | 24 | [ms-agent](#ms-agent) | 3,978 | Python | Apache-2.0 | ↓1 |
 | 25 | [agency-swarm](#agency-swarm) | 3,953 | Python | MIT | ↓1 |
 | 26 | [beeai-framework](#beeai-framework) | 3,098 | Python | Apache-2.0 | — |
 | 27 | [anthropic-sdk-python](#anthropic-sdk-python) | 2,760 | Python | MIT | ↓2 |
 | 28 | [moltis](#moltis) | 642 | Rust | MIT | ↓25 |
-| 29 | [FastCode](#fastcode) | 324 | Python | No License | — |
+| 29 | [FastCode](#fastcode) | 325 | Python | No License | — |
 | 30 | [ValeDesk](#valedesk) | 272 | TypeScript | NOASSERTION | ↓4 |
 | 31 | [topsha](#topsha) | 94 | Python | MIT | ↓4 |
 | 32 | [SkillOS](#skillos) | 1 | Python | MIT | ↓4 |
@@ -46,7 +46,7 @@
 ### <a name="openclaw"></a>[openclaw](https://github.com/openclaw/openclaw)
 **Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 **
 
-⭐ 193,956 · 🍴 33,370 · 👥 607 · 🛠️ TypeScript
+⭐ 193,958 · 🍴 33,370 · 👥 607 · 🛠️ TypeScript
 
 
 ### <a name="autogpt"></a>[AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)
@@ -124,10 +124,10 @@
 ### <a name="babyagi"></a>[babyagi](https://github.com/yoheinakajima/babyagi)
 ⭐ 22,134 · 🍴 2,849 · 👥 2 · 🛠️ Python
 
-- 基于大语言模型（LLM）与向量数据库集成的自主任务驱动架构
-- 任务创建、优先级排序与执行的自动化闭环管理流程
-- 支持长期记忆存储与上下文检索的知识持久化机制
-- 面向复杂目标的递归式任务分解与动态目标对齐能力
+- 基于大语言模型的任务自动生成、优先级排序与循环执行机制
+- 集成向量数据库（如Pinecone/Weaviate）实现长期记忆与上下文检索
+- 目标驱动的自主化工作流，无需人工干预即可拆解复杂任务
+- 高度可扩展的模块化架构，支持快速集成各类第三方API与工具
 
 ### <a name="swarm"></a>[swarm](https://github.com/openai/swarm)
 **Educational framework exploring ergonomic, lightweight multi-agent orchestration. Managed by OpenAI Solution team.**
@@ -174,7 +174,7 @@
 ### <a name="picoclaw"></a>[picoclaw](https://github.com/sipeed/picoclaw)
 **picoclaw**
 
-⭐ 6,969 · 🍴 671 · 👥 39 · 🛠️ Go
+⭐ 6,973 · 🍴 671 · 👥 39 · 🛠️ Go
 
 
 ### <a name="praisonai"></a>[PraisonAI](https://github.com/MervinPraison/PraisonAI)
@@ -204,10 +204,10 @@
 ### <a name="anthropic-sdk-python"></a>[anthropic-sdk-python](https://github.com/anthropics/anthropic-sdk-python)
 ⭐ 2,760 · 🍴 456 · 👥 51 · 🛠️ Python
 
-- 全面支持同步与异步 (asyncio) 调用模式，适配多样化的生产并发需求。
-- 基于 Pydantic 的强类型校验与自动补全，显著提升开发效率与代码健壮性。
-- 原生支持流式响应 (Streaming)，有效降低大模型交互的首字延迟与感知时长。
-- 内置智能重试机制与完善的错误处理逻辑，确保在复杂网络环境下的高可用性。
+- 全面支持异步编程（async/await），显著提升高并发 AI 应用场景下的系统性能。
+- 集成 Pydantic 提供强类型校验，确保 API 请求与响应数据结构的准确性与安全性。
+- 支持流式输出（Streaming）功能，实现低延迟的实时交互式文本生成体验。
+- 内置自动重试与异常处理机制，确保与 Claude 系列模型交互的稳定性与生产级可靠性。
 
 ### <a name="moltis"></a>[moltis](https://github.com/moltis-org/moltis)
 **A personal AI assistant built in Rust. Single binary, multi-provider LLMs, long-term memory, sandboxed execution, voice, MCP tools, and multi-channel access (web, Telegram, API).**
@@ -218,7 +218,7 @@
 ### <a name="fastcode"></a>[FastCode](https://github.com/HKUDS/FastCode)
 **FastCode: Accelerating and Streamlining Your Code Understanding**
 
-⭐ 324 · 🍴 38 · 👥 3 · 🛠️ Python
+⭐ 325 · 🍴 38 · 👥 3 · 🛠️ Python
 
 
 ### <a name="valedesk"></a>[ValeDesk](https://github.com/vakovalskii/ValeDesk)
@@ -226,30 +226,18 @@
 
 ⭐ 272 · 🍴 44 · 👥 12 · 🛠️ TypeScript
 
-- 多功能模块化架构（Versatile）
-- 准本地化边缘计算支持（Almost Local）
-- 渐进式合理性优化机制（Eventually Reasonable）
-- 智能桌面助手集成（Assistant）
 
 ### <a name="topsha"></a>[topsha](https://github.com/vakovalskii/topsha)
 **Local Topsha 🐧 AI Agent for simple PC tasks - focused on local LLM (GPT-OSS, Qwen, GLM)**
 
 ⭐ 94 · 🍴 20 · 👥 6 · 🛠️ Python
 
-- 本地运行，无需云端依赖
-- 支持GPT-OSS、Qwen、GLM等开源LLM
-- 专注于简单PC任务的AI代理功能
-- Linux优化（🐧），轻量高效部署
 
 ### <a name="skillos"></a>[SkillOS](https://github.com/AlexeyPevz/SkillOS)
 **Self-hosted AI agent orchestration framework with skills, policies, approvals, budgets & observability**
 
 ⭐ 1 · 🍴 0 · 👥 2 · 🛠️ Python
 
-- 自托管部署
-- AI代理编排
-- 技能系统
-- 策略、审批、预算与可观测性
 
 ---
 ### @tsingular
