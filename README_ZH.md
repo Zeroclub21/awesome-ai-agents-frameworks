@@ -4,7 +4,7 @@
 
 [EN](README.md) | [RU](README_RU.md) | **ZH**
 
-*更新于: 2026-02-15 08:44:05*
+*更新于: 2026-02-15 08:45:04*
 
 | 排名 | 框架 | 星标 | 语言 | 问题 (待处理 / 已修复 / 总计) | 更新 | 变化 |
 | :--- | :--- | ---: | :---: | :---: | :---: | :---: |
@@ -29,7 +29,7 @@
 | 19 | [camel](#camel) | 16,017 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 208 / 1202 / 1410 | ![](https://img.shields.io/badge/-2d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-—-95a5a6?style=flat-square) |
 | 20 | [pydantic-ai](#pydantic-ai) | 14,889 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 386 / 1468 / 1854 | ![](https://img.shields.io/badge/-1d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-—-95a5a6?style=flat-square) |
 | 21 | [E2B](#e2b) | 10,897 | ![](https://img.shields.io/badge/-MDX-607d8b?style=flat-square) | 38 / 266 / 304 | ![](https://img.shields.io/badge/-3d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-—-95a5a6?style=flat-square) |
-| 22 | [picoclaw](#picoclaw) | 8,477 | ![](https://img.shields.io/badge/-Go-00add8?style=flat-square) | 45 / 23 / 68 | ![](https://img.shields.io/badge/-2d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-—-95a5a6?style=flat-square) |
+| 22 | [picoclaw](#picoclaw) | 8,475 | ![](https://img.shields.io/badge/-Go-00add8?style=flat-square) | 45 / 23 / 68 | ![](https://img.shields.io/badge/-2d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-—-95a5a6?style=flat-square) |
 | 23 | [agent-framework](#agent-framework) | 7,181 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 579 / 1210 / 1789 | ![](https://img.shields.io/badge/-2d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-—-95a5a6?style=flat-square) |
 | 24 | [PraisonAI](#praisonai) | 5,592 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 41 / 269 / 310 | ![](https://img.shields.io/badge/-Today-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%E2%86%931-e55039?style=flat-square) |
 | 25 | [ms-agent](#ms-agent) | 3,978 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 6 / 218 / 224 | ![](https://img.shields.io/badge/-9d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%E2%86%931-e55039?style=flat-square) |
@@ -49,7 +49,7 @@
 ### <a name="openclaw"></a>[openclaw](https://github.com/openclaw/openclaw)
 **您的专属个人 AI 助手。兼容全系统与全平台。Lobster 范式。🦞**
 
-⭐ 195,190 · 🍴 33,751 · 👥 617 · 🛠️ TypeScript · 📅 Today
+⭐ 195,190 · 🍴 33,750 · 👥 617 · 🛠️ TypeScript · 📅 Today
 
 - 全平台跨系统无缝集成
 - 高度个性化私有化部署
@@ -179,10 +179,10 @@
 ### <a name="babyagi"></a>[babyagi](https://github.com/yoheinakajima/babyagi)
 ⭐ 22,136 · 🍴 2,849 · 👥 2 · 🛠️ Python · 📅 15d
 
-- 自主任务编排与优先级动态调整机制
-- 基于向量数据库的长期记忆与上下文持久化
-- 目标驱动的闭环递归式任务执行引擎
-- 深度集成大语言模型的智能化决策与任务生成
+- 自主任务编排与目标驱动引擎
+- 基于向量数据库的长期记忆机制
+- 闭环递归的任务优先级动态调整
+- 轻量化且高度可扩展的Agent架构
 
 ### <a name="swarm"></a>[swarm](https://github.com/openai/swarm)
 **旨在探索易用、轻量化多智能体编排的教学参考框架。由 OpenAI 解决方案团队维护。**
@@ -257,7 +257,7 @@
 ### <a name="picoclaw"></a>[picoclaw](https://github.com/sipeed/picoclaw)
 **轻量化高效数据采集方案**
 
-⭐ 8,477 · 🍴 851 · 👥 41 · 🛠️ Go · 📅 2d
+⭐ 8,475 · 🍴 850 · 👥 41 · 🛠️ Go · 📅 2d
 
 - 高精度微型执行机构控制
 - 原生支持RP2040生态集成
@@ -317,10 +317,10 @@
 ### <a name="anthropic-sdk-python"></a>[anthropic-sdk-python](https://github.com/anthropics/anthropic-sdk-python)
 ⭐ 2,764 · 🍴 456 · 👥 51 · 🛠️ Python · 📅 7d
 
-- 原生支持 Claude 系列模型的高效集成与快速部署
-- 深度集成异步 I/O 与流式响应，优化高并发场景下的系统性能
-- 严谨的类型检查与自动重试机制，确保企业级应用的稳定性与健壮性
-- 全面支持工具调用（Tool Use）与多模态能力，赋能复杂业务逻辑自动化
+- 全面集成 Claude 系列模型，提供标准化的高性能 API 调用接口
+- 原生支持异步 I/O 与流式响应，优化高并发场景下的系统吞吐量
+- 基于 Pydantic 的强类型校验机制，确保数据交互的健壮性与开发效率
+- 内置智能重试与异常处理逻辑，显著提升生产环境下的服务稳定性
 
 ### <a name="tinyclaw"></a>[tinyclaw](https://github.com/jlia0/tinyclaw)
 **TinyClaw：协同运作的个人智能体集群。**
