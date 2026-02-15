@@ -4,50 +4,50 @@ Curated list of top AI agent frameworks for business and R&D.
 
 **EN** | [RU](README_RU.md) | [ZH](README_ZH.md)
 
-*Last updated: 2026-02-15 05:10:44*
+*Last updated: 2026-02-15 05:13:58*
 
-| Rank | Framework | Stars | Language | Issues | Updated | Change |
+| Rank | Framework | Stars | Language | Issues (fixed/total) | Updated | Change |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | [openclaw](#openclaw) | 194,853 | TypeScript | 5176/11043 | Today | — |
+| 1 | [openclaw](#openclaw) | 194,862 | TypeScript | 5176/11045 | Today | — |
 | 2 | [AutoGPT](#autogpt) | 181,811 | Python | 3484/3813 | Today | — |
-| 3 | [opencode](#opencode) | 104,686 | TypeScript | 4525/9730 | Today | — |
-| 4 | [MetaGPT](#metagpt) | 64,188 | Python | 888/968 | 24d ago | — |
-| 5 | [open-interpreter](#open-interpreter) | 62,149 | Python | 803/1098 | 5d ago | — |
-| 6 | [autogen](#autogen) | 54,550 | Python | 2493/3082 | 23d ago | — |
+| 3 | [opencode](#opencode) | 104,688 | TypeScript | 4525/9730 | Today | — |
+| 4 | [MetaGPT](#metagpt) | 64,188 | Python | 888/968 | 24d | — |
+| 5 | [open-interpreter](#open-interpreter) | 62,149 | Python | 803/1098 | 5d | — |
+| 6 | [autogen](#autogen) | 54,550 | Python | 2493/3082 | 23d | — |
 | 7 | [crewAI](#crewai) | 44,131 | Python | 1667/1945 | Today | — |
 | 8 | [agno](#agno) | 37,854 | Python | 1646/2215 | Today | — |
-| 9 | [AgentGPT](#agentgpt) | 35,705 | TypeScript | 337/557 | 292d ago | — |
-| 10 | [smolagents](#smolagents) | 25,432 | Python | 505/875 | 22d ago | — |
-| 11 | [gpt-researcher](#gpt-researcher) | 25,319 | Python | 496/677 | 13d ago | — |
+| 9 | [AgentGPT](#agentgpt) | 35,705 | TypeScript | 337/557 | 292d | — |
+| 10 | [smolagents](#smolagents) | 25,432 | Python | 505/875 | 22d | — |
+| 11 | [gpt-researcher](#gpt-researcher) | 25,319 | Python | 496/677 | 13d | — |
 | 12 | [langgraph](#langgraph) | 24,717 | Python | 973/1268 | Today | — |
-| 13 | [haystack](#haystack) | 24,192 | MDX | 4108/4222 | 1d ago | — |
-| 14 | [babyagi](#babyagi) | 22,135 | Python | 147/164 | 15d ago | — |
-| 15 | [swarm](#swarm) | 20,954 | Python | 5/21 | 340d ago | — |
-| 16 | [nanobot](#nanobot) | 18,989 | Python | 40/456 | Today | — |
+| 13 | [haystack](#haystack) | 24,192 | MDX | 4108/4222 | 1d | — |
+| 14 | [babyagi](#babyagi) | 22,135 | Python | 147/164 | 15d | — |
+| 15 | [swarm](#swarm) | 20,954 | Python | 5/21 | 340d | — |
+| 16 | [nanobot](#nanobot) | 18,990 | Python | 40/456 | Today | — |
 | 17 | [eliza](#eliza) | 17,509 | TypeScript | 1508/1649 | Today | — |
-| 18 | [SuperAGI](#superagi) | 17,171 | Python | 278/489 | 388d ago | — |
-| 19 | [camel](#camel) | 16,017 | Python | 1202/1647 | 1d ago | — |
+| 18 | [SuperAGI](#superagi) | 17,171 | Python | 278/489 | 388d | — |
+| 19 | [camel](#camel) | 16,017 | Python | 1202/1647 | 1d | — |
 | 20 | [pydantic-ai](#pydantic-ai) | 14,889 | Python | 1468/2004 | Today | — |
 | 21 | [E2B](#e2b) | 10,897 | MDX | 266/324 | Today | — |
-| 22 | [picoclaw](#picoclaw) | 8,023 | Go | 23/96 | Today | — |
+| 22 | [picoclaw](#picoclaw) | 8,025 | Go | 23/96 | Today | — |
 | 23 | [PraisonAI](#praisonai) | 5,592 | Python | 269/327 | Today | ↓1 |
-| 24 | [ms-agent](#ms-agent) | 3,978 | Python | 218/225 | 1d ago | ↓1 |
+| 24 | [ms-agent](#ms-agent) | 3,978 | Python | 218/225 | 1d | ↓1 |
 | 25 | [agency-swarm](#agency-swarm) | 3,956 | Python | 143/156 | Today | ↓1 |
-| 26 | [beeai-framework](#beeai-framework) | 3,098 | Python | 0/4 | 1d ago | ↓1 |
+| 26 | [beeai-framework](#beeai-framework) | 3,098 | Python | 0/4 | 1d | ↓1 |
 | 27 | [anthropic-sdk-python](#anthropic-sdk-python) | 2,764 | Python | 247/349 | Today | ↓1 |
-| 28 | [moltis](#moltis) | 763 | Rust | 6/48 | Today | ↓1 |
-| 29 | [FastCode](#fastcode) | 447 | Python | 3/3 | 1d ago | — |
-| 30 | [ValeDesk](#valedesk) | 272 | TypeScript | 17/38 | 3d ago | ↓2 |
-| 31 | [agent-second-brain](#agent-second-brain) | 117 | Python | 0/1 | 14d ago | — |
-| 32 | [topsha](#topsha) | 94 | Python | 5/9 | 1d ago | ↓2 |
-| 33 | [SkillOS](#skillos) | 1 | Python | 0/0 | 15d ago | ↓2 |
+| 28 | [moltis](#moltis) | 763 | Rust | 6/47 | Today | ↓1 |
+| 29 | [FastCode](#fastcode) | 447 | Python | 3/3 | 1d | — |
+| 30 | [ValeDesk](#valedesk) | 272 | TypeScript | 17/38 | 3d | ↓2 |
+| 31 | [agent-second-brain](#agent-second-brain) | 117 | Python | 0/1 | 14d | — |
+| 32 | [topsha](#topsha) | 94 | Python | 5/9 | 1d | ↓2 |
+| 33 | [SkillOS](#skillos) | 1 | Python | 0/0 | 15d | ↓2 |
 
 ---
 
 ### <a name="openclaw"></a>[openclaw](https://github.com/openclaw/openclaw)
 **Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞**
 
-⭐ 194,853 · 🍴 33,644 · 👥 616 · 🛠️ TypeScript · 📅 Today
+⭐ 194,862 · 🍴 33,644 · 👥 616 · 🛠️ TypeScript · 📅 Today
 
 - Cross-operating system compatibility (Any OS)
 - Universal platform support (Any Platform)
@@ -67,7 +67,7 @@ Curated list of top AI agent frameworks for business and R&D.
 ### <a name="opencode"></a>[opencode](https://github.com/anomalyco/opencode)
 **The open source coding agent.**
 
-⭐ 104,686 · 🍴 10,178 · 👥 739 · 🛠️ TypeScript · 📅 Today
+⭐ 104,688 · 🍴 10,178 · 👥 739 · 🛠️ TypeScript · 📅 Today
 
 - Open-source codebase under permissive license
 - Autonomous agent architecture for code generation and execution
@@ -77,7 +77,7 @@ Curated list of top AI agent frameworks for business and R&D.
 ### <a name="metagpt"></a>[MetaGPT](https://github.com/FoundationAgents/MetaGPT)
 **🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming**
 
-⭐ 64,188 · 🍴 8,063 · 👥 148 · 🛠️ Python · 📅 24d ago
+⭐ 64,188 · 🍴 8,063 · 👥 148 · 🛠️ Python · 📅 24d
 
 - Multi-Agent Collaboration: Specialized AI agents (e.g., Product Manager, Architect, Engineer, QA) work together like a software company.
 - Natural Language to Code: Converts high-level user requirements into executable codebases and documentation.
@@ -87,7 +87,7 @@ Curated list of top AI agent frameworks for business and R&D.
 ### <a name="open-interpreter"></a>[open-interpreter](https://github.com/openinterpreter/open-interpreter)
 **A natural language interface for computers**
 
-⭐ 62,149 · 🍴 5,342 · 👥 132 · 🛠️ Python · 📅 5d ago
+⭐ 62,149 · 🍴 5,342 · 👥 132 · 🛠️ Python · 📅 5d
 
 - Natural language to code translation using LLMs
 - Local code execution on user's computer
@@ -97,7 +97,7 @@ Curated list of top AI agent frameworks for business and R&D.
 ### <a name="autogen"></a>[autogen](https://github.com/microsoft/autogen)
 **A programming framework for agentic AI**
 
-⭐ 54,550 · 🍴 8,218 · 👥 532 · 🛠️ Python · 📅 23d ago
+⭐ 54,550 · 🍴 8,218 · 👥 532 · 🛠️ Python · 📅 23d
 
 - Multi-agent conversation orchestration
 - Customizable LLM-powered agents
@@ -127,7 +127,7 @@ Curated list of top AI agent frameworks for business and R&D.
 ### <a name="agentgpt"></a>[AgentGPT](https://github.com/reworkd/AgentGPT)
 **🤖 Assemble, configure, and deploy autonomous AI Agents in your browser.**
 
-⭐ 35,705 · 🍴 9,453 · 👥 72 · 🛠️ TypeScript · 📅 292d ago
+⭐ 35,705 · 🍴 9,453 · 👥 72 · 🛠️ TypeScript · 📅 292d
 
 - Browser-based agent assembly
 - Real-time agent configuration
@@ -137,7 +137,7 @@ Curated list of top AI agent frameworks for business and R&D.
 ### <a name="smolagents"></a>[smolagents](https://github.com/huggingface/smolagents)
 **🤗 smolagents: a barebones library for agents that think in code.**
 
-⭐ 25,432 · 🍴 2,292 · 👥 197 · 🛠️ Python · 📅 22d ago
+⭐ 25,432 · 🍴 2,292 · 👥 197 · 🛠️ Python · 📅 22d
 
 - Barebones, lightweight design with minimal dependencies
 - Agents reason and act by generating and executing Python code
@@ -147,7 +147,7 @@ Curated list of top AI agent frameworks for business and R&D.
 ### <a name="gpt-researcher"></a>[gpt-researcher](https://github.com/assafelovic/gpt-researcher)
 **An autonomous agent that conducts deep research on any data using any LLM providers.**
 
-⭐ 25,319 · 🍴 3,360 · 👥 216 · 🛠️ Python · 📅 13d ago
+⭐ 25,319 · 🍴 3,360 · 👥 216 · 🛠️ Python · 📅 13d
 
 - Autonomous agent architecture enabling independent research execution
 - Deep research capabilities through iterative data gathering and synthesis
@@ -167,7 +167,7 @@ Curated list of top AI agent frameworks for business and R&D.
 ### <a name="haystack"></a>[haystack](https://github.com/deepset-ai/haystack)
 **Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Design modular pipelines and agent workflows with explicit control over retrieval, routing, memory, and generation. Built for scalable agents, RAG, multimodal applications, semantic search, and conversational systems.**
 
-⭐ 24,192 · 🍴 2,600 · 👥 323 · 🛠️ MDX · 📅 1d ago
+⭐ 24,192 · 🍴 2,600 · 👥 323 · 🛠️ MDX · 📅 1d
 
 - Modular pipelines and agent workflows
 - Explicit control over retrieval, routing, memory, and generation
@@ -175,7 +175,7 @@ Curated list of top AI agent frameworks for business and R&D.
 - Optimized for multimodal applications, semantic search, and conversational systems
 
 ### <a name="babyagi"></a>[babyagi](https://github.com/yoheinakajima/babyagi)
-⭐ 22,135 · 🍴 2,849 · 👥 2 · 🛠️ Python · 📅 15d ago
+⭐ 22,135 · 🍴 2,849 · 👥 2 · 🛠️ Python · 📅 15d
 
 - Autonomous task generation using LLM prompts
 - Vector-based task prioritization with embeddings and similarity search
@@ -185,7 +185,7 @@ Curated list of top AI agent frameworks for business and R&D.
 ### <a name="swarm"></a>[swarm](https://github.com/openai/swarm)
 **Educational framework exploring ergonomic, lightweight multi-agent orchestration. Managed by OpenAI Solution team.**
 
-⭐ 20,954 · 🍴 2,229 · 👥 14 · 🛠️ Python · 📅 340d ago
+⭐ 20,954 · 🍴 2,229 · 👥 14 · 🛠️ Python · 📅 340d
 
 - Lightweight multi-agent orchestration with minimal dependencies
 - Ergonomic APIs for intuitive agent definition and handoffs
@@ -195,7 +195,7 @@ Curated list of top AI agent frameworks for business and R&D.
 ### <a name="nanobot"></a>[nanobot](https://github.com/HKUDS/nanobot)
 **Ultra-lightweight AI agent kernel. Supports multiple providers, custom skills, cron jobs, and multi-channel communication (Telegram, Slack, etc.).**
 
-⭐ 18,989 · 🍴 2,792 · 👥 46 · 🛠️ Python · 📅 Today
+⭐ 18,990 · 🍴 2,792 · 👥 46 · 🛠️ Python · 📅 Today
 
 - Ultra-lightweight, high-performance kernel for resource-efficient AI agent orchestration.
 - Provider-agnostic architecture supporting seamless integration with multiple LLM backends.
@@ -215,7 +215,7 @@ Curated list of top AI agent frameworks for business and R&D.
 ### <a name="superagi"></a>[SuperAGI](https://github.com/TransformerOptimus/SuperAGI)
 **<⚡️> SuperAGI - A dev-first open source autonomous AI agent framework. Enabling developers to build, manage & run useful autonomous agents quickly and reliably.**
 
-⭐ 17,171 · 🍴 2,156 · 👥 74 · 🛠️ Python · 📅 388d ago
+⭐ 17,171 · 🍴 2,156 · 👥 74 · 🛠️ Python · 📅 388d
 
 - Open-source framework
 - Developer-first design
@@ -225,7 +225,7 @@ Curated list of top AI agent frameworks for business and R&D.
 ### <a name="camel"></a>[camel](https://github.com/camel-ai/camel)
 **🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://www.camel-ai.org**
 
-⭐ 16,017 · 🍴 1,770 · 👥 192 · 🛠️ Python · 📅 1d ago
+⭐ 16,017 · 🍴 1,770 · 👥 192 · 🛠️ Python · 📅 1d
 
 - Multi-agent communication protocol for LLM-based agents
 - Role-playing capabilities for task specialization
@@ -255,7 +255,7 @@ Curated list of top AI agent frameworks for business and R&D.
 ### <a name="picoclaw"></a>[picoclaw](https://github.com/sipeed/picoclaw)
 **picoclaw**
 
-⭐ 8,023 · 🍴 780 · 👥 41 · 🛠️ Go · 📅 Today
+⭐ 8,025 · 🍴 780 · 👥 41 · 🛠️ Go · 📅 Today
 
 - RP2040-based control architecture for low-latency servo management
 - Compact, 3D-printable mechanical design optimized for small-scale robotics
@@ -275,7 +275,7 @@ Curated list of top AI agent frameworks for business and R&D.
 ### <a name="ms-agent"></a>[ms-agent](https://github.com/modelscope/ms-agent)
 **MS-Agent: a lightweight framework to empower agentic execution of complex tasks**
 
-⭐ 3,978 · 🍴 461 · 👥 47 · 🛠️ Python · 📅 1d ago
+⭐ 3,978 · 🍴 461 · 👥 47 · 🛠️ Python · 📅 1d
 
 - Lightweight architecture with minimal dependencies
 - Agentic execution engine for autonomous workflows
@@ -285,7 +285,7 @@ Curated list of top AI agent frameworks for business and R&D.
 ### <a name="agency-swarm"></a>[agency-swarm](https://github.com/VRSEN/agency-swarm)
 **Reliable Multi-Agent Orchestration Framework**
 
-⭐ 3,956 · 🍴 998 · 👥 0 · 🛠️ Python · 📅 Today
+⭐ 3,956 · 🍴 998 · 👥 23 · 🛠️ Python · 📅 Today
 
 - Fault-tolerant multi-agent coordination
 - Dynamic task orchestration and delegation
@@ -295,7 +295,7 @@ Curated list of top AI agent frameworks for business and R&D.
 ### <a name="beeai-framework"></a>[beeai-framework](https://github.com/i-am-bee/beeai-framework)
 **Build production-ready AI agents in both Python and Typescript.**
 
-⭐ 3,098 · 🍴 402 · 👥 67 · 🛠️ Python · 📅 1d ago
+⭐ 3,098 · 🍴 402 · 👥 67 · 🛠️ Python · 📅 1d
 
 - Dual-language support for Python and TypeScript
 - Production-ready agent scaffolding and tooling
@@ -323,7 +323,7 @@ Curated list of top AI agent frameworks for business and R&D.
 ### <a name="fastcode"></a>[FastCode](https://github.com/HKUDS/FastCode)
 **FastCode: Accelerating and Streamlining Your Code Understanding**
 
-⭐ 447 · 🍴 48 · 👥 3 · 🛠️ Python · 📅 1d ago
+⭐ 447 · 🍴 48 · 👥 3 · 🛠️ Python · 📅 1d
 
 - Lightning-fast code parsing with optimized tokenization
 - Context-aware semantic analysis for deep code comprehension
@@ -333,7 +333,7 @@ Curated list of top AI agent frameworks for business and R&D.
 ### <a name="valedesk"></a>[ValeDesk](https://github.com/vakovalskii/ValeDesk)
 **Versatile Almost Local, Eventually Reasonable Assistant 🔫**
 
-⭐ 272 · 🍴 44 · 👥 12 · 🛠️ TypeScript · 📅 3d ago
+⭐ 272 · 🍴 44 · 👥 12 · 🛠️ TypeScript · 📅 3d
 
 - Versatile multi-domain task handling
 - Near-local inference with minimal cloud dependency
@@ -343,7 +343,7 @@ Curated list of top AI agent frameworks for business and R&D.
 ### <a name="agent-second-brain"></a>[agent-second-brain](https://github.com/smixs/agent-second-brain)
 **The Second Brain Agentic System**
 
-⭐ 117 · 🍴 105 · 👥 2 · 🛠️ Python · 📅 14d ago
+⭐ 117 · 🍴 105 · 👥 2 · 🛠️ Python · 📅 14d
 
 - Autonomous Semantic Memory Integration
 - Proactive Task Execution and Workflow Orchestration
@@ -353,7 +353,7 @@ Curated list of top AI agent frameworks for business and R&D.
 ### <a name="topsha"></a>[topsha](https://github.com/vakovalskii/topsha)
 **Local Topsha 🐧 AI Agent for simple PC tasks - focused on local LLM (GPT-OSS, Qwen, GLM)**
 
-⭐ 94 · 🍴 20 · 👥 6 · 🛠️ Python · 📅 1d ago
+⭐ 94 · 🍴 20 · 👥 6 · 🛠️ Python · 📅 1d
 
 - Fully local execution on personal PCs without cloud dependency
 - Supports integration with local LLMs such as GPT-OSS, Qwen, and GLM
@@ -363,7 +363,7 @@ Curated list of top AI agent frameworks for business and R&D.
 ### <a name="skillos"></a>[SkillOS](https://github.com/AlexeyPevz/SkillOS)
 **Self-hosted AI agent orchestration framework with skills, policies, approvals, budgets & observability**
 
-⭐ 1 · 🍴 0 · 👥 2 · 🛠️ Python · 📅 15d ago
+⭐ 1 · 🍴 0 · 👥 2 · 🛠️ Python · 📅 15d
 
 - Self-hosted deployment
 - AI agent orchestration
