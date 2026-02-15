@@ -4,11 +4,11 @@ Curated list of top AI agent frameworks for business and R&D.
 
 **EN** | [RU](README_RU.md) | [ZH](README_ZH.md)
 
-*Last updated: 2026-02-15 05:05:51*
+*Last updated: 2026-02-15 05:06:59*
 
 | Rank | Framework | Stars | Language | Issues | Updated | Change |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | [openclaw](#openclaw) | 194,847 | TypeScript | 5866 | 2026-02-15 | — |
+| 1 | [openclaw](#openclaw) | 194,848 | TypeScript | 5865 | 2026-02-15 | — |
 | 2 | [AutoGPT](#autogpt) | 181,811 | Python | 329 | 2026-02-14 | — |
 | 3 | [opencode](#opencode) | 104,684 | TypeScript | 5204 | 2026-02-15 | — |
 | 4 | [MetaGPT](#metagpt) | 64,188 | Python | 80 | 2026-01-21 | — |
@@ -29,14 +29,14 @@ Curated list of top AI agent frameworks for business and R&D.
 | 19 | [camel](#camel) | 16,017 | Python | 445 | 2026-02-14 | — |
 | 20 | [pydantic-ai](#pydantic-ai) | 14,889 | Python | 536 | 2026-02-14 | — |
 | 21 | [E2B](#e2b) | 10,897 | MDX | 58 | 2026-02-14 | — |
-| 22 | [picoclaw](#picoclaw) | 8,017 | Go | 73 | 2026-02-15 | — |
+| 22 | [picoclaw](#picoclaw) | 8,018 | Go | 73 | 2026-02-15 | — |
 | 23 | [PraisonAI](#praisonai) | 5,592 | Python | 58 | 2026-02-15 | ↓1 |
 | 24 | [ms-agent](#ms-agent) | 3,978 | Python | 7 | 2026-02-13 | ↓1 |
 | 25 | [agency-swarm](#agency-swarm) | 3,956 | Python | 13 | 2026-02-14 | ↓1 |
 | 26 | [beeai-framework](#beeai-framework) | 3,098 | Python | 4 | 2026-02-13 | ↓1 |
 | 27 | [anthropic-sdk-python](#anthropic-sdk-python) | 2,764 | Python | 102 | 2026-02-14 | ↓1 |
-| 28 | [moltis](#moltis) | 761 | Rust | 43 | 2026-02-15 | ↓1 |
-| 29 | [FastCode](#fastcode) | 445 | Python | 0 | 2026-02-13 | — |
+| 28 | [moltis](#moltis) | 762 | Rust | 43 | 2026-02-15 | ↓1 |
+| 29 | [FastCode](#fastcode) | 446 | Python | 0 | 2026-02-13 | — |
 | 30 | [ValeDesk](#valedesk) | 272 | TypeScript | 21 | 2026-02-11 | ↓2 |
 | 31 | [agent-second-brain](#agent-second-brain) | 117 | Python | 1 | 2026-02-01 | — |
 | 32 | [topsha](#topsha) | 94 | Python | 4 | 2026-02-13 | ↓2 |
@@ -47,7 +47,7 @@ Curated list of top AI agent frameworks for business and R&D.
 ### <a name="openclaw"></a>[openclaw](https://github.com/openclaw/openclaw)
 **Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞**
 
-⭐ 194,847 · 🍴 33,644 · 👥 616 · 🛠️ TypeScript · 📅 2026-02-15
+⭐ 194,848 · 🍴 33,644 · 👥 616 · 🛠️ TypeScript · 📅 2026-02-15
 
 - Cross-operating system compatibility (Any OS)
 - Universal platform support (Any Platform)
@@ -255,7 +255,7 @@ Curated list of top AI agent frameworks for business and R&D.
 ### <a name="picoclaw"></a>[picoclaw](https://github.com/sipeed/picoclaw)
 **picoclaw**
 
-⭐ 8,017 · 🍴 779 · 👥 41 · 🛠️ Go · 📅 2026-02-15
+⭐ 8,018 · 🍴 780 · 👥 41 · 🛠️ Go · 📅 2026-02-15
 
 - RP2040-based control architecture for low-latency servo management
 - Compact, 3D-printable mechanical design optimized for small-scale robotics
@@ -313,7 +313,7 @@ Curated list of top AI agent frameworks for business and R&D.
 ### <a name="moltis"></a>[moltis](https://github.com/moltis-org/moltis)
 **A personal AI assistant built in Rust. Single binary, multi-provider LLMs, long-term memory, sandboxed execution, voice, MCP tools, and multi-channel access (web, Telegram, API).**
 
-⭐ 761 · 🍴 61 · 👥 5 · 🛠️ Rust · 📅 2026-02-15
+⭐ 762 · 🍴 62 · 👥 5 · 🛠️ Rust · 📅 2026-02-15
 
 - Rust-based single binary for easy deployment
 - Multi-provider LLM support
@@ -323,7 +323,7 @@ Curated list of top AI agent frameworks for business and R&D.
 ### <a name="fastcode"></a>[FastCode](https://github.com/HKUDS/FastCode)
 **FastCode: Accelerating and Streamlining Your Code Understanding**
 
-⭐ 445 · 🍴 48 · 👥 3 · 🛠️ Python · 📅 2026-02-13
+⭐ 446 · 🍴 48 · 👥 3 · 🛠️ Python · 📅 2026-02-13
 
 - Lightning-fast code parsing with optimized tokenization
 - Context-aware semantic analysis for deep code comprehension
