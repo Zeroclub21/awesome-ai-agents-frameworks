@@ -1,369 +1,375 @@
-# 顶尖 AI 智能体框架精选
+# 顶级 AI 智能体框架合集
 
-面向商业应用与研发领域的顶级 AI 智能体 (AI Agent) 框架精选清单。
+助力企业研发의 AI 智能体框架精选。
 
-**EN** | [RU](README_RU.md) | [ZH](README_ZH.md)
+[EN](README.md) | [RU](README_RU.md) | **ZH**
 
-*最后更新：2026-02-15 05:25:22*
+*更新于: 2026-02-15 05:30:22*
 
-| 排名 | 框架 | 星标数 | 编程语言 | Issues (已修复 / 总计) | 更新时间 | 变动 |
+| 排名 | 框架 | 星标 | 语言 | 问题 (已修复 / 总计) | 更新 | 变化 |
 | :--- | :--- | ---: | :---: | :---: | :---: | :---: |
-| 1 | [openclaw](#openclaw) | 194,881 | ![](https://img.shields.io/badge/-TypeScript-3178c6?style=flat-square) | 0 / 5877 | ![](https://img.shields.io/badge/-Today-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-—-95a5a6?style=flat-square) |
-| 2 | [AutoGPT](#autogpt) | 181,811 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 0 / 329 | ![](https://img.shields.io/badge/-Today-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-—-95a5a6?style=flat-square) |
-| 3 | [opencode](#opencode) | 104,692 | ![](https://img.shields.io/badge/-TypeScript-3178c6?style=flat-square) | 0 / 5205 | ![](https://img.shields.io/badge/-Today-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-—-95a5a6?style=flat-square) |
-| 4 | [MetaGPT](#metagpt) | 64,188 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 0 / 80 | ![](https://img.shields.io/badge/-24d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-—-95a5a6?style=flat-square) |
-| 5 | [open-interpreter](#open-interpreter) | 62,149 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 0 / 295 | ![](https://img.shields.io/badge/-5d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-—-95a5a6?style=flat-square) |
-| 6 | [autogen](#autogen) | 54,550 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 0 / 589 | ![](https://img.shields.io/badge/-23d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-—-95a5a6?style=flat-square) |
-| 7 | [crewAI](#crewai) | 44,133 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 0 / 278 | ![](https://img.shields.io/badge/-Today-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-—-95a5a6?style=flat-square) |
-| 8 | [agno](#agno) | 37,854 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 0 / 569 | ![](https://img.shields.io/badge/-Today-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-—-95a5a6?style=flat-square) |
-| 9 | [AgentGPT](#agentgpt) | 35,705 | ![](https://img.shields.io/badge/-TypeScript-3178c6?style=flat-square) | 0 / 220 | ![](https://img.shields.io/badge/-292d-f6b93b?style=flat-square) | ![](https://img.shields.io/badge/-—-95a5a6?style=flat-square) |
-| 10 | [smolagents](#smolagents) | 25,432 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 0 / 370 | ![](https://img.shields.io/badge/-22d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-—-95a5a6?style=flat-square) |
-| 11 | [gpt-researcher](#gpt-researcher) | 25,319 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 0 / 181 | ![](https://img.shields.io/badge/-13d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-—-95a5a6?style=flat-square) |
-| 12 | [langgraph](#langgraph) | 24,717 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 0 / 295 | ![](https://img.shields.io/badge/-Today-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-—-95a5a6?style=flat-square) |
-| 13 | [haystack](#haystack) | 24,192 | ![](https://img.shields.io/badge/-MDX-607d8b?style=flat-square) | 0 / 114 | ![](https://img.shields.io/badge/-1d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-—-95a5a6?style=flat-square) |
-| 14 | [babyagi](#babyagi) | 22,135 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 0 / 17 | ![](https://img.shields.io/badge/-15d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-—-95a5a6?style=flat-square) |
-| 15 | [swarm](#swarm) | 20,954 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 0 / 16 | ![](https://img.shields.io/badge/-340d-f6b93b?style=flat-square) | ![](https://img.shields.io/badge/-—-95a5a6?style=flat-square) |
-| 16 | [nanobot](#nanobot) | 18,993 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 0 / 416 | ![](https://img.shields.io/badge/-Today-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-—-95a5a6?style=flat-square) |
-| 17 | [eliza](#eliza) | 17,509 | ![](https://img.shields.io/badge/-TypeScript-3178c6?style=flat-square) | 0 / 141 | ![](https://img.shields.io/badge/-Today-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-—-95a5a6?style=flat-square) |
-| 18 | [SuperAGI](#superagi) | 17,171 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 0 / 211 | ![](https://img.shields.io/badge/-388d-e55039?style=flat-square) | ![](https://img.shields.io/badge/-—-95a5a6?style=flat-square) |
-| 19 | [camel](#camel) | 16,017 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 0 / 445 | ![](https://img.shields.io/badge/-1d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-—-95a5a6?style=flat-square) |
-| 20 | [pydantic-ai](#pydantic-ai) | 14,889 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 0 / 536 | ![](https://img.shields.io/badge/-Today-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-—-95a5a6?style=flat-square) |
-| 21 | [E2B](#e2b) | 10,897 | ![](https://img.shields.io/badge/-MDX-607d8b?style=flat-square) | 0 / 58 | ![](https://img.shields.io/badge/-Today-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-—-95a5a6?style=flat-square) |
-| 22 | [picoclaw](#picoclaw) | 8,041 | ![](https://img.shields.io/badge/-Go-00add8?style=flat-square) | 0 / 73 | ![](https://img.shields.io/badge/-Today-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-—-95a5a6?style=flat-square) |
-| 23 | [PraisonAI](#praisonai) | 5,592 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 0 / 58 | ![](https://img.shields.io/badge/-Today-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%E2%86%931-e55039?style=flat-square) |
-| 24 | [ms-agent](#ms-agent) | 3,978 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 0 / 7 | ![](https://img.shields.io/badge/-1d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%E2%86%931-e55039?style=flat-square) |
-| 25 | [agency-swarm](#agency-swarm) | 3,956 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 0 / 13 | ![](https://img.shields.io/badge/-Today-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%E2%86%931-e55039?style=flat-square) |
+| 1 | [openclaw](#openclaw) | 194,882 | ![](https://img.shields.io/badge/-TypeScript-3178c6?style=flat-square) | 5182 / 11060 | ![](https://img.shields.io/badge/-Today-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-—-95a5a6?style=flat-square) |
+| 2 | [AutoGPT](#autogpt) | 181,811 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 3484 / 3813 | ![](https://img.shields.io/badge/-Today-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-—-95a5a6?style=flat-square) |
+| 3 | [opencode](#opencode) | 104,692 | ![](https://img.shields.io/badge/-TypeScript-3178c6?style=flat-square) | 4525 / 9730 | ![](https://img.shields.io/badge/-Today-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-—-95a5a6?style=flat-square) |
+| 4 | [MetaGPT](#metagpt) | 64,188 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 888 / 968 | ![](https://img.shields.io/badge/-24d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-—-95a5a6?style=flat-square) |
+| 5 | [open-interpreter](#open-interpreter) | 62,149 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 803 / 1098 | ![](https://img.shields.io/badge/-5d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-—-95a5a6?style=flat-square) |
+| 6 | [autogen](#autogen) | 54,550 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 2493 / 3082 | ![](https://img.shields.io/badge/-23d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-—-95a5a6?style=flat-square) |
+| 7 | [crewAI](#crewai) | 44,133 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 1667 / 1945 | ![](https://img.shields.io/badge/-Today-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-—-95a5a6?style=flat-square) |
+| 8 | [agno](#agno) | 37,854 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 1646 / 2215 | ![](https://img.shields.io/badge/-Today-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-—-95a5a6?style=flat-square) |
+| 9 | [AgentGPT](#agentgpt) | 35,705 | ![](https://img.shields.io/badge/-TypeScript-3178c6?style=flat-square) | 337 / 557 | ![](https://img.shields.io/badge/-292d-f6b93b?style=flat-square) | ![](https://img.shields.io/badge/-—-95a5a6?style=flat-square) |
+| 10 | [smolagents](#smolagents) | 25,432 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 505 / 875 | ![](https://img.shields.io/badge/-22d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-—-95a5a6?style=flat-square) |
+| 11 | [gpt-researcher](#gpt-researcher) | 25,319 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 496 / 677 | ![](https://img.shields.io/badge/-13d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-—-95a5a6?style=flat-square) |
+| 12 | [langgraph](#langgraph) | 24,717 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 973 / 1268 | ![](https://img.shields.io/badge/-Today-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-—-95a5a6?style=flat-square) |
+| 13 | [haystack](#haystack) | 24,192 | ![](https://img.shields.io/badge/-MDX-607d8b?style=flat-square) | 4108 / 4222 | ![](https://img.shields.io/badge/-1d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-—-95a5a6?style=flat-square) |
+| 14 | [babyagi](#babyagi) | 22,135 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 147 / 164 | ![](https://img.shields.io/badge/-15d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-—-95a5a6?style=flat-square) |
+| 15 | [swarm](#swarm) | 20,954 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 5 / 21 | ![](https://img.shields.io/badge/-340d-f6b93b?style=flat-square) | ![](https://img.shields.io/badge/-—-95a5a6?style=flat-square) |
+| 16 | [nanobot](#nanobot) | 18,994 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 40 / 456 | ![](https://img.shields.io/badge/-Today-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-—-95a5a6?style=flat-square) |
+| 17 | [eliza](#eliza) | 17,509 | ![](https://img.shields.io/badge/-TypeScript-3178c6?style=flat-square) | 1508 / 1649 | ![](https://img.shields.io/badge/-Today-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-—-95a5a6?style=flat-square) |
+| 18 | [SuperAGI](#superagi) | 17,171 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 278 / 489 | ![](https://img.shields.io/badge/-388d-e55039?style=flat-square) | ![](https://img.shields.io/badge/-—-95a5a6?style=flat-square) |
+| 19 | [camel](#camel) | 16,017 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 1202 / 1647 | ![](https://img.shields.io/badge/-1d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-—-95a5a6?style=flat-square) |
+| 20 | [pydantic-ai](#pydantic-ai) | 14,889 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 1468 / 2004 | ![](https://img.shields.io/badge/-Today-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-—-95a5a6?style=flat-square) |
+| 21 | [E2B](#e2b) | 10,897 | ![](https://img.shields.io/badge/-MDX-607d8b?style=flat-square) | 266 / 324 | ![](https://img.shields.io/badge/-Today-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-—-95a5a6?style=flat-square) |
+| 22 | [picoclaw](#picoclaw) | 8,042 | ![](https://img.shields.io/badge/-Go-00add8?style=flat-square) | 23 / 96 | ![](https://img.shields.io/badge/-Today-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-—-95a5a6?style=flat-square) |
+| 23 | [PraisonAI](#praisonai) | 5,592 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 269 / 327 | ![](https://img.shields.io/badge/-Today-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%E2%86%931-e55039?style=flat-square) |
+| 24 | [ms-agent](#ms-agent) | 3,978 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 218 / 225 | ![](https://img.shields.io/badge/-1d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%E2%86%931-e55039?style=flat-square) |
+| 25 | [agency-swarm](#agency-swarm) | 3,956 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 143 / 156 | ![](https://img.shields.io/badge/-Today-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%E2%86%931-e55039?style=flat-square) |
 | 26 | [beeai-framework](#beeai-framework) | 3,098 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 0 / 4 | ![](https://img.shields.io/badge/-1d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%E2%86%931-e55039?style=flat-square) |
 | 27 | [anthropic-sdk-python](#anthropic-sdk-python) | 2,764 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 0 / 102 | ![](https://img.shields.io/badge/-Today-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%E2%86%931-e55039?style=flat-square) |
-| 28 | [moltis](#moltis) | 765 | ![](https://img.shields.io/badge/-Rust-dea584?style=flat-square) | 0 / 41 | ![](https://img.shields.io/badge/-Today-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%E2%86%931-e55039?style=flat-square) |
-| 29 | [FastCode](#fastcode) | 450 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 0 / 0 | ![](https://img.shields.io/badge/-1d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-—-95a5a6?style=flat-square) |
-| 30 | [ValeDesk](#valedesk) | 272 | ![](https://img.shields.io/badge/-TypeScript-3178c6?style=flat-square) | 0 / 21 | ![](https://img.shields.io/badge/-3d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%E2%86%932-e55039?style=flat-square) |
+| 28 | [moltis](#moltis) | 765 | ![](https://img.shields.io/badge/-Rust-dea584?style=flat-square) | 6 / 47 | ![](https://img.shields.io/badge/-Today-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%E2%86%931-e55039?style=flat-square) |
+| 29 | [FastCode](#fastcode) | 450 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 3 / 3 | ![](https://img.shields.io/badge/-1d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-—-95a5a6?style=flat-square) |
+| 30 | [ValeDesk](#valedesk) | 272 | ![](https://img.shields.io/badge/-TypeScript-3178c6?style=flat-square) | 17 / 38 | ![](https://img.shields.io/badge/-3d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%E2%86%932-e55039?style=flat-square) |
 | 31 | [agent-second-brain](#agent-second-brain) | 117 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 0 / 1 | ![](https://img.shields.io/badge/-14d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-—-95a5a6?style=flat-square) |
-| 32 | [topsha](#topsha) | 94 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 0 / 4 | ![](https://img.shields.io/badge/-1d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%E2%86%932-e55039?style=flat-square) |
+| 32 | [topsha](#topsha) | 94 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 5 / 9 | ![](https://img.shields.io/badge/-1d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%E2%86%932-e55039?style=flat-square) |
 | 33 | [SkillOS](#skillos) | 1 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 0 / 0 | ![](https://img.shields.io/badge/-15d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%E2%86%932-e55039?style=flat-square) |
+
 ---
+
 ### <a name="openclaw"></a>[openclaw](https://github.com/openclaw/openclaw)
-**个人专属 AI 助手。跨操作系统、跨平台。采用 Lobster 架构。 🦞**
+**您的专属个人AI助手。适配全系统与全平台。秉持 Lobster 核心理念。🦞**
 
-⭐ 194,881 · 🍴 33,650 · 👥 616 · 🛠️ TypeScript · 📅 Today
+⭐ 194,882 · 🍴 33,651 · 👥 616 · 🛠️ TypeScript · 📅 Today
 
-- 跨操作系统兼容性 (Any OS)
-- 全平台支持 (Any Platform)
-- 个性化本地 AI 助手部署
-- 轻量化、模块化的“Lobster”架构
+- 全平台跨系统无缝集成
+- 私有化个人AI智能体架构
+- 高性能模块化执行引擎
+- 全场景自动化任务调度
 
 ### <a name="autogpt"></a>[AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)
-**AutoGPT 的愿景是让 AI 触手可及，供每个人使用和构建。我们的使命是提供工具，助您专注于核心事务。**
+**AutoGPT 的愿景是实现人工智能的普及化，让每个人都能应用并在此基础上进行创新。我们的使命是提供底层工具支持，让您能够专注于核心业务与价值创造。**
 
 ⭐ 181,811 · 🍴 46,223 · 👥 802 · 🛠️ Python · 📅 Today
 
-- 基于 GPT 模型驱动的自主 AI 智能体功能
-- 用于任务分解与执行的递归式自我提示机制
-- 集成网页浏览、文件 I/O 等外部工具
-- 具备高扩展性与定制能力的开源框架
+- 自主化目标拆解与任务执行
+- 模块化、可扩展的开源生态
+- 降低AI应用门槛的普惠化工具
+- 聚焦核心价值的自动化生产力
 
 ### <a name="opencode"></a>[opencode](https://github.com/anomalyco/opencode)
-**开源编程智能体。**
+**开源编程智能体**
 
 ⭐ 104,692 · 🍴 10,178 · 👥 739 · 🛠️ TypeScript · 📅 Today
 
-- 采用宽松许可协议的开源代码库
-- 用于代码生成与执行的自主智能体架构
-- 针对文件 I/O、Shell 命令及测试的模块化工具集成
-- 兼容多种大模型供应商的通用设计
+- 全栈开源架构，支持深度定制与私有化部署
+- 自动化端到端开发流，实现高效代码构建与调试
+- 无缝集成主流工程生态，优化开发者协作体验
+- 企业级安全合规体系，保障核心代码资产自主可控
 
 ### <a name="metagpt"></a>[MetaGPT](https://github.com/FoundationAgents/MetaGPT)
-**🌟 多智能体框架：首家 AI 软件公司，迈向自然语言编程**
+**多智能体框架：首家 AI 软件公司，迈向自然语言编程。**
 
 ⭐ 64,188 · 🍴 8,063 · 👥 148 · 🛠️ Python · 📅 24d
 
-- 多智能体协作：专业化 AI 智能体（如产品经理、架构师、工程师、QA）像软件公司一样协同工作。
-- 自然语言转代码：将高层级用户需求转化为可执行代码库及文档。
-- 标准作业程序 (SOPs)：定义结构化工作流，确保智能体交互与输出的一致性。
-- 全面产出：根据自然语言规格说明生成 PRD、架构图、源代码及测试用例。
+- 多智能体协作与标准作业程序（SOP）深度集成
+- 全链路自动化软件工程生命周期管理
+- 基于角色定义的专业化分工与协同架构
+- 以自然语言编程为核心的生产力范式演进
 
 ### <a name="open-interpreter"></a>[open-interpreter](https://github.com/openinterpreter/open-interpreter)
-**计算机的自然语言接口**
+**计算机自然语言交互系统**
 
 ⭐ 62,149 · 🍴 5,342 · 👥 132 · 🛠️ Python · 📅 5d
 
-- 利用大模型实现自然语言到代码的转换
-- 在用户本地计算机执行代码
-- 支持 Python、Shell 等多种语言
-- 具备解释图像和屏幕截图的计算机视觉能力
+- 本地化全权限代码执行环境
+- 跨平台操作系统级自然语言交互
+- 多语言多模态任务自动化处理
+- 高安全性与数据主权的开源架构
 
 ### <a name="autogen"></a>[autogen](https://github.com/microsoft/autogen)
-**智能体 AI 编程框架**
+**面向智能体 AI 的开发框架**
 
 ⭐ 54,550 · 🍴 8,218 · 👥 532 · 🛠️ Python · 📅 23d
 
-- 多智能体对话编排
-- 可定制的 LLM 驱动型智能体
-- 工具与代码执行集成
-- 人机协同模式
+- 多智能体对话协作框架
+- 高度可定制与可组合的智能体架构
+- 自动化工作流与人机协同机制
+- 复杂任务编排与动态解题能力
 
 ### <a name="crewai"></a>[crewAI](https://github.com/crewAIInc/crewAI)
-**角色扮演型自主 AI 智能体编排框架。通过促进协作智能，CrewAI 赋能智能体无缝协作，应对复杂任务。**
+**角色化自主 AI 智能体编排框架。通过构建协作智能体系，CrewAI 助力智能体实现无缝协同，高效应对复杂业务挑战。**
 
 ⭐ 44,133 · 🍴 5,913 · 👥 279 · 🛠️ Python · 📅 Today
 
-- 角色扮演型 AI 智能体编排
-- 支持自主智能体执行
-- 促进协作智能
-- 针对复杂任务的无缝多智能体协作
+- 角色驱动的智能体架构
+- 协同化群体智能引擎
+- 工业级多智能体编排
+- 复杂任务的自主闭环处理
 
 ### <a name="agno"></a>[agno](https://github.com/agno-agi/agno)
-**构建在交互中不断学习与进化的多智能体系统。**
+**构建随交互持续学习与进化的多智能体系统。**
 
 ⭐ 37,854 · 🍴 5,007 · 👥 390 · 🛠️ Python · 📅 Today
 
-- 协作系统多智能体架构
-- 基于交互的实时在线学习
-- 持续改进的自适应反馈循环
-- 交互记忆与经验回放机制
+- 多智能体协同编排架构
+- 自进化长短期记忆系统
+- 交互驱动的持续学习闭环
+- 企业级工具链深度集成
 
 ### <a name="agentgpt"></a>[AgentGPT](https://github.com/reworkd/AgentGPT)
-**🤖 在浏览器中组装、配置并部署自主 AI 智能体。**
+**🤖 基于浏览器实现自主 AI 智能体的构建、配置与部署。**
 
 ⭐ 35,705 · 🍴 9,453 · 👥 72 · 🛠️ TypeScript · 📅 292d
 
-- 基于浏览器的智能体组装
-- 实时智能体配置
-- 一键式自主部署
-- 无需安装，直接在浏览器运行
+- 浏览器原生部署与零门槛接入
+- 自主任务分解与递归逻辑执行
+- 模块化智能体配置与灵活定制
+- 目标驱动的端到端自动化工作流
 
 ### <a name="smolagents"></a>[smolagents](https://github.com/huggingface/smolagents)
-**🤗 smolagents：专为“以代码思考”的智能体设计的极简库。**
+**smolagents：以代码为核心逻辑的轻量级智能体开发库。**
 
 ⭐ 25,432 · 🍴 2,292 · 👥 197 · 🛠️ Python · 📅 22d
 
-- 依赖极少的极简轻量化设计
-- 智能体通过生成并执行 Python 代码进行推理与行动
-- 与 Hugging Face Transformers 无缝集成，支持本地大模型
-- 沙箱化代码执行，确保工具交互与推理的安全性
+- 以代码为核心的逻辑推理引擎
+- 极简主义的轻量化开发框架
+- 深度集成 Hugging Face 生态体系
+- 安全可控的自动化代码执行机制
 
 ### <a name="gpt-researcher"></a>[gpt-researcher](https://github.com/assafelovic/gpt-researcher)
-**使用任意大模型供应商对各类数据进行深度调研的自主智能体。**
+**适配主流大模型的自主智能体，实现针对多源数据的深度调研与分析。**
 
 ⭐ 25,319 · 🍴 3,360 · 👥 216 · 🛠️ Python · 📅 13d
 
-- 支持独立执行调研任务的自主智能体架构
-- 通过迭代数据采集与合成实现深度调研
-- 针对任何输入类型或主题的通用数据处理
-- 支持多供应商大模型，实现灵活的模型集成
+- 全流程自主化调研引擎
+- 跨平台大模型集成能力
+- 海量异构数据深度挖掘
+- 结构化专业报告自动生成
 
 ### <a name="langgraph"></a>[langgraph](https://github.com/langchain-ai/langgraph)
-**以图结构构建高韧性语言智能体。**
+**基于图结构构建高韧性语言智能体。**
 
 ⭐ 24,717 · 🍴 4,305 · 👥 273 · 🛠️ Python · 📅 Today
 
-- 基于图结构的智能体构建架构
-- 具备错误处理与重试机制的高韧性执行
-- 带有持久化检查点的有状态工作流
-- 支持循环、分支及多智能体协调
+- 支持循环图结构的复杂工作流，实现智能体迭代推理与自我修正。
+- 内置精细化状态管理与持久化机制，确保长时任务的上下文一致性。
+- 原生支持“人机协作”模式，实现关键决策节点的实时人工干预与审核。
+- 强大的多智能体协同编排能力，支持复杂业务逻辑的模块化拆解与高效执行。
 
 ### <a name="haystack"></a>[haystack](https://github.com/deepset-ai/haystack)
-**开源 AI 编排框架，用于构建上下文工程化、生产级大模型应用。设计模块化流水线与智能体工作流，实现对检索、路由、记忆及生成的显式控制。专为可扩展智能体、RAG、多模态应用、语义搜索及对话系统打造。**
+**开源 AI 编排框架，旨在构建基于上下文工程的生产级大模型应用。支持设计模块化流水线与智能体工作流，实现对检索、路由、记忆及生成环节的显式控制。适用于构建高扩展性智能体、RAG、多模态应用、语义搜索及对话系统。**
 
 ⭐ 24,192 · 🍴 2,600 · 👥 323 · 🛠️ MDX · 📅 1d
 
-- 模块化流水线与智能体工作流
-- 对检索、路由、记忆及生成的显式控制
-- 支持可扩展智能体与 RAG（检索增强生成）
-- 针对多模态应用、语义搜索及对话系统进行了优化
+- 模块化流水线与智能体编排架构
+- 生产级上下文工程与全链路显式控制
+- 适配RAG、多模态及语义搜索的多元化场景
+- 高可扩展的工业级大模型应用开发框架
 
 ### <a name="babyagi"></a>[babyagi](https://github.com/yoheinakajima/babyagi)
 ⭐ 22,135 · 🍴 2,849 · 👥 2 · 🛠️ Python · 📅 15d
 
-- 利用大模型提示词自主生成任务
-- 基于向量嵌入与相似度搜索的任务优先级排序
-- 在 Pinecone 等向量数据库中持久化存储任务与执行结果
-- 任务创建、优先级排序与执行的迭代循环
+- 自主任务驱动与闭环迭代架构
+- 基于目标导向的动态任务优先级调度
+- 集成向量数据库的长短期记忆管理
+- 高可扩展的模块化LLM集成框架
 
 ### <a name="swarm"></a>[swarm](https://github.com/openai/swarm)
-**探索人体工程学、轻量化多智能体编排的教学框架。由 OpenAI Solution 团队维护。**
+**旨在探索轻量化与易用性多智能体编排的教学示范框架。由 OpenAI 解决方案团队维护。**
 
 ⭐ 20,954 · 🍴 2,229 · 👥 14 · 🛠️ Python · 📅 340d
 
-- 依赖极少的轻量化多智能体编排
-- 用于直观定义智能体与移交任务的人体工程学 API
-- 协调智能体工作流的简单编排循环
-- 针对教学探索优化的模块化设计
+- 轻量化多智能体编排架构
+- 极致简约的开发者体验设计
+- 灵活的代理移交与例程管理机制
+- 面向生产实践的教育性参考范式
 
 ### <a name="nanobot"></a>[nanobot](https://github.com/HKUDS/nanobot)
-**超轻量化 AI 智能体内核。支持多供应商、自定义技能、定时任务及多渠道通讯（Telegram、Slack 等）。**
+**超轻量化 AI Agent 核心引擎。支持多模型供应商接入、自定义技能扩展、自动化定时任务及多渠道通信集成（Telegram、Slack 等）。**
 
-⭐ 18,993 · 🍴 2,793 · 👥 46 · 🛠️ Python · 📅 Today
+⭐ 18,994 · 🍴 2,793 · 👥 46 · 🛠️ Python · 📅 Today
 
-- 资源高效型 AI 智能体编排的超轻量、高性能内核。
-- 支持与多种大模型后端无缝集成的供应商无关架构。
-- 用于自定义技能开发与自主任务调度的可扩展模块化框架。
-- 跨主流企业级通讯平台的通渠道部署能力。
+- 超轻量化高性能AI Agent核心引擎
+- 多模型供应商无缝适配与灵活切换
+- 模块化自定义技能与自动化任务调度
+- 全渠道多终端即时通讯集成能力
 
 ### <a name="eliza"></a>[eliza](https://github.com/elizaOS/eliza)
-**让每个人都能拥有自主智能体**
+**自主智能体普惠化**
 
 ⭐ 17,509 · 🍴 5,414 · 👥 651 · 🛠️ TypeScript · 📅 Today
 
-- 支持快速定制的模块化智能体架构
-- 内置自主规划与推理引擎
-- 无缝工具集成与 API 连接
-- 实现普适访问的轻量化本地部署
+- 全渠道自主交互与社交集成架构
+- 深度上下文感知与长效记忆管理机制
+- 高度可扩展的模块化插件与工具生态
+- 低门槛的规模化自主智能体部署方案
 
 ### <a name="superagi"></a>[SuperAGI](https://github.com/TransformerOptimus/SuperAGI)
-**<⚡️> SuperAGI - 开发者优先的开源自主 AI 智能体框架。助力开发者快速、可靠地构建、管理和运行实用的自主智能体。**
+**<⚡️> SuperAGI - 开发者优先的开源自主 AI 智能体框架。助力开发者高效、稳健地构建、管理及运行具备实战价值的自主智能体。**
 
 ⭐ 17,171 · 🍴 2,156 · 👥 74 · 🛠️ Python · 📅 388d
 
-- 开源框架
-- 开发者优先设计
-- 自主 AI 智能体构建
-- 可靠的管理与执行
+- 开发者优先的开源自主智能体框架
+- 智能体全生命周期构建、管理与运行能力
+- 高效可靠的自动化任务执行引擎
+- 灵活可扩展的企业级AI应用集成方案
 
 ### <a name="camel"></a>[camel](https://github.com/camel-ai/camel)
-**🐫 CAMEL：首个且领先的多智能体框架。探索智能体规模定律。https://www.camel-ai.org**
+**🐫 CAMEL：首创且领先的多智能体框架。探索智能体规模法则。https://www.camel-ai.org**
 
 ⭐ 16,017 · 🍴 1,770 · 👥 192 · 🛠️ Python · 📅 1d
 
-- 基于大模型的智能体间通信协议
-- 针对任务专业化的角色扮演功能
-- 探索智能体规模定律的可扩展架构
-- 集成多种大模型后端与供应商
+- 首创性多智能体自治协作架构
+- 智能体规模法则（Scaling Law）的深度探索
+- 基于角色扮演的标准化通信协议
+- 面向复杂任务处理的工业级多智能体生态
 
 ### <a name="pydantic-ai"></a>[pydantic-ai](https://github.com/pydantic/pydantic-ai)
-**以 Pydantic 方式构建的生成式 AI 智能体框架**
+**基于 Pydantic 范式的生成式 AI 智能体框架**
 
 ⭐ 14,889 · 🍴 1,641 · 👥 368 · 🛠️ Python · 📅 Today
 
-- 基于 Pydantic 的类型安全智能体定义与配置
-- 对大模型输入、输出及工具调用的自动验证
-- 结构化生成，确保 AI 响应的可靠解析
-- 模式驱动编排的声明式多智能体工作流
+- 原生集成 Pydantic，提供严谨的类型安全与结构化数据验证
+- 模型无关的架构设计，支持主流 LLM 供应商的无缝切换与集成
+- 遵循 Pythonic 开发范式，显著提升 Agent 开发的工程化效率
+- 内置依赖注入与可测试性支持，确保复杂 AI 应用的生产级稳定性
 
 ### <a name="e2b"></a>[E2B](https://github.com/e2b-dev/E2B)
-**为企业级智能体提供带有真实工具的开源安全环境。**
+**面向企业级智能体的开源安全环境，配备实战化工具。**
 
 ⭐ 10,897 · 🍴 769 · 👥 44 · 🛠️ MDX · 📅 Today
 
-- 开源代码库
-- 安全的沙箱环境
-- 集成真实世界工具
-- 支持企业级 AI 智能体
+- 企业级安全沙箱隔离环境
+- 全栈实时代码执行与工具集成
+- 开源可定制的 Agent 运行架构
+- 生产级高可靠 AI 基础设施
 
 ### <a name="picoclaw"></a>[picoclaw](https://github.com/sipeed/picoclaw)
-**picoclaw**
+**picoclaw：轻量化高效数据采集方案**
 
-⭐ 8,041 · 🍴 780 · 👥 41 · 🛠️ Go · 📅 Today
+⭐ 8,042 · 🍴 781 · 👥 41 · 🛠️ Go · 📅 Today
 
-- 基于 RP2040 的低延迟舵机管理控制架构
-- 针对小型机器人优化的紧凑型 3D 打印机械设计
-- 用于精细物体操作的高精度 PWM 驱动舵机执行
-- 与 MicroPython 和 C++ 无缝集成，支持快速原型开发与部署
+- 高精度微型执行控制系统
+- 模块化即插即用集成架构
+- 极致紧凑的空间优化设计
+- 多场景自适应精密作业能力
 
 ### <a name="praisonai"></a>[PraisonAI](https://github.com/MervinPraison/PraisonAI)
-**PraisonAI 是一款生产就绪的多 AI 智能体框架，旨在创建 AI 智能体以自动化解决从简单任务到复杂挑战的各类问题。它提供低代码解决方案以简化多智能体大模型系统的构建与管理，强调简洁性、定制化以及高效的人机协作。**
+**PraisonAI 是一款生产级多智能体 (Multi-Agent) 框架，旨在通过构建 AI 智能体实现从基础任务到复杂业务挑战的自动化处理。该框架提供低代码解决方案，旨在优化多智能体大模型系统的开发与管理流程，并重点强化了系统的易用性、高度定制化能力以及高效的人机协作机制。**
 
 ⭐ 5,592 · 🍴 762 · 👥 30 · 🛠️ Python · 📅 Today
 
-- 生产就绪的多智能体架构
-- 构建 AI 智能体的低代码解决方案
-- 简化多智能体大模型系统的管理
-- 定制化与人机协作功能
+- 企业级生产就绪的多智能体协同框架
+- 低代码驱动的 LLM 系统构建与全生命周期管理
+- 覆盖从基础任务到复杂挑战的全场景自动化能力
+- 强调高度定制化与高效的人机协作机制
 
 ### <a name="ms-agent"></a>[ms-agent](https://github.com/modelscope/ms-agent)
-**MS-Agent：赋能复杂任务智能执行的轻量化框架**
+**MS-Agent：赋能复杂任务智能体化执行的轻量级框架。**
 
 ⭐ 3,978 · 🍴 461 · 👥 47 · 🛠️ Python · 📅 1d
 
-- 依赖极少的轻量化架构
-- 用于自主工作流的智能执行引擎
-- 针对复杂任务处理的模块化工具集成
-- 针对可扩展部署的高效资源优化
+- 轻量化高性能架构设计
+- 复杂任务自主拆解与编排
+- 增强型智能体自主执行引擎
+- 模块化可扩展的集成能力
 
 ### <a name="agency-swarm"></a>[agency-swarm](https://github.com/VRSEN/agency-swarm)
-**可靠的多智能体编排框架**
+**工业级多智能体协同编排框架**
 
 ⭐ 3,956 · 🍴 998 · 👥 23 · 🛠️ Python · 📅 Today
 
-- 容错型多智能体协调
-- 动态任务编排与委派
-- 自动恢复与故障转移机制
-- 确保可靠性的可扩展状态管理
+- 层级化多智能体协同架构
+- 标准化的智能体间通信协议
+- 深度集成的工具链与API扩展能力
+- 生产级任务状态管理与容错机制
 
 ### <a name="beeai-framework"></a>[beeai-framework](https://github.com/i-am-bee/beeai-framework)
-**支持使用 Python 和 TypeScript 构建生产级 AI 智能体。**
+**构建支持 Python 与 TypeScript 的生产级 AI 智能体。**
 
 ⭐ 3,098 · 🍴 402 · 👥 67 · 🛠️ Python · 📅 1d
 
-- Python 与 TypeScript 双语言支持
-- 生产级智能体脚手架与工具链
-- AI 智能体的可扩展部署能力
-- 简化智能体 AI 的开发工作流
+- 多语言原生支持：提供 Python 与 TypeScript 双栈 SDK，实现跨平台的企业级开发协同。
+- 生产级 Agent 架构：专注于高可用性与可扩展性，支持从原型开发到大规模生产环境的平滑迁移。
+- 核心能力深度集成：内置高效的规划算法、长短期记忆管理及工具调用机制，赋能复杂业务逻辑。
+- 全栈观测与治理：提供端到端的链路追踪与决策审计，确保 AI 智能体在业务流程中的透明度与安全性。
 
 ### <a name="anthropic-sdk-python"></a>[anthropic-sdk-python](https://github.com/anthropics/anthropic-sdk-python)
 ⭐ 2,764 · 🍴 456 · 👥 51 · 🛠️ Python · 📅 Today
 
-- 支持 async/await 的异步客户端，实现高效 API 交互
-- 实时消息处理的流式响应功能
-- 使用 Pydantic 构建请求与响应的类型安全模型
-- 原生集成 Anthropic Messages API，包含工具与视觉功能
+- 原生异步支持实现高性能并发请求处理
+- 深度集成 Claude 系列模型核心能力与工具调用
+- 全类型提示支持确保开发健壮性与效率
+- 生产级异常管理与自动重试机制保障系统稳定性
 
 ### <a name="moltis"></a>[moltis](https://github.com/moltis-org/moltis)
-**使用 Rust 构建的个人 AI 助手。单二进制文件，支持多供应商大模型、长期记忆、沙箱化执行、语音、MCP 工具及多渠道访问（Web、Telegram、API）。**
+**基于 Rust 构建的个人 AI 助手：采用单一二进制架构，支持多模型供应商接入、长期记忆与沙箱化执行；集成语音交互、MCP 工具协议及多渠道访问（Web、Telegram、API）。**
 
 ⭐ 765 · 🍴 63 · 👥 5 · 🛠️ Rust · 📅 Today
 
-- 基于 Rust 的单二进制文件，易于部署
-- 支持多供应商大模型
-- 具备长期记忆能力
-- 确保安全性的沙箱化执行
+- 高性能 Rust 原生架构：单二进制部署，兼顾极致响应速度与系统资源轻量化
+- 多模态模型与 MCP 生态集成：支持主流 LLM 供应商与标准工具协议，具备强大的可扩展性
+- 长效记忆与沙箱化安全执行：结合上下文持久化技术与隔离运行环境，确保智能交互的私密与可靠
+- 全场景多端接入能力：通过 Web、Telegram 及 API 实现跨平台覆盖，打造无缝的个人 AI 枢纽
 
 ### <a name="fastcode"></a>[FastCode](https://github.com/HKUDS/FastCode)
-**FastCode：加速并简化您的代码理解**
+**FastCode：加速源码解析，优化代码理解效能。**
 
 ⭐ 450 · 🍴 49 · 👥 3 · 🛠️ Python · 📅 1d
 
-- 采用优化分词技术的极速代码解析
-- 深度代码理解的上下文感知语义分析
-- 实时代码解释与摘要引擎
-- 支持多语言，具备基于图结构的依赖映射功能
+- 智能语义解析与全景映射
+- 极速代码逻辑自动化梳理
+- 跨语言架构深度洞察
+- 研发效能全链路提速
 
 ### <a name="valedesk"></a>[ValeDesk](https://github.com/vakovalskii/ValeDesk)
-**多功能、近乎本地、最终合理的助手 🔫**
+**全能型准本地化智能助手：兼顾部署灵活性与持续进化的逻辑表现。**
 
 ⭐ 272 · 🍴 44 · 👥 12 · 🛠️ TypeScript · 📅 3d
 
-- 多领域任务处理能力
-- 极低云端依赖的近本地推理
-- 确保最终准确性的迭代推理
-- 具备稳健防护机制的安全助手框架
+- 全场景多模态任务集成架构
+- 边缘侧优先的隐私计算机制
+- 动态成本优化的智能决策引擎
+- 敏捷化全域自动化协同体系
 
 ### <a name="agent-second-brain"></a>[agent-second-brain](https://github.com/smixs/agent-second-brain)
 **第二大脑智能体系统**
 
 ⭐ 117 · 🍴 105 · 👥 2 · 🛠️ Python · 📅 14d
 
-- 自主语义记忆集成
-- 主动任务执行与工作流编排
-- 用于实时合成的智能体检索增强生成 (RAG)
-- 跨平台互操作性与生态同步
+- 多模态长效记忆与动态知识库构建
+- 自主任务规划与复杂逻辑推理引擎
+- 跨平台工具集成与自动化执行闭环
+- 驱动决策的个性化智能洞察系统
 
 ### <a name="topsha"></a>[topsha](https://github.com/vakovalskii/topsha)
-**针对简单 PC 任务的本地 Topsha 🐧 AI 智能体 - 专注于本地大模型 (GPT-OSS, Qwen, GLM)**
+**Local Topsha 🐧：基于本地大模型（GPT-OSS、Qwen、GLM）驱动的 PC 任务自动化 AI 智能体。**
 
 ⭐ 94 · 🍴 20 · 👥 6 · 🛠️ Python · 📅 1d
 
-- 完全本地执行，无云端依赖
-- 支持集成 GPT-OSS、Qwen 和 GLM 等本地大模型
-- 专为自动化简单 PC 任务设计的 AI 智能体
-- 兼容 Linux 架构（由 🐧 标识）
+- 全栈本地化部署，确保企业级数据隐私与核心资产安全。
+- 深度适配主流开源大模型（Qwen、GLM等），提供灵活的模型切换与调用能力。
+- 智能化PC任务编排与自动化执行，精准提升桌面办公协同效率。
+- 针对本地硬件优化的推理引擎，实现低延迟、高响应的端侧AI交互体验。
 
 ### <a name="skillos"></a>[SkillOS](https://github.com/AlexeyPevz/SkillOS)
-**具备技能、策略、审批、预算及可观测性的自托管 AI 智能体编排框架**
+**私有化 AI 智能体编排框架，集成技能扩展、策略治理、审批机制、预算管控与全链路可观测性。**
 
 ⭐ 1 · 🍴 0 · 👥 2 · 🛠️ Python · 📅 15d
 
-- 自托管部署
-- AI 智能体编排
-- 模块化技能系统
-- 策略、审批、预算及可观测性
+- 私有化部署的 AI Agent 编排架构
+- 模块化技能扩展与工具集成体系
+- 企业级策略治理、审批与预算管控
+- 全链路可观测性与运行性能监控
+
+---
+### @tsingular
+AI 战略洞察: [@tsingular](https://t.me/tsingular)
