@@ -4,50 +4,50 @@ Curated list of top AI agent frameworks for business and R&D.
 
 **EN** | [RU](README_RU.md) | [ZH](README_ZH.md)
 
-*Last updated: 2026-02-15 05:15:12*
+*Last updated: 2026-02-15 05:16:34*
 
-| Rank | Framework | Stars | Language | Issues (fixed/total) | Updated | Change |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | [openclaw](#openclaw) | 194,863 | TypeScript | 5176/11045 | Today | — |
-| 2 | [AutoGPT](#autogpt) | 181,811 | Python | 3484/3813 | Today | — |
-| 3 | [opencode](#opencode) | 104,688 | TypeScript | 4525/9730 | Today | — |
-| 4 | [MetaGPT](#metagpt) | 64,188 | Python | 888/968 | 24d | — |
-| 5 | [open-interpreter](#open-interpreter) | 62,149 | Python | 803/1098 | 5d | — |
-| 6 | [autogen](#autogen) | 54,550 | Python | 2493/3082 | 23d | — |
-| 7 | [crewAI](#crewai) | 44,131 | Python | 1667/1945 | Today | — |
-| 8 | [agno](#agno) | 37,854 | Python | 1646/2215 | Today | — |
-| 9 | [AgentGPT](#agentgpt) | 35,705 | TypeScript | 337/557 | 292d | — |
-| 10 | [smolagents](#smolagents) | 25,432 | Python | 505/875 | 22d | — |
-| 11 | [gpt-researcher](#gpt-researcher) | 25,319 | Python | 496/677 | 13d | — |
-| 12 | [langgraph](#langgraph) | 24,717 | Python | 973/1268 | Today | — |
-| 13 | [haystack](#haystack) | 24,192 | MDX | 4108/4222 | 1d | — |
-| 14 | [babyagi](#babyagi) | 22,135 | Python | 147/164 | 15d | — |
-| 15 | [swarm](#swarm) | 20,954 | Python | 5/21 | 340d | — |
-| 16 | [nanobot](#nanobot) | 18,990 | Python | 40/456 | Today | — |
-| 17 | [eliza](#eliza) | 17,509 | TypeScript | 1508/1649 | Today | — |
-| 18 | [SuperAGI](#superagi) | 17,171 | Python | 278/489 | 388d | — |
-| 19 | [camel](#camel) | 16,017 | Python | 1202/1647 | 1d | — |
-| 20 | [pydantic-ai](#pydantic-ai) | 14,889 | Python | 1468/2004 | Today | — |
-| 21 | [E2B](#e2b) | 10,897 | MDX | 266/324 | Today | — |
-| 22 | [picoclaw](#picoclaw) | 8,028 | Go | 23/96 | Today | — |
-| 23 | [PraisonAI](#praisonai) | 5,592 | Python | 269/327 | Today | ↓1 |
-| 24 | [ms-agent](#ms-agent) | 3,978 | Python | 218/225 | 1d | ↓1 |
-| 25 | [agency-swarm](#agency-swarm) | 3,956 | Python | 143/156 | Today | ↓1 |
-| 26 | [beeai-framework](#beeai-framework) | 3,098 | Python | 0/4 | 1d | ↓1 |
-| 27 | [anthropic-sdk-python](#anthropic-sdk-python) | 2,764 | Python | 0/102 | Today | ↓1 |
-| 28 | [moltis](#moltis) | 763 | Rust | 6/47 | Today | ↓1 |
-| 29 | [FastCode](#fastcode) | 447 | Python | 3/3 | 1d | — |
-| 30 | [ValeDesk](#valedesk) | 272 | TypeScript | 17/38 | 3d | ↓2 |
-| 31 | [agent-second-brain](#agent-second-brain) | 117 | Python | 0/1 | 14d | — |
-| 32 | [topsha](#topsha) | 94 | Python | 5/9 | 1d | ↓2 |
-| 33 | [SkillOS](#skillos) | 1 | Python | 0/0 | 15d | ↓2 |
+| Rank | Framework | Stars | Language | Issues (fixed / total) | Updated | Change |
+| :--- | :--- | ---: | :--- | :--- | :--- | :--- |
+| 1 | [openclaw](#openclaw) | 194,866 | TypeScript | 5177 / 11047 | Today | — |
+| 2 | [AutoGPT](#autogpt) | 181,811 | Python | 3484 / 3813 | Today | — |
+| 3 | [opencode](#opencode) | 104,688 | TypeScript | 4525 / 9730 | Today | — |
+| 4 | [MetaGPT](#metagpt) | 64,188 | Python | 888 / 968 | 24d | — |
+| 5 | [open-interpreter](#open-interpreter) | 62,149 | Python | 803 / 1098 | 5d | — |
+| 6 | [autogen](#autogen) | 54,550 | Python | 2493 / 3082 | 23d | — |
+| 7 | [crewAI](#crewai) | 44,132 | Python | 1667 / 1945 | Today | — |
+| 8 | [agno](#agno) | 37,854 | Python | 1646 / 2215 | Today | — |
+| 9 | [AgentGPT](#agentgpt) | 35,705 | TypeScript | 337 / 557 | 292d | — |
+| 10 | [smolagents](#smolagents) | 25,432 | Python | 505 / 875 | 22d | — |
+| 11 | [gpt-researcher](#gpt-researcher) | 25,319 | Python | 496 / 677 | 13d | — |
+| 12 | [langgraph](#langgraph) | 24,717 | Python | 973 / 1268 | Today | — |
+| 13 | [haystack](#haystack) | 24,192 | MDX | 4108 / 4222 | 1d | — |
+| 14 | [babyagi](#babyagi) | 22,135 | Python | 147 / 164 | 15d | — |
+| 15 | [swarm](#swarm) | 20,954 | Python | 5 / 21 | 340d | — |
+| 16 | [nanobot](#nanobot) | 18,991 | Python | 40 / 456 | Today | — |
+| 17 | [eliza](#eliza) | 17,509 | TypeScript | 1508 / 1649 | Today | — |
+| 18 | [SuperAGI](#superagi) | 17,171 | Python | 278 / 489 | 388d | — |
+| 19 | [camel](#camel) | 16,017 | Python | 1202 / 1647 | 1d | — |
+| 20 | [pydantic-ai](#pydantic-ai) | 14,889 | Python | 1468 / 2004 | Today | — |
+| 21 | [E2B](#e2b) | 10,897 | MDX | 266 / 324 | Today | — |
+| 22 | [picoclaw](#picoclaw) | 8,032 | Go | 23 / 96 | Today | — |
+| 23 | [PraisonAI](#praisonai) | 5,592 | Python | 269 / 327 | Today | ↓1 |
+| 24 | [ms-agent](#ms-agent) | 3,978 | Python | 218 / 225 | 1d | ↓1 |
+| 25 | [agency-swarm](#agency-swarm) | 3,956 | Python | 143 / 156 | Today | ↓1 |
+| 26 | [beeai-framework](#beeai-framework) | 3,098 | Python | 0 / 4 | 1d | ↓1 |
+| 27 | [anthropic-sdk-python](#anthropic-sdk-python) | 2,764 | Python | 0 / 102 | Today | ↓1 |
+| 28 | [moltis](#moltis) | 764 | Rust | 6 / 47 | Today | ↓1 |
+| 29 | [FastCode](#fastcode) | 447 | Python | 3 / 3 | 1d | — |
+| 30 | [ValeDesk](#valedesk) | 272 | TypeScript | 17 / 38 | 3d | ↓2 |
+| 31 | [agent-second-brain](#agent-second-brain) | 117 | Python | 0 / 1 | 14d | — |
+| 32 | [topsha](#topsha) | 94 | Python | 5 / 9 | 1d | ↓2 |
+| 33 | [SkillOS](#skillos) | 1 | Python | 0 / 0 | 15d | ↓2 |
 
 ---
 
 ### <a name="openclaw"></a>[openclaw](https://github.com/openclaw/openclaw)
 **Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞**
 
-⭐ 194,863 · 🍴 33,645 · 👥 616 · 🛠️ TypeScript · 📅 Today
+⭐ 194,866 · 🍴 33,647 · 👥 616 · 🛠️ TypeScript · 📅 Today
 
 - Cross-operating system compatibility (Any OS)
 - Universal platform support (Any Platform)
@@ -107,7 +107,7 @@ Curated list of top AI agent frameworks for business and R&D.
 ### <a name="crewai"></a>[crewAI](https://github.com/crewAIInc/crewAI)
 **Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.**
 
-⭐ 44,131 · 🍴 5,913 · 👥 279 · 🛠️ Python · 📅 Today
+⭐ 44,132 · 🍴 5,913 · 👥 279 · 🛠️ Python · 📅 Today
 
 - Orchestration of role-playing AI agents
 - Support for autonomous agent execution
@@ -195,7 +195,7 @@ Curated list of top AI agent frameworks for business and R&D.
 ### <a name="nanobot"></a>[nanobot](https://github.com/HKUDS/nanobot)
 **Ultra-lightweight AI agent kernel. Supports multiple providers, custom skills, cron jobs, and multi-channel communication (Telegram, Slack, etc.).**
 
-⭐ 18,990 · 🍴 2,792 · 👥 46 · 🛠️ Python · 📅 Today
+⭐ 18,991 · 🍴 2,793 · 👥 46 · 🛠️ Python · 📅 Today
 
 - Ultra-lightweight, high-performance kernel for resource-efficient AI agent orchestration.
 - Provider-agnostic architecture supporting seamless integration with multiple LLM backends.
@@ -255,7 +255,7 @@ Curated list of top AI agent frameworks for business and R&D.
 ### <a name="picoclaw"></a>[picoclaw](https://github.com/sipeed/picoclaw)
 **picoclaw**
 
-⭐ 8,028 · 🍴 780 · 👥 41 · 🛠️ Go · 📅 Today
+⭐ 8,032 · 🍴 780 · 👥 41 · 🛠️ Go · 📅 Today
 
 - RP2040-based control architecture for low-latency servo management
 - Compact, 3D-printable mechanical design optimized for small-scale robotics
@@ -313,7 +313,7 @@ Curated list of top AI agent frameworks for business and R&D.
 ### <a name="moltis"></a>[moltis](https://github.com/moltis-org/moltis)
 **A personal AI assistant built in Rust. Single binary, multi-provider LLMs, long-term memory, sandboxed execution, voice, MCP tools, and multi-channel access (web, Telegram, API).**
 
-⭐ 763 · 🍴 62 · 👥 5 · 🛠️ Rust · 📅 Today
+⭐ 764 · 🍴 62 · 👥 5 · 🛠️ Rust · 📅 Today
 
 - Rust-based single binary for easy deployment
 - Multi-provider LLM support
