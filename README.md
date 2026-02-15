@@ -4,7 +4,7 @@ Curated list of top AI agent frameworks for business and R&D.
 
 **EN** | [RU](README_RU.md) | [ZH](README_ZH.md)
 
-*Last updated: 2026-02-15 08:57:27*
+*Last updated: 2026-02-15 08:58:29*
 
 | Rank | Framework | Stars | Language | Issues (open / fixed / total) | Updated | Change |
 | :--- | :--- | ---: | :---: | :---: | :---: | :---: |
@@ -31,7 +31,7 @@ Curated list of top AI agent frameworks for business and R&D.
 | 21 | [camel](#camel) | 16,017 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 208 / 1202 / 1410 | ![](https://img.shields.io/badge/-3d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%E2%86%932-e55039?style=flat-square) |
 | 22 | [pydantic-ai](#pydantic-ai) | 14,889 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 386 / 1468 / 1854 | ![](https://img.shields.io/badge/-1d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%E2%86%932-e55039?style=flat-square) |
 | 23 | [E2B](#e2b) | 10,897 | ![](https://img.shields.io/badge/-MDX-607d8b?style=flat-square) | 38 / 266 / 304 | ![](https://img.shields.io/badge/-3d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%E2%86%932-e55039?style=flat-square) |
-| 24 | [picoclaw](#picoclaw) | 8,532 | ![](https://img.shields.io/badge/-Go-00add8?style=flat-square) | 46 / 23 / 69 | ![](https://img.shields.io/badge/-2d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%E2%86%932-e55039?style=flat-square) |
+| 24 | [picoclaw](#picoclaw) | 8,531 | ![](https://img.shields.io/badge/-Go-00add8?style=flat-square) | 46 / 23 / 69 | ![](https://img.shields.io/badge/-2d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%E2%86%932-e55039?style=flat-square) |
 | 25 | [agent-framework](#agent-framework) | 7,181 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 579 / 1210 / 1789 | ![](https://img.shields.io/badge/-2d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-—-95a5a6?style=flat-square) |
 | 26 | [PraisonAI](#praisonai) | 5,592 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 41 / 269 / 310 | ![](https://img.shields.io/badge/-Today-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%E2%86%933-e55039?style=flat-square) |
 | 27 | [ms-agent](#ms-agent) | 3,978 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 6 / 218 / 224 | ![](https://img.shields.io/badge/-9d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%E2%86%933-e55039?style=flat-square) |
@@ -42,16 +42,16 @@ Curated list of top AI agent frameworks for business and R&D.
 | 32 | [moltis](#moltis) | 812 | ![](https://img.shields.io/badge/-Rust-dea584?style=flat-square) | 24 / 6 / 30 | ![](https://img.shields.io/badge/-Today-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%E2%86%934-e55039?style=flat-square) |
 | 33 | [FastCode](#fastcode) | 509 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 0 / 3 / 3 | ![](https://img.shields.io/badge/-1d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%E2%86%934-e55039?style=flat-square) |
 | 34 | [ValeDesk](#valedesk) | 272 | ![](https://img.shields.io/badge/-TypeScript-3178c6?style=flat-square) | 18 / 17 / 35 | ![](https://img.shields.io/badge/-19d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%E2%86%934-e55039?style=flat-square) |
-| 35 | [agent-second-brain](#agent-second-brain) | 117 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 1 / 0 / 1 | ![](https://img.shields.io/badge/-14d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-—-95a5a6?style=flat-square) |
-| 36 | [topsha](#topsha) | 95 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 3 / 5 / 8 | ![](https://img.shields.io/badge/-1d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%E2%86%935-e55039?style=flat-square) |
-| 37 | [SkillOS](#skillos) | 1 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 0 / 0 / 0 | ![](https://img.shields.io/badge/-15d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%E2%86%935-e55039?style=flat-square) |
+| 35 | [agent-second-brain](#agent-second-brain) | 117 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 1 / 0 / 1 | ![](https://img.shields.io/badge/-14d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%E2%86%934-e55039?style=flat-square) |
+| 36 | [topsha](#topsha) | 95 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 3 / 5 / 8 | ![](https://img.shields.io/badge/-1d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%E2%86%934-e55039?style=flat-square) |
+| 37 | [SkillOS](#skillos) | 1 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 0 / 0 / 0 | ![](https://img.shields.io/badge/-15d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%E2%86%934-e55039?style=flat-square) |
 
 ---
 
 ### <a name="openclaw"></a>[openclaw](https://github.com/openclaw/openclaw)
 **Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞**
 
-⭐ 195,219 · 🍴 33,762 · 👥 618 · 🛠️ TypeScript · 📅 Today
+⭐ 195,219 · 🍴 33,762 · 👥 617 · 🛠️ TypeScript · 📅 Today
 
 - Cross-operating system compatibility (Any OS)
 - Universal platform support (Any Platform)
@@ -279,7 +279,7 @@ Curated list of top AI agent frameworks for business and R&D.
 ### <a name="picoclaw"></a>[picoclaw](https://github.com/sipeed/picoclaw)
 **picoclaw**
 
-⭐ 8,532 · 🍴 857 · 👥 41 · 🛠️ Go · 📅 2d
+⭐ 8,531 · 🍴 857 · 👥 41 · 🛠️ Go · 📅 2d
 
 - RP2040-based control architecture for low-latency servo management
 - Compact, 3D-printable mechanical design optimized for small-scale robotics
