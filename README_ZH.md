@@ -4,11 +4,11 @@
 
 [EN](README.md) | [RU](README_RU.md) | **ZH**
 
-*更新于: 2026-02-17 06:48:53*
+*更新于: 2026-02-17 06:48:56*
 
 | 排名 | 框架 | 星标 | 语言 | 问题 (待处理 / 已修复 / 总计) | 更新 | 变化 |
 | :--- | :--- | ---: | :---: | :---: | :---: | :---: |
-| 1 | [openclaw](#openclaw) | 202,468 | ![](https://img.shields.io/badge/-TypeScript-3178c6?style=flat-square) | 3396 / 5575 / 8971 | ![](https://img.shields.io/badge/-1d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%2B4179-2eb872?style=flat-square) |
+| 1 | [openclaw](#openclaw) | 202,457 | ![](https://img.shields.io/badge/-TypeScript-3178c6?style=flat-square) | 3396 / 5575 / 8971 | ![](https://img.shields.io/badge/-1d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%2B4168-2eb872?style=flat-square) |
 | 2 | [AutoGPT](#autogpt) | 181,835 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 234 / 3487 / 3721 | ![](https://img.shields.io/badge/-6d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%2B7-2eb872?style=flat-square) |
 | 3 | [langchain](#langchain) | 126,778 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 230 / 8837 / 9067 | ![](https://img.shields.io/badge/-1d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%2B56-2eb872?style=flat-square) |
 | 4 | [opencode](#opencode) | 105,697 | ![](https://img.shields.io/badge/-TypeScript-3178c6?style=flat-square) | 3875 / 4605 / 8480 | ![](https://img.shields.io/badge/-Today-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%2B486-2eb872?style=flat-square) |
@@ -24,7 +24,7 @@
 | 14 | [eliza](#eliza) | 17,523 | ![](https://img.shields.io/badge/-TypeScript-3178c6?style=flat-square) | 104 / 1534 / 1638 | ![](https://img.shields.io/badge/-28d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%2B11-2eb872?style=flat-square) |
 | 15 | [camel](#camel) | 16,032 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 208 / 1202 / 1410 | ![](https://img.shields.io/badge/-4d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%2B7-2eb872?style=flat-square) |
 | 16 | [pydantic-ai](#pydantic-ai) | 14,926 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 384 / 1474 / 1858 | ![](https://img.shields.io/badge/-Today-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%2B22-2eb872?style=flat-square) |
-| 17 | [picoclaw](#picoclaw) | 13,793 | ![](https://img.shields.io/badge/-Go-00add8?style=flat-square) | 90 / 28 / 118 | ![](https://img.shields.io/badge/-4d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%2B2344-2eb872?style=flat-square) |
+| 17 | [picoclaw](#picoclaw) | 13,792 | ![](https://img.shields.io/badge/-Go-00add8?style=flat-square) | 90 / 28 / 118 | ![](https://img.shields.io/badge/-4d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%2B2343-2eb872?style=flat-square) |
 | 18 | [E2B](#e2b) | 10,911 | ![](https://img.shields.io/badge/-MDX-607d8b?style=flat-square) | 39 / 266 / 305 | ![](https://img.shields.io/badge/-5d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%2B7-2eb872?style=flat-square) |
 | 19 | [agent-framework](#agent-framework) | 7,203 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 586 / 1225 / 1811 | ![](https://img.shields.io/badge/-4d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%2B14-2eb872?style=flat-square) |
 | 20 | [PraisonAI](#praisonai) | 5,593 | ![](https://img.shields.io/badge/-Python-3776ab?style=flat-square) | 42 / 269 / 311 | ![](https://img.shields.io/badge/-Today-2eb872?style=flat-square) | ![](https://img.shields.io/badge/--1-e55039?style=flat-square) |
@@ -51,7 +51,7 @@
 ### <a name="openclaw"></a>[openclaw](https://github.com/openclaw/openclaw)
 **您的专属个人 AI 助手。兼容全系统与全平台。Lobster 范式。🦞**
 
-⭐ 202,468 · 🍴 36,454 · 👥 718 · 🛠️ TypeScript · 📅 1d
+⭐ 202,457 · 🍴 36,453 · 👥 718 · 🛠️ TypeScript · 📅 1d
 
 - 全平台跨系统无缝集成
 - 高度个性化私有化部署
@@ -151,10 +151,10 @@
 ### <a name="babyagi"></a>[babyagi](https://github.com/yoheinakajima/babyagi)
 ⭐ 22,136 · 🍴 2,849 · 👥 2 · 🛠️ Python · 📅 17d
 
-- 自主任务编排与动态优先级调度
-- 闭环式目标驱动型自主迭代架构
+- 自主任务编排与优先级动态调整机制
 - 基于向量数据库的长短期记忆持久化
-- 高可扩展性的模块化AI代理框架
+- 闭环式目标驱动的递归任务执行引擎
+- 轻量化且高度可扩展的智能体架构
 
 ### <a name="nanobot"></a>[nanobot](https://github.com/HKUDS/nanobot)
 **超轻量级 AI Agent 核心引擎。支持多模型供应商接入、自定义技能扩展及自动化定时任务，具备 Telegram、Slack 等多渠道集成与交互能力。**
@@ -209,7 +209,7 @@
 ### <a name="picoclaw"></a>[picoclaw](https://github.com/sipeed/picoclaw)
 **极致轻量、极速性能、全场景部署 —— 自动化繁琐任务，释放核心创造力。**
 
-⭐ 13,793 · 🍴 1,446 · 👥 51 · 🛠️ Go · 📅 4d
+⭐ 13,792 · 🍴 1,446 · 👥 51 · 🛠️ Go · 📅 4d
 
 - 极简轻量化架构
 - 卓越的高性能响应
@@ -279,10 +279,10 @@
 ### <a name="anthropic-sdk-python"></a>[anthropic-sdk-python](https://github.com/anthropics/anthropic-sdk-python)
 ⭐ 2,776 · 🍴 457 · 👥 51 · 🛠️ Python · 📅 9d
 
-- 原生异步架构与高效流式响应支持
-- 企业级自动重试与异常容错机制
-- 基于 Pydantic 的严谨类型安全验证
-- 灵活的工具调用（Tool Use）与函数扩展能力
+- 高性能异步架构与流式响应支持
+- 严谨的类型安全与 Pydantic 数据验证
+- 生产级自动重试与健壮的错误处理机制
+- 深度集成 Claude 核心能力（如工具调用与提示词缓存）
 
 ### <a name="tinyclaw"></a>[tinyclaw](https://github.com/jlia0/tinyclaw)
 **TinyClaw：协同运作的个人智能体集群。**
