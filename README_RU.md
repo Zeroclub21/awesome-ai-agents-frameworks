@@ -2,61 +2,85 @@
 
 [EN](README.md) | **RU** | [ZH](README_ZH.md)
 
-*Last updated: 2026-02-17 10:41:49*
+*Last updated: 2026-02-18 06:00:45*
 
 | № | Фреймворк | Звезды | Лицензия | Язык | Задачи | Обновлен | Изм. |
 | :--- | :--- | ---: | :---: | :---: | :---: | :---: | :---: |
-| 1 | [open-webui](#open-webui) | 124,133 |  | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 172 / 7448 / 7620 | ![](https://img.shields.io/badge/-Today-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%2B1-2eb872?style=flat-square) |
-| 2 | [opencode](#opencode) | 105,799 | ![](https://img.shields.io/badge/-MIT-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-TypeScript-3178c6?style=flat-square) | 3886 / 4607 / 8493 | ![](https://img.shields.io/badge/-Today-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%2B14-2eb872?style=flat-square) |
-| 3 | [pydantic-ai](#pydantic-ai) | 14,926 | ![](https://img.shields.io/badge/-MIT-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 385 / 1474 / 1859 | ![](https://img.shields.io/badge/-Today-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-0-95a5a6?style=flat-square) |
-| 4 | [PraisonAI](#praisonai) | 5,593 | ![](https://img.shields.io/badge/-MIT-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 42 / 269 / 311 | ![](https://img.shields.io/badge/-Today-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-0-95a5a6?style=flat-square) |
-| 5 | [LocalAGI](#localagi) | 1,586 | ![](https://img.shields.io/badge/-MIT-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Go-3178c6?style=flat-square) | 45 / 43 / 88 | ![](https://img.shields.io/badge/-Today-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%2B1-2eb872?style=flat-square) |
-| 6 | [moltis](#moltis) | 1,014 | ![](https://img.shields.io/badge/-MIT-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Rust-3178c6?style=flat-square) | 26 / 18 / 44 | ![](https://img.shields.io/badge/-Today-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%2B1-2eb872?style=flat-square) |
-| 7 | [topsha](#topsha) | 101 | ![](https://img.shields.io/badge/-MIT-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 3 / 5 / 8 | ![](https://img.shields.io/badge/-Today-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-0-95a5a6?style=flat-square) |
-| 8 | [openclaw](#openclaw) | 203,150 | ![](https://img.shields.io/badge/-MIT-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-TypeScript-3178c6?style=flat-square) | 3434 / 5592 / 9026 | ![](https://img.shields.io/badge/-1d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%2B93-2eb872?style=flat-square) |
-| 9 | [AutoGPT](#autogpt) | 181,838 |  | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 235 / 3487 / 3722 | ![](https://img.shields.io/badge/-6d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-0-95a5a6?style=flat-square) |
-| 10 | [dify](#dify) | 129,715 |  | ![](https://img.shields.io/badge/-TypeScript-3178c6?style=flat-square) | 400 / 16072 / 16472 | ![](https://img.shields.io/badge/-6d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%2B1-2eb872?style=flat-square) |
-| 11 | [langchain](#langchain) | 126,787 | ![](https://img.shields.io/badge/-MIT-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 229 / 8838 / 9067 | ![](https://img.shields.io/badge/-2d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-0-95a5a6?style=flat-square) |
-| 12 | [open-interpreter](#open-interpreter) | 62,166 | ![](https://img.shields.io/badge/-AGPL--3.0-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 241 / 803 / 1044 | ![](https://img.shields.io/badge/-8d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-0-95a5a6?style=flat-square) |
-| 13 | [llama_index](#llama_index) | 47,030 | ![](https://img.shields.io/badge/-MIT-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 248 / 6652 / 6900 | ![](https://img.shields.io/badge/-6d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-0-95a5a6?style=flat-square) |
-| 14 | [crewAI](#crewai) | 44,217 | ![](https://img.shields.io/badge/-MIT-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 50 / 1670 / 1720 | ![](https://img.shields.io/badge/-17d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%2B1-2eb872?style=flat-square) |
-| 15 | [agno](#agno) | 37,895 | ![](https://img.shields.io/badge/-Apache--2.0-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 267 / 1655 / 1922 | ![](https://img.shields.io/badge/-1d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-0-95a5a6?style=flat-square) |
-| 16 | [ChatDev](#chatdev) | 31,004 | ![](https://img.shields.io/badge/-Apache--2.0-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 33 / 267 / 300 | ![](https://img.shields.io/badge/-26d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-0-95a5a6?style=flat-square) |
-| 17 | [gpt-researcher](#gpt-researcher) | 25,334 | ![](https://img.shields.io/badge/-Apache--2.0-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 147 / 496 / 643 | ![](https://img.shields.io/badge/-18d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-0-95a5a6?style=flat-square) |
-| 18 | [langgraph](#langgraph) | 24,771 | ![](https://img.shields.io/badge/-MIT-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 179 / 973 / 1152 | ![](https://img.shields.io/badge/-2d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-0-95a5a6?style=flat-square) |
-| 19 | [haystack](#haystack) | 24,213 | ![](https://img.shields.io/badge/-Apache--2.0-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-MDX-3178c6?style=flat-square) | 97 / 4113 / 4210 | ![](https://img.shields.io/badge/-4d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-0-95a5a6?style=flat-square) |
-| 20 | [babyagi](#babyagi) | 22,137 |  | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 9 / 147 / 156 | ![](https://img.shields.io/badge/-17d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-0-95a5a6?style=flat-square) |
-| 21 | [letta](#letta) | 21,135 | ![](https://img.shields.io/badge/-Apache--2.0-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 35 / 1074 / 1109 | ![](https://img.shields.io/badge/-18d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%2B1-2eb872?style=flat-square) |
-| 22 | [nanobot](#nanobot) | 20,654 | ![](https://img.shields.io/badge/-MIT-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 199 / 46 / 245 | ![](https://img.shields.io/badge/-4d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%2B14-2eb872?style=flat-square) |
-| 23 | [DB-GPT](#db-gpt) | 18,133 | ![](https://img.shields.io/badge/-MIT-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 425 / 1186 / 1611 | ![](https://img.shields.io/badge/-6d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-0-95a5a6?style=flat-square) |
-| 24 | [adk-python](#adk-python) | 17,755 | ![](https://img.shields.io/badge/-Apache--2.0-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 370 / 1776 / 2146 | ![](https://img.shields.io/badge/-5d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-0-95a5a6?style=flat-square) |
-| 25 | [eliza](#eliza) | 17,522 | ![](https://img.shields.io/badge/-MIT-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-TypeScript-3178c6?style=flat-square) | 104 / 1534 / 1638 | ![](https://img.shields.io/badge/-28d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-0-95a5a6?style=flat-square) |
-| 26 | [camel](#camel) | 16,032 | ![](https://img.shields.io/badge/-Apache--2.0-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 208 / 1202 / 1410 | ![](https://img.shields.io/badge/-5d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-0-95a5a6?style=flat-square) |
-| 27 | [llmware](#llmware) | 14,854 | ![](https://img.shields.io/badge/-Apache--2.0-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 66 / 100 / 166 | ![](https://img.shields.io/badge/-5d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-0-95a5a6?style=flat-square) |
-| 28 | [picoclaw](#picoclaw) | 14,038 |  | ![](https://img.shields.io/badge/-Go-3178c6?style=flat-square) | 97 / 28 / 125 | ![](https://img.shields.io/badge/-4d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%2B27-2eb872?style=flat-square) |
-| 29 | [E2B](#e2b) | 10,912 | ![](https://img.shields.io/badge/-Apache--2.0-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-MDX-3178c6?style=flat-square) | 39 / 266 / 305 | ![](https://img.shields.io/badge/-5d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-0-95a5a6?style=flat-square) |
-| 30 | [agent-framework](#agent-framework) | 7,207 | ![](https://img.shields.io/badge/-MIT-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 586 / 1226 / 1812 | ![](https://img.shields.io/badge/-4d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%2B1-2eb872?style=flat-square) |
-| 31 | [ms-agent](#ms-agent) | 3,977 | ![](https://img.shields.io/badge/-Apache--2.0-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 6 / 218 / 224 | ![](https://img.shields.io/badge/-11d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-0-95a5a6?style=flat-square) |
-| 32 | [agency-swarm](#agency-swarm) | 3,960 | ![](https://img.shields.io/badge/-MIT-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 2 / 144 / 146 | ![](https://img.shields.io/badge/-28d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-0-95a5a6?style=flat-square) |
-| 33 | [langroid](#langroid) | 3,885 | ![](https://img.shields.io/badge/-MIT-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 46 / 203 / 249 | ![](https://img.shields.io/badge/-5d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-0-95a5a6?style=flat-square) |
-| 34 | [beeai-framework](#beeai-framework) | 3,104 | ![](https://img.shields.io/badge/-Apache--2.0-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 0 / 505 / 505 | ![](https://img.shields.io/badge/-5d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-0-95a5a6?style=flat-square) |
-| 35 | [anthropic-sdk-python](#anthropic-sdk-python) | 2,777 | ![](https://img.shields.io/badge/-MIT-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 58 / 247 / 305 | ![](https://img.shields.io/badge/-9d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%2B1-2eb872?style=flat-square) |
-| 36 | [tinyclaw](#tinyclaw) | 1,997 | ![](https://img.shields.io/badge/-MIT-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Shell-3178c6?style=flat-square) | 32 / 16 / 48 | ![](https://img.shields.io/badge/-1d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%2B2-2eb872?style=flat-square) |
-| 37 | [sgr-agent-core](#sgr-agent-core) | 992 | ![](https://img.shields.io/badge/-MIT-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 22 / 39 / 61 | ![](https://img.shields.io/badge/-23d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-0-95a5a6?style=flat-square) |
-| 38 | [FastCode](#fastcode) | 753 |  | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 2 / 3 / 5 | ![](https://img.shields.io/badge/-4d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-0-95a5a6?style=flat-square) |
-| 39 | [ValeDesk](#valedesk) | 276 |  | ![](https://img.shields.io/badge/-TypeScript-3178c6?style=flat-square) | 19 / 17 / 36 | ![](https://img.shields.io/badge/-22d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-0-95a5a6?style=flat-square) |
-| 40 | [agent-second-brain](#agent-second-brain) | 120 |  | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 1 / 0 / 1 | ![](https://img.shields.io/badge/-16d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-0-95a5a6?style=flat-square) |
-| 41 | [SkillOS](#skillos) | 1 | ![](https://img.shields.io/badge/-MIT-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 0 / 0 / 0 | ![](https://img.shields.io/badge/-17d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-0-95a5a6?style=flat-square) |
-| 42 | [autogen](#autogen) | 54,593 | ![](https://img.shields.io/badge/-CC--BY--4.0-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 433 / 2494 / 2927 | ![](https://img.shields.io/badge/-140d-f1c40f?style=flat-square) | ![](https://img.shields.io/badge/-0-95a5a6?style=flat-square) |
-| 43 | [aider](#aider) | 40,694 | ![](https://img.shields.io/badge/-Apache--2.0-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 1150 / 2801 / 3951 | ![](https://img.shields.io/badge/-191d-f1c40f?style=flat-square) | ![](https://img.shields.io/badge/--1-95a5a6?style=flat-square) |
-| 44 | [smolagents](#smolagents) | 25,466 | ![](https://img.shields.io/badge/-Apache--2.0-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 204 / 505 / 709 | ![](https://img.shields.io/badge/-32d-f1c40f?style=flat-square) | ![](https://img.shields.io/badge/-0-95a5a6?style=flat-square) |
-| 45 | [swarm](#swarm) | 20,965 | ![](https://img.shields.io/badge/-MIT-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 12 / 5 / 17 | ![](https://img.shields.io/badge/-342d-f1c40f?style=flat-square) | ![](https://img.shields.io/badge/-0-95a5a6?style=flat-square) |
-| 46 | [MetaGPT](#metagpt) | 64,252 | ![](https://img.shields.io/badge/-MIT-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 13 / 888 / 901 | ![](https://img.shields.io/badge/-665d-e74c3c?style=flat-square) | ![](https://img.shields.io/badge/-%2B1-2eb872?style=flat-square) |
-| 47 | [AgentGPT](#agentgpt) | 35,711 | ![](https://img.shields.io/badge/-GPL--3.0-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-TypeScript-3178c6?style=flat-square) | 133 / 337 / 470 | ![](https://img.shields.io/badge/-838d-e74c3c?style=flat-square) | ![](https://img.shields.io/badge/-0-95a5a6?style=flat-square) |
-| 48 | [SuperAGI](#superagi) | 17,179 | ![](https://img.shields.io/badge/-MIT-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 150 / 278 / 428 | ![](https://img.shields.io/badge/-762d-e74c3c?style=flat-square) | ![](https://img.shields.io/badge/-0-95a5a6?style=flat-square) |
-| 49 | [Adala](#adala) | 1,360 | ![](https://img.shields.io/badge/-Apache--2.0-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 8 / 8 / 16 | ![](https://img.shields.io/badge/-809d-e74c3c?style=flat-square) | ![](https://img.shields.io/badge/-0-95a5a6?style=flat-square) |
+| 1 | [openclaw](#openclaw) | 206,112 | ![](https://img.shields.io/badge/-MIT-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-TypeScript-3178c6?style=flat-square) | 3682 / 5664 / 9346 | ![](https://img.shields.io/badge/-Today-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%2B3055-2eb872?style=flat-square) |
+| 2 | [open-webui](#open-webui) | 124,203 |  | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 174 / 7456 / 7630 | ![](https://img.shields.io/badge/-Today-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%2B71-2eb872?style=flat-square) |
+| 3 | [picoclaw](#picoclaw) | 14,980 |  | ![](https://img.shields.io/badge/-Go-3178c6?style=flat-square) | 105 / 29 / 134 | ![](https://img.shields.io/badge/-Today-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%2B969-2eb872?style=flat-square) |
+| 4 | [pydantic-ai](#pydantic-ai) | 14,943 | ![](https://img.shields.io/badge/-MIT-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 388 / 1476 / 1864 | ![](https://img.shields.io/badge/-Today-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%2B17-2eb872?style=flat-square) |
+| 5 | [PraisonAI](#praisonai) | 5,594 | ![](https://img.shields.io/badge/-MIT-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 42 / 269 / 311 | ![](https://img.shields.io/badge/-Today-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%2B1-2eb872?style=flat-square) |
+| 6 | [anthropic-sdk-python](#anthropic-sdk-python) | 2,778 | ![](https://img.shields.io/badge/-MIT-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 58 / 247 / 305 | ![](https://img.shields.io/badge/-Today-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%2B2-2eb872?style=flat-square) |
+| 7 | [moltis](#moltis) | 1,128 | ![](https://img.shields.io/badge/-MIT-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Rust-3178c6?style=flat-square) | 30 / 22 / 52 | ![](https://img.shields.io/badge/-Today-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%2B115-2eb872?style=flat-square) |
+| 8 | [AutoGPT](#autogpt) | 181,852 |  | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 234 / 3487 / 3721 | ![](https://img.shields.io/badge/-7d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%2B14-2eb872?style=flat-square) |
+| 9 | [dify](#dify) | 129,746 |  | ![](https://img.shields.io/badge/-TypeScript-3178c6?style=flat-square) | 404 / 16074 / 16478 | ![](https://img.shields.io/badge/-6d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%2B32-2eb872?style=flat-square) |
+| 10 | [langchain](#langchain) | 126,832 | ![](https://img.shields.io/badge/-MIT-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 227 / 8841 / 9068 | ![](https://img.shields.io/badge/-2d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%2B45-2eb872?style=flat-square) |
+| 11 | [opencode](#opencode) | 106,193 | ![](https://img.shields.io/badge/-MIT-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-TypeScript-3178c6?style=flat-square) | 3917 / 4630 / 8547 | ![](https://img.shields.io/badge/-1d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%2B408-2eb872?style=flat-square) |
+| 12 | [open-interpreter](#open-interpreter) | 62,181 | ![](https://img.shields.io/badge/-AGPL--3.0-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 241 / 803 / 1044 | ![](https://img.shields.io/badge/-8d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%2B15-2eb872?style=flat-square) |
+| 13 | [llama_index](#llama_index) | 47,048 | ![](https://img.shields.io/badge/-MIT-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 247 / 6654 / 6901 | ![](https://img.shields.io/badge/-7d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%2B18-2eb872?style=flat-square) |
+| 14 | [crewAI](#crewai) | 44,253 | ![](https://img.shields.io/badge/-MIT-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 49 / 1671 / 1720 | ![](https://img.shields.io/badge/-18d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%2B37-2eb872?style=flat-square) |
+| 15 | [agno](#agno) | 37,915 | ![](https://img.shields.io/badge/-Apache--2.0-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 265 / 1658 / 1923 | ![](https://img.shields.io/badge/-2d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%2B20-2eb872?style=flat-square) |
+| 16 | [ChatDev](#chatdev) | 31,009 | ![](https://img.shields.io/badge/-Apache--2.0-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 33 / 267 / 300 | ![](https://img.shields.io/badge/-26d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%2B5-2eb872?style=flat-square) |
+| 17 | [gpt-researcher](#gpt-researcher) | 25,341 | ![](https://img.shields.io/badge/-Apache--2.0-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 147 / 496 / 643 | ![](https://img.shields.io/badge/-19d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%2B7-2eb872?style=flat-square) |
+| 18 | [langgraph](#langgraph) | 24,800 | ![](https://img.shields.io/badge/-MIT-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 178 / 976 / 1154 | ![](https://img.shields.io/badge/-3d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%2B29-2eb872?style=flat-square) |
+| 19 | [haystack](#haystack) | 24,223 | ![](https://img.shields.io/badge/-Apache--2.0-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-MDX-3178c6?style=flat-square) | 95 / 4116 / 4211 | ![](https://img.shields.io/badge/-5d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%2B10-2eb872?style=flat-square) |
+| 20 | [babyagi](#babyagi) | 22,139 |  | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 9 / 147 / 156 | ![](https://img.shields.io/badge/-18d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%2B2-2eb872?style=flat-square) |
+| 21 | [letta](#letta) | 21,148 | ![](https://img.shields.io/badge/-Apache--2.0-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 34 / 1075 / 1109 | ![](https://img.shields.io/badge/-19d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%2B14-2eb872?style=flat-square) |
+| 22 | [nanobot](#nanobot) | 21,067 | ![](https://img.shields.io/badge/-MIT-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 207 / 46 / 253 | ![](https://img.shields.io/badge/-4d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%2B427-2eb872?style=flat-square) |
+| 23 | [DB-GPT](#db-gpt) | 18,135 | ![](https://img.shields.io/badge/-MIT-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 425 / 1187 / 1612 | ![](https://img.shields.io/badge/-6d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%2B2-2eb872?style=flat-square) |
+| 24 | [adk-python](#adk-python) | 17,791 | ![](https://img.shields.io/badge/-Apache--2.0-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 371 / 1777 / 2148 | ![](https://img.shields.io/badge/-6d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%2B36-2eb872?style=flat-square) |
+| 25 | [eliza](#eliza) | 17,527 | ![](https://img.shields.io/badge/-MIT-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-TypeScript-3178c6?style=flat-square) | 104 / 1534 / 1638 | ![](https://img.shields.io/badge/-29d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%2B5-2eb872?style=flat-square) |
+| 26 | [camel](#camel) | 16,037 | ![](https://img.shields.io/badge/-Apache--2.0-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 210 / 1202 / 1412 | ![](https://img.shields.io/badge/-5d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%2B5-2eb872?style=flat-square) |
+| 27 | [llmware](#llmware) | 14,853 | ![](https://img.shields.io/badge/-Apache--2.0-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 66 / 100 / 166 | ![](https://img.shields.io/badge/-6d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/--1-95a5a6?style=flat-square) |
+| 28 | [E2B](#e2b) | 10,920 | ![](https://img.shields.io/badge/-Apache--2.0-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-MDX-3178c6?style=flat-square) | 39 / 266 / 305 | ![](https://img.shields.io/badge/-6d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%2B8-2eb872?style=flat-square) |
+| 29 | [agent-framework](#agent-framework) | 7,220 | ![](https://img.shields.io/badge/-MIT-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 586 / 1238 / 1824 | ![](https://img.shields.io/badge/-5d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%2B14-2eb872?style=flat-square) |
+| 30 | [ms-agent](#ms-agent) | 3,979 | ![](https://img.shields.io/badge/-Apache--2.0-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 6 / 218 / 224 | ![](https://img.shields.io/badge/-11d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%2B2-2eb872?style=flat-square) |
+| 31 | [agency-swarm](#agency-swarm) | 3,959 | ![](https://img.shields.io/badge/-MIT-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 2 / 144 / 146 | ![](https://img.shields.io/badge/-28d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/--1-95a5a6?style=flat-square) |
+| 32 | [langroid](#langroid) | 3,887 | ![](https://img.shields.io/badge/-MIT-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 46 / 203 / 249 | ![](https://img.shields.io/badge/-6d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%2B2-2eb872?style=flat-square) |
+| 33 | [beeai-framework](#beeai-framework) | 3,107 | ![](https://img.shields.io/badge/-Apache--2.0-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 0 / 505 / 505 | ![](https://img.shields.io/badge/-6d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%2B3-2eb872?style=flat-square) |
+| 34 | [tinyclaw](#tinyclaw) | 2,063 | ![](https://img.shields.io/badge/-MIT-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Shell-3178c6?style=flat-square) | 31 / 17 / 48 | ![](https://img.shields.io/badge/-2d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%2B68-2eb872?style=flat-square) |
+| 35 | [LocalAGI](#localagi) | 1,587 | ![](https://img.shields.io/badge/-MIT-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Go-3178c6?style=flat-square) | 45 / 43 / 88 | ![](https://img.shields.io/badge/-1d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%2B2-2eb872?style=flat-square) |
+| 36 | [sgr-agent-core](#sgr-agent-core) | 993 | ![](https://img.shields.io/badge/-MIT-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 23 / 39 / 62 | ![](https://img.shields.io/badge/-24d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%2B1-2eb872?style=flat-square) |
+| 37 | [FastCode](#fastcode) | 798 |  | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 2 / 3 / 5 | ![](https://img.shields.io/badge/-4d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%2B45-2eb872?style=flat-square) |
+| 38 | [ValeDesk](#valedesk) | 276 |  | ![](https://img.shields.io/badge/-TypeScript-3178c6?style=flat-square) | 17 / 20 / 37 | ![](https://img.shields.io/badge/-22d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-0-95a5a6?style=flat-square) |
+| 39 | [agent-second-brain](#agent-second-brain) | 121 |  | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 1 / 0 / 1 | ![](https://img.shields.io/badge/-17d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%2B1-2eb872?style=flat-square) |
+| 40 | [topsha](#topsha) | 105 | ![](https://img.shields.io/badge/-MIT-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 3 / 5 / 8 | ![](https://img.shields.io/badge/-1d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-%2B4-2eb872?style=flat-square) |
+| 41 | [SkillOS](#skillos) | 1 | ![](https://img.shields.io/badge/-MIT-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 0 / 0 / 0 | ![](https://img.shields.io/badge/-18d-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-0-95a5a6?style=flat-square) |
+| 42 | [autogen](#autogen) | 54,612 | ![](https://img.shields.io/badge/-CC--BY--4.0-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 433 / 2494 / 2927 | ![](https://img.shields.io/badge/-140d-f1c40f?style=flat-square) | ![](https://img.shields.io/badge/-%2B19-2eb872?style=flat-square) |
+| 43 | [aider](#aider) | 40,709 | ![](https://img.shields.io/badge/-Apache--2.0-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 1150 / 2802 / 3952 | ![](https://img.shields.io/badge/-192d-f1c40f?style=flat-square) | ![](https://img.shields.io/badge/-%2B14-2eb872?style=flat-square) |
+| 44 | [smolagents](#smolagents) | 25,482 | ![](https://img.shields.io/badge/-Apache--2.0-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 204 / 505 / 709 | ![](https://img.shields.io/badge/-33d-f1c40f?style=flat-square) | ![](https://img.shields.io/badge/-%2B16-2eb872?style=flat-square) |
+| 45 | [swarm](#swarm) | 20,967 | ![](https://img.shields.io/badge/-MIT-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 12 / 5 / 17 | ![](https://img.shields.io/badge/-343d-f1c40f?style=flat-square) | ![](https://img.shields.io/badge/-%2B2-2eb872?style=flat-square) |
+| 46 | [MetaGPT](#metagpt) | 64,267 | ![](https://img.shields.io/badge/-MIT-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 13 / 888 / 901 | ![](https://img.shields.io/badge/-666d-e74c3c?style=flat-square) | ![](https://img.shields.io/badge/-%2B16-2eb872?style=flat-square) |
+| 47 | [AgentGPT](#agentgpt) | 35,712 | ![](https://img.shields.io/badge/-GPL--3.0-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-TypeScript-3178c6?style=flat-square) | 133 / 337 / 470 | ![](https://img.shields.io/badge/-839d-e74c3c?style=flat-square) | ![](https://img.shields.io/badge/-%2B1-2eb872?style=flat-square) |
+| 48 | [SuperAGI](#superagi) | 17,180 | ![](https://img.shields.io/badge/-MIT-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 150 / 278 / 428 | ![](https://img.shields.io/badge/-763d-e74c3c?style=flat-square) | ![](https://img.shields.io/badge/-%2B1-2eb872?style=flat-square) |
+| 49 | [Adala](#adala) | 1,361 | ![](https://img.shields.io/badge/-Apache--2.0-2eb872?style=flat-square) | ![](https://img.shields.io/badge/-Python-3178c6?style=flat-square) | 8 / 8 / 16 | ![](https://img.shields.io/badge/-810d-e74c3c?style=flat-square) | ![](https://img.shields.io/badge/-%2B1-2eb872?style=flat-square) |
 
 ---
+
+### <a name="openclaw"></a>[openclaw](https://github.com/openclaw/openclaw)
+**Here are a few ways to translate this into Russian, depending on the specific nuance of "strategic" you want to convey:
+
+**Option 1: Direct and Authoritative (Best for a clean GitHub profile)**
+> **Ваш персональный ИИ-ассистент. Любая ОС. Любая платформа. Путь Lobster. 🦞**
+
+**Option 2: Professional and Visionary (Focuses on the "Philosophy")**
+> **Ваш личный ИИ-помощник. Полная кроссплатформенность. Философия Lobster. 🦞**
+
+**Option 3: Modern and Impactful (Focuses on versatility)**
+> **Ваш собственный ИИ-ассистент. Кроссплатформенность без границ. В стиле Lobster. 🦞**
+
+### Key terminology used:
+*   **Путь Lobster:** A direct translation of "The lobster way," sounding like a methodology (similar to "The Toyota Way").
+*   **Кроссплатформенность:** A strong technical term for "Any OS. Any Platform."
+*   **ИИ-ассистент:** The standard professional term for AI assistant.**
+
+⭐ 206,112 · 🍴 37,652 · 🛠️ TypeScript · 📅 Today
+
+- Персональный ИИ-ассистент
+- Поддержка любой операционной системы
+- Кроссплатформенность
+- Уникальная концепция «The lobster way»
 
 ### <a name="open-webui"></a>[open-webui](https://github.com/open-webui/open-webui)
 **Для придания описанию стратегического и профессионального тона на русском языке лучше всего подойдут следующие варианты:
@@ -75,31 +99,40 @@
 *   **Интерфейс взаимодействия / Платформа управления** — подчеркивает функциональную значимость проекта.
 *   **Интеграция / Поддержка** — стандартные термины для описания совместимости с внешними API.**
 
-⭐ 124,133 · 🍴 17,544 · 🛠️ Python · 📅 Today
+⭐ 124,203 · 🍴 17,553 · 🛠️ Python · 📅 Today
 
 - Удобный и интуитивно понятный пользовательский интерфейс
 - Интеграция с Ollama, OpenAI API и другими провайдерами
 - Поддержка RAG для работы с документами и внешними данными
 - Полный контроль над данными и возможность локального развертывания
 
-### <a name="opencode"></a>[opencode](https://github.com/anomalyco/opencode)
-**Вот несколько вариантов перевода в стратегическом тоне, от лаконичного до более представительного:
+### <a name="picoclaw"></a>[picoclaw](https://github.com/sipeed/picoclaw)
+**Here are a few ways to translate this description into Russian, depending on the specific "strategic" nuance you want to convey:
 
-1.  **Open-source агент для написания кода.** (Наиболее точный и современный вариант для GitHub).
-2.  **Ведущий open-source агент для разработки.** (Подчеркивает лидерство и статус проекта).
-3.  **Интеллектуальный агент для кодинга с открытым исходным кодом.** (Звучит более технологично и солидно).
+**Option 1: Punchy and Modern (Best for a high-impact GitHub profile)**
+> «Компактный, быстрый, универсальный — автоматизируйте рутину, освободите пространство для творчества».
 
-**Рекомендуемый вариант для GitHub:**
-> **Open-source агент для написания кода.**
+**Option 2: Professional and Results-Oriented (Focuses on efficiency)**
+> «Миниатюрный, высокопроизводительный и готовый к развертыванию в любой среде: автоматизируйте повседневные задачи и раскройте свой созидательный потенциал».
 
-Этот вариант звучит уверенно, профессионально и соответствует международному техническому стилю.**
+**Option 3: Tech-Focused and Direct (Standard for developer tools)**
+> «Легкий, скоростной и кроссплатформенный — автоматизируйте рутинные процессы, чтобы сосредоточиться на инновациях».
 
-⭐ 105,799 · 🍴 10,337 · 🛠️ TypeScript · 📅 Today
+### Key terminology used:
+*   **Tiny:** *Компактный* (Compact) or *Легкий* (Lightweight).
+*   **Fast:** *Быстрый* (Fast) or *Высокопроизводительный* (High-performance).
+*   **Deployable anywhere:** *Универсальный* (Universal) or *Готовый к развертыванию в любой среде* (Ready for deployment in any environment).
+*   **Automate the mundane:** *Автоматизируйте рутину* (Automate the routine).
+*   **Unleash your creativity:** *Раскройте творческий потенциал* (Reveal creative potential) or *Созидайте без границ* (Create without limits).
 
-- Открытый исходный код
-- Автономное написание и редактирование кода
-- Поддержка множества языков программирования
-- Интеграция с инструментами разработки
+**Recommended choice:** **Option 1** is the most natural fit for a GitHub repository description while maintaining a strong, strategic tone.**
+
+⭐ 14,980 · 🍴 1,633 · 🛠️ Go · 📅 Today
+
+- Компактный размер
+- Высокая скорость работы
+- Универсальность развертывания
+- Автоматизация рутинных задач
 
 ### <a name="pydantic-ai"></a>[pydantic-ai](https://github.com/pydantic/pydantic-ai)
 **Для перевода описания GitHub-репозитория в стратегическом и профессиональном ключе лучше всего подойдут следующие варианты:
@@ -118,7 +151,7 @@
 *   **GenAI-агенты** — устоявшийся термин в профессиональной среде, который лучше оставить в латинице для сохранения технического контекста.
 *   **Фреймворк** — стандартный термин для GitHub, звучащий более весомо, чем «инструмент» или «библиотека».**
 
-⭐ 14,926 · 🍴 1,647 · 🛠️ Python · 📅 Today
+⭐ 14,943 · 🍴 1,645 · 🛠️ Python · 📅 Today
 
 - Использование Pydantic для строгой валидации данных и получения структурированных ответов
 - Полная поддержка типизации Python для обеспечения безопасности типов и удобства разработки
@@ -138,30 +171,22 @@
 *   **Low-code solution:** Сохранено как общепринятый индустриальный термин.
 *   **Human-agent collaboration:** «Синергия человека и ИИ» или «эффективное взаимодействие» (отражает стратегическую ценность совместной работы).**
 
-⭐ 5,593 · 🍴 762 · 🛠️ Python · 📅 Today
+⭐ 5,594 · 🍴 762 · 🛠️ Python · 📅 Today
 
 - Фреймворк для создания мультиагентных систем ИИ, готовый к промышленному использованию
 - Автоматизация задач любой сложности: от простых до комплексных
 - Low-code решение для упрощения разработки и управления LLM-системами
 - Акцент на простоте, кастомизации и эффективном взаимодействии человека и агента
 
-### <a name="localagi"></a>[LocalAGI](https://github.com/mudler/LocalAGI)
-**Вот перевод описания в стратегическом и профессиональном тоне:
+### <a name="anthropic-sdk-python"></a>[anthropic-sdk-python](https://github.com/anthropics/anthropic-sdk-python)
+**None**
 
-**LocalAGI — это мощная self-hosted платформа для ИИ-агентов, спроектированная для обеспечения максимальной конфиденциальности и гибкости. Полноценная замена OpenAI Responses API с продвинутыми агентными возможностями. Полная автономность без использования облачных сервисов. Локальный ИИ, эффективно работающий на стандартном пользовательском оборудовании (CPU и GPU).**
+⭐ 2,778 · 🍴 457 · 🛠️ Python · 📅 Today
 
----
-
-**Вариант с акцентом на технологическое преимущество:**
-
-**LocalAGI — высокопроизводительная платформа для развертывания ИИ-агентов в собственной инфраструктуре, ориентированная на бескомпромиссную приватность. Бесшовная альтернатива OpenAI API с расширенным агентным функционалом. Никаких облаков: локальный ИИ, оптимизированный для работы на потребительском «железе» (CPU и GPU).****
-
-⭐ 1,586 · 🍴 240 · 🛠️ Go · 📅 Today
-
-- Максимальная конфиденциальность и локальное размещение
-- Полная совместимость с API OpenAI
-- Продвинутые возможности автономных ИИ-агентов
-- Работа на обычном оборудовании (CPU и GPU) без облаков
+- Простая интеграция с моделями Claude через API
+- Поддержка синхронных и асинхронных клиентов
+- Потоковая передача ответов в реальном времени
+- Строгая типизация и автоматическая валидация данных
 
 ### <a name="moltis"></a>[moltis](https://github.com/moltis-org/moltis)
 **Here are a few options for a strategic, professional translation into Russian:
@@ -181,60 +206,12 @@
 *   **Multi-channel access:** Мультиканальный доступ (strategic business/tech term).
 *   **Long-term memory:** Долгосрочная память.**
 
-⭐ 1,014 · 🍴 99 · 🛠️ Rust · 📅 Today
+⭐ 1,128 · 🍴 107 · 🛠️ Rust · 📅 Today
 
 - Разработка на Rust в виде единого бинарного файла
 - Поддержка множества провайдеров LLM
 - Наличие долгосрочной памяти
 - Безопасное выполнение кода в песочнице и поддержка инструментов MCP
-
-### <a name="topsha"></a>[topsha](https://github.com/vakovalskii/topsha)
-**Вот несколько вариантов перевода в стратегическом и профессиональном тоне:
-
-**Вариант 1: Наиболее точный и сбалансированный (рекомендуется)**
-> **Local Topsha 🐧 — ИИ-агент для автоматизации простых задач на ПК, оптимизированный для работы с локальными LLM (GPT-OSS, Qwen, GLM).**
-
-**Вариант 2: Лаконичный (в стиле GitHub-заголовков)**
-> **Local Topsha 🐧: ИИ-агент для управления ПК на базе локальных языковых моделей (GPT-OSS, Qwen, GLM).**
-
-**Вариант 3: С акцентом на технологический стек**
-> **Local Topsha 🐧 — ИИ-агент для выполнения повседневных задач на ПК с фокусом на локальные LLM-решения (GPT-OSS, Qwen, GLM).**
-
-### Основные изменения:
-*   **AI Agent** переведено как **ИИ-агент** (стандарт индустрии).
-*   **Simple PC tasks** адаптировано как **автоматизация задач** или **выполнение повседневных задач**, что звучит более весомо в стратегическом контексте.
-*   **Focused on** переведено как **оптимизированный для** или **с фокусом на**, чтобы подчеркнуть специализацию продукта.**
-
-⭐ 101 · 🍴 20 · 🛠️ Python · 📅 Today
-
-- Локальное выполнение для обеспечения полной конфиденциальности
-- Автоматизация простых повседневных задач на ПК
-- Поддержка открытых языковых моделей (Qwen, GLM, GPT-OSS)
-- Работа без необходимости облачного подключения
-
-### <a name="openclaw"></a>[openclaw](https://github.com/openclaw/openclaw)
-**Here are a few ways to translate this into Russian, depending on the specific nuance of "strategic" you want to convey:
-
-**Option 1: Direct and Authoritative (Best for a clean GitHub profile)**
-> **Ваш персональный ИИ-ассистент. Любая ОС. Любая платформа. Путь Lobster. 🦞**
-
-**Option 2: Professional and Visionary (Focuses on the "Philosophy")**
-> **Ваш личный ИИ-помощник. Полная кроссплатформенность. Философия Lobster. 🦞**
-
-**Option 3: Modern and Impactful (Focuses on versatility)**
-> **Ваш собственный ИИ-ассистент. Кроссплатформенность без границ. В стиле Lobster. 🦞**
-
-### Key terminology used:
-*   **Путь Lobster:** A direct translation of "The lobster way," sounding like a methodology (similar to "The Toyota Way").
-*   **Кроссплатформенность:** A strong technical term for "Any OS. Any Platform."
-*   **ИИ-ассистент:** The standard professional term for AI assistant.**
-
-⭐ 203,150 · 🍴 36,663 · 🛠️ TypeScript · 📅 1d
-
-- Персональный ИИ-ассистент
-- Поддержка любой операционной системы
-- Кроссплатформенность
-- Уникальная концепция «The lobster way»
 
 ### <a name="autogpt"></a>[AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)
 **Вот перевод описания в стратегическом и вдохновляющем тоне:
@@ -245,7 +222,7 @@
 *   **Вместо «воплощение концепции»** можно использовать **«видение»**, если нужно подчеркнуть долгосрочную перспективу.
 *   **Вместо «действительно важных задачах»** можно использовать **«на главном»**, чтобы текст звучал более лаконично.**
 
-⭐ 181,838 · 🍴 46,221 · 🛠️ Python · 📅 6d
+⭐ 181,852 · 🍴 46,221 · 🛠️ Python · 📅 7d
 
 - Доступность ИИ для каждого пользователя
 - Возможность создания собственных решений на базе платформы
@@ -268,7 +245,7 @@
 *   *Production-ready* — «промышленного уровня» или «готовая к эксплуатации» (подчеркивает надежность для бизнеса).
 *   *Agentic workflow* — «агентные рабочие процессы» или «агентные воркфлоу» (устоявшийся термин в сфере AI).**
 
-⭐ 129,715 · 🍴 20,187 · 🛠️ TypeScript · 📅 6d
+⭐ 129,746 · 🍴 20,190 · 🛠️ TypeScript · 📅 6d
 
 - Визуальное проектирование рабочих процессов (Workflow)
 - Поддержка RAG и управление базами знаний
@@ -291,12 +268,31 @@
 **🦜🔗 Платформа для создания надёжных агентов.** 
 *(Он сохраняет краткость оригинала и звучит уверенно).***
 
-⭐ 126,787 · 🍴 20,862 · 🛠️ Python · 📅 2d
+⭐ 126,832 · 🍴 20,875 · 🛠️ Python · 📅 2d
 
 - Создание надежных ИИ-агентов
 - Управление цепочками вызовов (chains)
 - Интеграция с различными языковыми моделями
 - Работа с внешними данными и инструментами
+
+### <a name="opencode"></a>[opencode](https://github.com/anomalyco/opencode)
+**Вот несколько вариантов перевода в стратегическом тоне, от лаконичного до более представительного:
+
+1.  **Open-source агент для написания кода.** (Наиболее точный и современный вариант для GitHub).
+2.  **Ведущий open-source агент для разработки.** (Подчеркивает лидерство и статус проекта).
+3.  **Интеллектуальный агент для кодинга с открытым исходным кодом.** (Звучит более технологично и солидно).
+
+**Рекомендуемый вариант для GitHub:**
+> **Open-source агент для написания кода.**
+
+Этот вариант звучит уверенно, профессионально и соответствует международному техническому стилю.**
+
+⭐ 106,193 · 🍴 10,388 · 🛠️ TypeScript · 📅 1d
+
+- Открытый исходный код
+- Автономное написание и редактирование кода
+- Поддержка множества языков программирования
+- Интеграция с инструментами разработки
 
 ### <a name="open-interpreter"></a>[open-interpreter](https://github.com/openinterpreter/open-interpreter)
 **Вот несколько вариантов перевода в стратегическом стиле, от классического до более технологичного:
@@ -308,7 +304,7 @@
 Для описания репозитория на GitHub лучше всего подойдет первый вариант:
 > **Интерфейс взаимодействия с компьютером на естественном языке****
 
-⭐ 62,166 · 🍴 5,344 · 🛠️ Python · 📅 8d
+⭐ 62,181 · 🍴 5,343 · 🛠️ Python · 📅 8d
 
 - Интерфейс на естественном языке для управления операционной системой
 - Локальное выполнение кода на Python, JavaScript и Shell
@@ -323,7 +319,7 @@
 *Альтернативный (более официальный) вариант:*
 **LlamaIndex — ключевое решение для разработки интеллектуальных агентов на базе LLM, оптимизированных для работы с вашими данными.****
 
-⭐ 47,030 · 🍴 6,830 · 🛠️ Python · 📅 6d
+⭐ 47,048 · 🍴 6,838 · 🛠️ Python · 📅 7d
 
 - Интеграция данных из различных источников через коннекторы
 - Индексация и структурирование данных для оптимизации работы LLM
@@ -348,7 +344,7 @@
 *   *Seamlessly* — Бесшовно (указывает на отсутствие барьеров в интеграции).
 *   *Tackling complex tasks* — Решение комплексных задач (звучит более масштабно, чем просто «сложных»).**
 
-⭐ 44,217 · 🍴 5,924 · 🛠️ Python · 📅 17d
+⭐ 44,253 · 🍴 5,935 · 🛠️ Python · 📅 18d
 
 - Оркестрация ролевых ИИ-агентов
 - Автономность действий агентов
@@ -365,7 +361,7 @@
 *   **Governance** — В ИТ-контексте это часто переводится как «управление и контроль» или «регламентация», но в профессиональной среде допустимо использование термина «governance» для обозначения политик безопасности и надзора.
 *   **Request isolation** — «Изоляция запросов» (стандартный технический термин).**
 
-⭐ 37,895 · 🍴 5,014 · 🛠️ Python · 📅 1d
+⭐ 37,915 · 🍴 5,019 · 🛠️ Python · 📅 2d
 
 - Построение мультиагентных систем
 - Поддержка потоковой передачи данных
@@ -389,7 +385,7 @@
 *   **LLM-powered** — «на базе LLM» или «под управлением LLM».
 *   **Multi-Agent Collaboration** — «мультиагентное взаимодействие» или «коллаборация мультиагентных систем» (звучит более масштабно).**
 
-⭐ 31,004 · 🍴 3,820 · 🛠️ Python · 📅 26d
+⭐ 31,009 · 🍴 3,821 · 🛠️ Python · 📅 26d
 
 - Многоагентная коллаборация на базе больших языковых моделей (LLM)
 - Автоматизация полного цикла разработки программного обеспечения
@@ -414,7 +410,7 @@
 *   *Any data* — Любые данные (подчеркивает универсальность)
 *   *LLM providers* — LLM-провайдеры (устоявшийся термин в IT)**
 
-⭐ 25,334 · 🍴 3,362 · 🛠️ Python · 📅 18d
+⭐ 25,341 · 🍴 3,363 · 🛠️ Python · 📅 19d
 
 - Автономное проведение глубоких исследований
 - Поддержка любых LLM-провайдеров
@@ -438,7 +434,7 @@
 *   **На основе графов / Графовых структур:** Это подчеркивает архитектурный подход, что звучит более стратегически, чем буквальный перевод «как графы».
 *   **Языковые агенты:** Стандартный индустриальный термин для *language agents*.**
 
-⭐ 24,771 · 🍴 4,322 · 🛠️ Python · 📅 2d
+⭐ 24,800 · 🍴 4,325 · 🛠️ Python · 📅 3d
 
 - Построение агентов в виде графов состояний
 - Поддержка циклических рабочих процессов
@@ -459,7 +455,7 @@
 *   **Pipelines / Workflows** — *конвейеры / рабочие процессы* (отражает структурную сложность).
 *   **Explicit control** — *полный контроль* (в данном контексте звучит более весомо, чем «явный»).**
 
-⭐ 24,213 · 🍴 2,605 · 🛠️ MDX · 📅 4d
+⭐ 24,223 · 🍴 2,610 · 🛠️ MDX · 📅 5d
 
 - Модульные конвейеры и рабочие процессы агентов
 - Явный контроль над поиском, маршрутизацией, памятью и генерацией
@@ -469,7 +465,7 @@
 ### <a name="babyagi"></a>[babyagi](https://github.com/yoheinakajima/babyagi)
 **None**
 
-⭐ 22,137 · 🍴 2,849 · 🛠️ Python · 📅 17d
+⭐ 22,139 · 🍴 2,849 · 🛠️ Python · 📅 18d
 
 - Автономное управление циклом задач
 - Динамическая приоритезация на основе поставленных целей
@@ -489,7 +485,7 @@
 *   *Advanced memory* — продвинутая/глубокая память.
 *   *Self-improve over time* — непрерывное самосовершенствование / эволюция со временем.**
 
-⭐ 21,135 · 🍴 2,206 · 🛠️ Python · 📅 18d
+⭐ 21,148 · 🍴 2,205 · 🛠️ Python · 📅 19d
 
 - Создание агентов с состоянием (stateful agents)
 - Продвинутая система памяти
@@ -504,7 +500,7 @@
 *Альтернативный (более технологичный) вариант:*
 **🐈 nanobot: Ультралегкое решение на базе OpenClaw****
 
-⭐ 20,654 · 🍴 3,121 · 🛠️ Python · 📅 4d
+⭐ 21,067 · 🍴 3,189 · 🛠️ Python · 📅 4d
 
 - Ультралегкая конструкция
 - Система OpenClaw
@@ -529,7 +525,7 @@
 *   **Agentic Workflow Expression Language** — язык описания агентных рабочих процессов.
 *   **Agents** — интеллектуальные или автономные агенты.**
 
-⭐ 18,133 · 🍴 2,560 · 🛠️ Python · 📅 6d
+⭐ 18,135 · 🍴 2,560 · 🛠️ Python · 📅 6d
 
 - Разработка нативных ИИ-приложений для работы с данными
 - Использование языка AWEL (Agentic Workflow Expression Language)
@@ -554,7 +550,7 @@
 *   **Deploying** — «развертывание» или «внедрение» (в зависимости от контекста бизнеса).
 *   **Flexibility and control** — «гибкость и контроль/управляемость».**
 
-⭐ 17,755 · 🍴 2,919 · 🛠️ Python · 📅 5d
+⭐ 17,791 · 🍴 2,926 · 🛠️ Python · 📅 6d
 
 - Открытый исходный код (open-source)
 - Code-first подход для разработки на Python
@@ -571,7 +567,7 @@
 **Рекомендуемый вариант:**
 > **Автономные агенты для каждого****
 
-⭐ 17,522 · 🍴 5,415 · 🛠️ TypeScript · 📅 28d
+⭐ 17,527 · 🍴 5,416 · 🛠️ TypeScript · 📅 29d
 
 - Поддержка нескольких платформ (Discord, Twitter, Telegram)
 - Расширяемая система плагинов и пользовательских действий
@@ -590,7 +586,7 @@
 *   **Более авторитетный:** «🐫 CAMEL: Первый и ведущий мультиагентный фреймворк. Определяем закон масштабирования агентов».
 *   **Научно-исследовательский:** «🐫 CAMEL: Первый и эталонный мультиагентный фреймворк. Исследуем законы масштабирования агентов».**
 
-⭐ 16,032 · 🍴 1,778 · 🛠️ Python · 📅 5d
+⭐ 16,037 · 🍴 1,779 · 🛠️ Python · 📅 5d
 
 - Первый мультиагентный фреймворк
 - Лучшая платформа для ИИ-агентов
@@ -614,40 +610,12 @@
 *   **Enterprise RAG pipelines** — Корпоративные RAG-конвейеры (или пайплайны). Использование слова «корпоративный» подчеркивает готовность решения для бизнеса.
 *   **Small, specialized models** — Малые специализированные модели (подчеркивает эффективность и фокус на конкретных задачах).**
 
-⭐ 14,854 · 🍴 2,965 · 🛠️ Python · 📅 5d
+⭐ 14,853 · 🍴 2,965 · 🛠️ Python · 📅 6d
 
 - Построение корпоративных RAG-конвейеров
 - Использование малых специализированных моделей
 - Единая платформа для разработки ИИ-приложений
 - Оптимизация под требования enterprise-сегмента
-
-### <a name="picoclaw"></a>[picoclaw](https://github.com/sipeed/picoclaw)
-**Here are a few ways to translate this description into Russian, depending on the specific "strategic" nuance you want to convey:
-
-**Option 1: Punchy and Modern (Best for a high-impact GitHub profile)**
-> «Компактный, быстрый, универсальный — автоматизируйте рутину, освободите пространство для творчества».
-
-**Option 2: Professional and Results-Oriented (Focuses on efficiency)**
-> «Миниатюрный, высокопроизводительный и готовый к развертыванию в любой среде: автоматизируйте повседневные задачи и раскройте свой созидательный потенциал».
-
-**Option 3: Tech-Focused and Direct (Standard for developer tools)**
-> «Легкий, скоростной и кроссплатформенный — автоматизируйте рутинные процессы, чтобы сосредоточиться на инновациях».
-
-### Key terminology used:
-*   **Tiny:** *Компактный* (Compact) or *Легкий* (Lightweight).
-*   **Fast:** *Быстрый* (Fast) or *Высокопроизводительный* (High-performance).
-*   **Deployable anywhere:** *Универсальный* (Universal) or *Готовый к развертыванию в любой среде* (Ready for deployment in any environment).
-*   **Automate the mundane:** *Автоматизируйте рутину* (Automate the routine).
-*   **Unleash your creativity:** *Раскройте творческий потенциал* (Reveal creative potential) or *Созидайте без границ* (Create without limits).
-
-**Recommended choice:** **Option 1** is the most natural fit for a GitHub repository description while maintaining a strong, strategic tone.**
-
-⭐ 14,038 · 🍴 1,483 · 🛠️ Go · 📅 4d
-
-- Компактный размер
-- Высокая скорость работы
-- Универсальность развертывания
-- Автоматизация рутинных задач
 
 ### <a name="e2b"></a>[E2B](https://github.com/e2b-dev/E2B)
 **Вот несколько вариантов перевода в стратегическом тоне, от более официального к современному технологическому:
@@ -666,7 +634,7 @@
 *   **Real-world tools** → *прикладной инструментарий / инструменты промышленного класса*. Звучит более весомо, чем просто «реальные инструменты».
 *   **Secure environment** → *защищенная среда*. В стратегическом контексте «защищенная» звучит сильнее, чем просто «безопасная».**
 
-⭐ 10,912 · 🍴 772 · 🛠️ MDX · 📅 5d
+⭐ 10,920 · 🍴 773 · 🛠️ MDX · 📅 6d
 
 - Открытый исходный код
 - Безопасная среда выполнения (песочница)
@@ -690,7 +658,7 @@
 *   **Развертывание / Внедрение (Deploying):** Указывает на готовность решений к реальной эксплуатации.
 *   **Мультиагентные рабочие процессы (Multi-agent workflows):** Точная передача концепции взаимодействия нескольких ИИ-сущностей.**
 
-⭐ 7,207 · 🍴 1,164 · 🛠️ Python · 📅 4d
+⭐ 7,220 · 🍴 1,174 · 🛠️ Python · 📅 5d
 
 - Создание и развертывание ИИ-агентов
 - Оркестрация многоагентных рабочих процессов
@@ -715,7 +683,7 @@
 *   *Agentic execution* — агентное выполнение/исполнение (устоявшийся термин в сфере ИИ-агентов).
 *   *Complex tasks* — сложные или комплексные задачи.**
 
-⭐ 3,977 · 🍴 460 · 🛠️ Python · 📅 11d
+⭐ 3,979 · 🍴 460 · 🛠️ Python · 📅 11d
 
 - Легковесная архитектура
 - Поддержка агентного выполнения
@@ -738,7 +706,7 @@
 **Фреймворк для надёжной оркестрации мультиагентных систем.** 
 *(Он звучит солидно, использует общепринятую терминологию и точно передает смысл оригинала).***
 
-⭐ 3,960 · 🍴 999 · 🛠️ Python · 📅 28d
+⭐ 3,959 · 🍴 999 · 🛠️ Python · 📅 28d
 
 - Иерархическая структура управления агентами
 - Полная интеграция с OpenAI Assistants API
@@ -758,7 +726,7 @@
 
 Он звучит профессионально, уверенно и подчеркивает ценность продукта.**
 
-⭐ 3,885 · 🍴 358 · 🛠️ Python · 📅 5d
+⭐ 3,887 · 🍴 358 · 🛠️ Python · 📅 6d
 
 - Мультиагентная архитектура
 - Оркестрация и делегирование задач
@@ -781,22 +749,12 @@
 *   **«Промышленного уровня»** или **«готовых к внедрению»** — это лучшие эквиваленты «production-ready», которые подчеркивают надежность и масштабируемость решения.
 *   **«Создание»** или **«Разработка»** звучат более весомо и стратегически, чем простое повелительное «Стройте».**
 
-⭐ 3,104 · 🍴 405 · 🛠️ Python · 📅 5d
+⭐ 3,107 · 🍴 407 · 🛠️ Python · 📅 6d
 
 - Поддержка Python и TypeScript
 - Создание готовых к продакшну ИИ-агентов
 - Кроссплатформенная разработка
 - Инструментарий для масштабируемых ИИ-решений
-
-### <a name="anthropic-sdk-python"></a>[anthropic-sdk-python](https://github.com/anthropics/anthropic-sdk-python)
-**None**
-
-⭐ 2,777 · 🍴 457 · 🛠️ Python · 📅 9d
-
-- Простая интеграция с моделями Claude через API
-- Поддержка синхронных и асинхронных клиентов
-- Потоковая передача ответов в реальном времени
-- Строгая типизация и автоматическая валидация данных
 
 ### <a name="tinyclaw"></a>[tinyclaw](https://github.com/jlia0/tinyclaw)
 **Вот несколько вариантов перевода в стратегическом тоне, от более прямого до концептуального:
@@ -814,12 +772,30 @@
 *   Вместо простого «сотрудничества» использованы термины **«взаимодействие»** или **«синергия»**, что звучит более весомо в контексте разработки и ИИ.
 *   Слово **«экосистема»** в стратегическом контексте часто заменяет «команду», если речь идет о технологическом решении.**
 
-⭐ 1,997 · 🍴 274 · 🛠️ Shell · 📅 1d
+⭐ 2,063 · 🍴 286 · 🛠️ Shell · 📅 2d
 
 - Команда персональных ИИ-агентов
 - Эффективное взаимодействие между агентами
 - Совместное выполнение сложных задач
 - Персонализированная автоматизация
+
+### <a name="localagi"></a>[LocalAGI](https://github.com/mudler/LocalAGI)
+**Вот перевод описания в стратегическом и профессиональном тоне:
+
+**LocalAGI — это мощная self-hosted платформа для ИИ-агентов, спроектированная для обеспечения максимальной конфиденциальности и гибкости. Полноценная замена OpenAI Responses API с продвинутыми агентными возможностями. Полная автономность без использования облачных сервисов. Локальный ИИ, эффективно работающий на стандартном пользовательском оборудовании (CPU и GPU).**
+
+---
+
+**Вариант с акцентом на технологическое преимущество:**
+
+**LocalAGI — высокопроизводительная платформа для развертывания ИИ-агентов в собственной инфраструктуре, ориентированная на бескомпромиссную приватность. Бесшовная альтернатива OpenAI API с расширенным агентным функционалом. Никаких облаков: локальный ИИ, оптимизированный для работы на потребительском «железе» (CPU и GPU).****
+
+⭐ 1,587 · 🍴 241 · 🛠️ Go · 📅 1d
+
+- Максимальная конфиденциальность и локальное размещение
+- Полная совместимость с API OpenAI
+- Продвинутые возможности автономных ИИ-агентов
+- Работа на обычном оборудовании (CPU и GPU) без облаков
 
 ### <a name="sgr-agent-core"></a>[sgr-agent-core](https://github.com/vamplabAI/sgr-agent-core)
 **Вот несколько вариантов перевода в стратегическом тоне, от более формального до лаконичного:
@@ -837,7 +813,7 @@
 *   *Agentic system design* — переведено как «архитектура агентных систем» или «агентно-ориентированная архитектура», что звучит более весомо в техническом контексте.
 *   *Schema-Guided Reasoning* — название методологии обычно оставляют на английском с расшифровкой или без, так как это имя собственное технологии.**
 
-⭐ 992 · 🍴 170 · 🛠️ Python · 📅 23d
+⭐ 993 · 🍴 170 · 🛠️ Python · 📅 24d
 
 - Рассуждения на основе схем (Schema-Guided Reasoning)
 - Агентно-ориентированный дизайн систем
@@ -845,28 +821,34 @@
 - Базовая архитектура для создания интеллектуальных агентов
 
 ### <a name="fastcode"></a>[FastCode](https://github.com/HKUDS/FastCode)
-**Для передачи стратегического и профессионального тона лучше всего подойдут следующие варианты перевода:
+**Here are a few ways to translate this description into Russian, depending on the specific nuance of "strategic" you want to convey:
 
-**Вариант 1 (Наиболее точный и солидный):**
-> **FastCode: Ускорение и оптимизация процессов понимания кода**
+**Option 1: Professional & Direct (Best for a general tech audience)**
+> **FastCode: Ускорение и оптимизация процесса анализа кода**
+*(Literal: FastCode: Acceleration and optimization of the code analysis process)*
 
-**Вариант 2 (С акцентом на эффективность):**
-> **FastCode: Повышение эффективности и скорости анализа программного кода**
+**Option 2: High-Level & Impactful (Focuses on efficiency)**
+> **FastCode: Форсирование и систематизация работы с программным кодом**
+*(Literal: FastCode: Forcing/Boosting and systematization of work with program code)*
 
-**Вариант 3 (Лаконичный):**
-> **FastCode: Стратегическое ускорение и упрощение работы с кодом**
+**Option 3: Result-Oriented (Focuses on the outcome)**
+> **FastCode: Повышение эффективности и скорости интерпретации кода**
+*(Literal: FastCode: Increasing the efficiency and speed of code interpretation)*
 
-**Почему выбраны эти слова:**
-*   **Ускорение (Accelerating):** Прямой эквивалент, подчеркивающий рост производительности.
-*   **Оптимизация (Streamlining):** В стратегическом контексте это слово лучше передает идею «отсечения лишнего» и выстраивания четких процессов, чем просто «упрощение».
-*   **Понимание кода (Code Understanding):** В русской ИТ-терминологии часто заменяется на «анализ кода» или «работу с кодом» для более профессионального звучания.**
+**Key Terminology Choices:**
+*   **Accelerating:** Translated as *Ускорение* (standard) or *Форсирование* (more dynamic/strategic).
+*   **Streamlining:** Translated as *Оптимизация* (optimization) or *Систематизация* (systematization), as "streamlining" doesn't have a single direct equivalent in Russian that carries the same strategic weight.
+*   **Code Understanding:** Translated as *Анализ кода* (code analysis) or *Понимание кода* (understanding code). In a professional Russian context, "analysis" often sounds more strategic than "understanding."
 
-⭐ 753 · 🍴 87 · 🛠️ Python · 📅 4d
+**Recommended Choice:**
+**"FastCode: Ускорение и оптимизация процесса анализа кода"** — This sounds the most natural for a high-quality GitHub repository while maintaining a professional, strategic tone.**
 
-- Ускорение анализа кода
-- Упрощение понимания сложных структур
-- Оптимизация процесса чтения кода
-- Быстрое погружение в новые проекты
+⭐ 798 · 🍴 94 · 🛠️ Python · 📅 4d
+
+- Ускорение понимания кода
+- Оптимизация процесса анализа
+- Повышение эффективности разработки
+- Упрощение навигации по кодовой базе
 
 ### <a name="valedesk"></a>[ValeDesk](https://github.com/vakovalskii/ValeDesk)
 **Для сохранения игры слов (акронима **VALERA**) и стратегического, профессионального тона, вот несколько вариантов перевода:
@@ -886,7 +868,7 @@
 *   *Almost Local* → Адаптивный/Локальный
 *   *Eventually Reasonable* → Естественно Рациональный (подчеркивает логику работы).**
 
-⭐ 276 · 🍴 46 · 🛠️ TypeScript · 📅 22d
+⭐ 276 · 🍴 47 · 🛠️ TypeScript · 📅 22d
 
 - Многофункциональность и универсальность
 - Локальная работа для обеспечения приватности
@@ -905,12 +887,36 @@
 
 Этот вариант сохраняет терминологическую точность (agentic system — агентная система) и звучит лаконично, что характерно для высокоуровневых IT-проектов.**
 
-⭐ 120 · 🍴 110 · 🛠️ Python · 📅 16d
+⭐ 121 · 🍴 115 · 🛠️ Python · 📅 17d
 
 - Автоматическая организация и структурирование накопленных знаний
 - Интеллектуальный поиск и синтез информации с помощью ИИ-агентов
 - Проактивное выполнение задач на основе контекста пользователя
 - Бесшовная интеграция с внешними инструментами и источниками данных
+
+### <a name="topsha"></a>[topsha](https://github.com/vakovalskii/topsha)
+**Вот несколько вариантов перевода в стратегическом и профессиональном тоне:
+
+**Вариант 1: Наиболее точный и сбалансированный (рекомендуется)**
+> **Local Topsha 🐧 — ИИ-агент для автоматизации простых задач на ПК, оптимизированный для работы с локальными LLM (GPT-OSS, Qwen, GLM).**
+
+**Вариант 2: Лаконичный (в стиле GitHub-заголовков)**
+> **Local Topsha 🐧: ИИ-агент для управления ПК на базе локальных языковых моделей (GPT-OSS, Qwen, GLM).**
+
+**Вариант 3: С акцентом на технологический стек**
+> **Local Topsha 🐧 — ИИ-агент для выполнения повседневных задач на ПК с фокусом на локальные LLM-решения (GPT-OSS, Qwen, GLM).**
+
+### Основные изменения:
+*   **AI Agent** переведено как **ИИ-агент** (стандарт индустрии).
+*   **Simple PC tasks** адаптировано как **автоматизация задач** или **выполнение повседневных задач**, что звучит более весомо в стратегическом контексте.
+*   **Focused on** переведено как **оптимизированный для** или **с фокусом на**, чтобы подчеркнуть специализацию продукта.**
+
+⭐ 105 · 🍴 22 · 🛠️ Python · 📅 1d
+
+- Локальное выполнение для обеспечения полной конфиденциальности
+- Автоматизация простых повседневных задач на ПК
+- Поддержка открытых языковых моделей (Qwen, GLM, GPT-OSS)
+- Работа без необходимости облачного подключения
 
 ### <a name="skillos"></a>[SkillOS](https://github.com/AlexeyPevz/SkillOS)
 **Для GitHub-репозитория в стратегическом тоне лучше всего подойдут следующие варианты:
@@ -935,7 +941,7 @@
 *   **Budgets** — «бюджеты» или «контроль затрат» (управление лимитами на токены/API).
 *   **Observability** — «наблюдаемость» или «мониторинг» (возможность глубокого анализа работы системы).**
 
-⭐ 1 · 🍴 0 · 🛠️ Python · 📅 17d
+⭐ 1 · 🍴 0 · 🛠️ Python · 📅 18d
 
 - Self-hosted оркестрация ИИ-агентов
 - Управление навыками и функциональностью
@@ -954,7 +960,7 @@
 
 *Примечание: Термин «агентный ИИ» (agentic AI) уже закрепился в профессиональной среде как стандарт для обозначения систем, способных к самостоятельному планированию и действию.***
 
-⭐ 54,593 · 🍴 8,220 · 🛠️ Python · 📅 140d
+⭐ 54,612 · 🍴 8,226 · 🛠️ Python · 📅 140d
 
 - Поддержка многоагентных систем для совместного решения сложных задач
 - Настраиваемые и расширяемые агенты с возможностью ведения диалога
@@ -978,7 +984,7 @@
 *   **Прямо в терминале:** Подчеркивает бесшовность интеграции и удобство для разработчика, что важно для стратегического позиционирования инструмента.
 *   **Тире (—):** Использование тире вместо глагола «is» делает фразу более утвердительной и профессиональной в русском языке.**
 
-⭐ 40,694 · 🍴 3,897 · 🛠️ Python · 📅 191d
+⭐ 40,709 · 🍴 3,898 · 🛠️ Python · 📅 192d
 
 - ИИ-парное программирование прямо в терминале
 - Редактирование кода непосредственно в локальных файлах
@@ -1001,7 +1007,7 @@
 *   **«Минималистичная» или «легковесная»** вместо «barebones»: В стратегическом контексте это подчеркивает отсутствие лишнего «шума» и высокую производительность, а не просто «скудность» функционала.
 *   **«Инструмент мышления» или «кодоцентричное мышление»** для «think in code»: Это звучит более весомо и подчеркивает архитектурную особенность библиотеки, выделяя её среди конкурентов.**
 
-⭐ 25,466 · 🍴 2,299 · 🛠️ Python · 📅 32d
+⭐ 25,482 · 🍴 2,300 · 🛠️ Python · 📅 33d
 
 - Агенты, которые мыслят и рассуждают через написание кода
 - Минималистичная и легковесная архитектура (barebones)
@@ -1027,7 +1033,7 @@
 *   *Multi-agent orchestration* — Мультиагентная оркестрация.
 *   *Managed by* — Под управлением / Курируется / Разрабатывается.**
 
-⭐ 20,965 · 🍴 2,232 · 🛠️ Python · 📅 342d
+⭐ 20,967 · 🍴 2,233 · 🛠️ Python · 📅 343d
 
 - Образовательный фреймворк
 - Эргономичный дизайн
@@ -1046,7 +1052,7 @@
 *   **Более корпоративный:** «Первая программная ИИ-корпорация. Эволюция в сторону программирования на естественном языке».
 *   **Более лаконичный:** «Первая ИИ-компания по созданию ПО. Будущее программирования на естественном языке».**
 
-⭐ 64,252 · 🍴 8,067 · 🛠️ Python · 📅 665d
+⭐ 64,267 · 🍴 8,075 · 🛠️ Python · 📅 666d
 
 - Мультиагентный фреймворк для совместной работы ИИ
 - Имитация структуры ИТ-компании (роли PM, архитектора, инженера)
@@ -1070,7 +1076,7 @@
 *   *Deploy* — переведено как «Развертывание» или «Внедрение» (стандарт индустрии для серьезных решений).
 *   *In your browser* — «Непосредственно в браузере» звучит более весомо, чем просто «в браузере».**
 
-⭐ 35,711 · 🍴 9,450 · 🛠️ TypeScript · 📅 838d
+⭐ 35,712 · 🍴 9,449 · 🛠️ TypeScript · 📅 839d
 
 - Создание автономных ИИ-агентов
 - Гибкая настройка и конфигурация
@@ -1095,7 +1101,7 @@
 *   **Useful:** *Эффективные* или *прикладные* (звучит более весомо в стратегическом контексте, чем просто «полезные»).
 *   **Enabling:** *Позволяет* или *расширяет возможности* (стандарт для стратегического позиционирования).**
 
-⭐ 17,179 · 🍴 2,156 · 🛠️ Python · 📅 762d
+⭐ 17,180 · 🍴 2,156 · 🛠️ Python · 📅 763d
 
 - Фреймворк для создания автономных ИИ-агентов
 - Ориентированность на разработчиков (dev-first)
@@ -1119,7 +1125,7 @@
 *   Термин **«Автономные агенты»** подчеркивает независимость и продвинутость системы (AI-native подход).
 *   Скобки в слове **(разметки)** сохранены, чтобы подчеркнуть игру слов в оригинальном названии (DAta LAbeling).**
 
-⭐ 1,360 · 🍴 124 · 🛠️ Python · 📅 809d
+⭐ 1,361 · 🍴 124 · 🛠️ Python · 📅 810d
 
 - Автономная разметка и аннотирование данных
 - Итеративное самообучение на основе обратной связи
